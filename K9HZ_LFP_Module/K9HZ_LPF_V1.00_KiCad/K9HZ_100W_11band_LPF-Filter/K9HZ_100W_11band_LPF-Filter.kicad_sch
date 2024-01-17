@@ -6,7 +6,7 @@
 
   (title_block
     (title "K9HZ 100W 11 Band LPF: Filter board")
-    (date "2024-01-14")
+    (date "2024-01-17")
     (rev "V1.00")
     (comment 1 "Layout by OG King-KI3P")
     (comment 2 "Designed by WJ Schmidt-K9HZ")
@@ -3269,7 +3269,7 @@
     (effects (font (size 1.27 1.27) bold) (justify left bottom))
     (uuid dfdc5bbe-2bef-4790-8704-6c6e4788232b)
   )
-  (text "NO FILT [1011]" (at 396.24 200.66 0)
+  (text "NO FILT [1111]" (at 396.24 200.66 0)
     (effects (font (size 1.27 1.27) bold) (justify left bottom))
     (uuid ea250ff3-8c6c-448e-baf5-6aac326c81a8)
   )
