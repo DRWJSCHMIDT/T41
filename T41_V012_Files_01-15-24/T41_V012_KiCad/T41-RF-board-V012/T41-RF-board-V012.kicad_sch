@@ -6,10 +6,11 @@
 
   (title_block
     (title "T41 RF Board")
-    (date "2024-01-14")
+    (date "2024-01-26")
     (rev "V012.6")
     (comment 1 "        Transcribed to KiCAD by OG King-KI3P")
     (comment 2 "By Al Peter-AC8GY, Revised by WJ Schmidt-K9HZ")
+    (comment 3 "Change log: switched the order of attenuator and amp in receive chain")
   )
 
   (lib_symbols
