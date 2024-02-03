@@ -13320,6 +13320,8 @@
     )
   )
 
+  (gr_circle (center 103.759 96.52) (end 104.059 96.52)
+    (stroke (width 0.15) (type solid)) (fill solid) (layer "B.SilkS") (tstamp b772da44-9b43-4127-b90c-bdb41e1ff2e6))
   (gr_line (start 147.32 107.696) (end 144.272 107.696)
     (stroke (width 0.15) (type default)) (layer "F.SilkS") (tstamp 0b8e290f-6567-4415-b4c5-35f979e7076e))
   (gr_line (start 142.24 99.568) (end 147.32 99.568)
