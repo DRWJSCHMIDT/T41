@@ -18161,7 +18161,7 @@
   (gr_text "FROM LPF" (at 124.714 96.52) (layer "F.SilkS") (tstamp a8bb565c-2b60-4c84-896c-8c42c04e358b)
     (effects (font (size 1 1) (thickness 0.2) bold) (justify left bottom))
   )
-  (gr_text "Design by AC8GY, KH9Z, layout by KI3P. 2024/02/03, V012.06" (at 62.738 149.225) (layer "F.SilkS") (tstamp ad93a59f-897a-4902-81c4-3318ac3727c0)
+  (gr_text "Design by AC8GY, K9HZ, layout by KI3P. 2024/02/03, V012.06" (at 62.738 149.225) (layer "F.SilkS") (tstamp ad93a59f-897a-4902-81c4-3318ac3727c0)
     (effects (font (size 1.5 1.5) (thickness 0.3)) (justify left bottom))
   )
   (gr_text "60m" (at 55.118 73.970757 90) (layer "F.SilkS") (tstamp b8a0a11c-90ee-40c8-933c-0472b9b9a887)
