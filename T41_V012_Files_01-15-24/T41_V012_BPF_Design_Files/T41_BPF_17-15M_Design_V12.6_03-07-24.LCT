@@ -1,0 +1,37 @@
+Elsie circuit file 712073300
+Untitled
+3/7/2024 10:32:57 PM 
+* Added information:
+ 
+* Family, order, stages, topology, Cauer:
+ 11  5  5 E 0 
+* Width, center, Fstop normalized:
+ 2500000  1.81E+07  0 
+* Apass, Astop:
+ .001  0 
+* Rsource, Rload, Rratio, Rstandard:
+ 50  50  1  600 
+* Qind, Qcap:
+ 200  2000 
+* Gj, Hj:
+ .5426604  0 
+ 1.12188  0 
+ 1.31019  0 
+ 1.12188  0 
+ .5426603  0 
+* Element type, L, Ltolerance, C, Ctolerance
+ 8  1.5E-07  5  3.9E-10  5 
+ 5  .0000012  5  5.1E-11  5 
+ 8  8.2E-08  10  6.8E-10  10 
+ 5  .0000012  0  5.1E-11  0 
+ 8  1.5E-07  0  3.9E-10  0 
+* Lin or log, Fstart, Fstop, Fstep or NrIntervals:
+ 2  1E+07  3E+07  1000 
+* Graph scales:
+-60  0  0  1.2E-07  2.2  1200  8  6 
+* Limits Y/N:
+N
+* Markers Y/N:
+N
+* M-derived zeros Y/N:
+N
