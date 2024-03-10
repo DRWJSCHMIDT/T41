@@ -4064,6 +4064,12 @@
 		(uuid "6d193e36-1d76-44d8-be3b-f2c17f719d79")
 	)
 	(junction
+		(at 104.14 224.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6dbb4d3f-4bcb-43ab-949f-943b673cc47f")
+	)
+	(junction
 		(at 308.61 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5015,6 +5021,16 @@
 	)
 	(wire
 		(pts
+			(xy 104.14 214.63) (xy 104.14 224.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0135b3e9-334c-4293-83dd-d550134a8d6a")
+	)
+	(wire
+		(pts
 			(xy 168.91 30.48) (xy 173.99 30.48)
 		)
 		(stroke
@@ -5472,16 +5488,6 @@
 			(type default)
 		)
 		(uuid "18575ca1-73b1-48e6-912c-44fe863ad717")
-	)
-	(wire
-		(pts
-			(xy 60.96 213.36) (xy 58.42 213.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "18828eb4-1815-49b6-87dc-108414afa8b9")
 	)
 	(wire
 		(pts
@@ -6972,6 +6978,16 @@
 			(type default)
 		)
 		(uuid "56f9bd76-40d1-44ce-8b38-3fb19a5b273a")
+	)
+	(wire
+		(pts
+			(xy 60.96 214.63) (xy 104.14 214.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "570ce46f-3c9f-41b2-922b-d8e992eff1c2")
 	)
 	(wire
 		(pts
@@ -11482,16 +11498,6 @@
 			(type default)
 		)
 		(uuid "fba41acc-b750-4229-b719-eed9b0a32a00")
-	)
-	(wire
-		(pts
-			(xy 60.96 214.63) (xy 60.96 213.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fc4b765b-60a4-4723-bfb2-a063dc62dd35")
 	)
 	(wire
 		(pts
@@ -18389,71 +18395,6 @@
 			(project "T41-exciter-filter-board"
 				(path "/56a77fe5-f7a5-414c-a0f7-d659071572ee"
 					(reference "C197")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 58.42 213.36 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2b271673-bf48-4932-adec-a2ea895d7dd6")
-		(property "Reference" "#PWR041"
-			(at 58.42 219.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 55.88 214.63 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 58.42 213.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 58.42 213.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 58.42 213.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "60ac7c0a-112f-4d53-9b55-725ce3d32251")
-		)
-		(instances
-			(project "T41-exciter-filter-board"
-				(path "/56a77fe5-f7a5-414c-a0f7-d659071572ee"
-					(reference "#PWR041")
 					(unit 1)
 				)
 			)
