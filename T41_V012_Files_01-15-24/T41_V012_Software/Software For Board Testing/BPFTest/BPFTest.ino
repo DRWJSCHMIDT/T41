@@ -1,14 +1,14 @@
 // ---------------------------------------------------------------- /
 // BPFTest
-// Written Oliver - KI3P
-// Modified by Dr. WJ Schmidt - K9HZ
+// Written by Oliver King - KI3P for the K9HZ LPF Checkout
+// Modified by Dr. WJ Schmidt - K9HZ for the BPF Checkout
 // April 12, 2024
 // Using Arduino IDE 2.3.2
 // 
 // This sketch tests Switching functions of the T41 V12 BPF filters 
 // so that the filters can be tested individually.
 // 
-// DATA:
+// THINGS TO CHANGE:
 //    BPF #1 is on Wire3 at address 0x24 (main receiver)
 //    BPF #2 is on Wire3 at address 0x26 (second receiver)
 //    Uncomment the appropriate address for the BPF board below.
@@ -18,25 +18,28 @@
 
 #include <Wire.h>
 #include <Adafruit_MCP23X17.h>
-//#include <math.h>
 
+//
+// The BOARD ADDRESS is the only adjustable parameter in this program
+//
 #define BPF_BOARD_MCP23017_ADDR 0x24   // For BPF #1 Address
 //#define BPF_BOARD_MCP23017_ADDR 0x26   // For BPF #2 Address
 
-// Define BPF Band words
+// Define BPF Band words [GPB7,...,GPB0,GPA7,...,GPA0]
 
-#define BAND_BYPASS 0x0008
-#define BAND_6M     0x0004
-#define BAND_10M    0x0002
-#define BAND_12M    0x0001
-#define BAND_15M    0x8000
-#define BAND_17M    0x4000
-#define BAND_20M    0x2000
-#define BAND_30M    0x1000
-#define BAND_40M    0x0800
-#define BAND_60M    0x0400
-#define BAND_80M    0x0200
-#define BAND_160M   0x0100
+#define BAND_BYPASS 0b0000000000001000  //GPA3 = 1
+#define BAND_6M     0b0000000000000100  //GPA2 = 1
+#define BAND_10M    0b0100000000000010  //GPA1 = 1
+#define BAND_12M    0b0000000000000001  //GPA0 = 1
+#define BAND_15M    0b1000000000000000  //GPB7 = 1
+#define BAND_17M    0b0100000000000000  //GPB6 = 1
+#define BAND_20M    0b0010000000000000  //GPB5 = 1
+#define BAND_30M    0b0001000000000000  //GPB4 = 1
+#define BAND_40M    0b0000100000000000  //GPB3 = 1
+#define BAND_80M    0b0000010000000000  //GPB2 = 1
+#define BAND_160M   0b0000001000000000  //GPB1 = 1
+#define BAND_60M    0b0000000100000000  //GPB0 = 1
+#define BAND_UDEF   0b0000000000000000  //GPBA = 0
 
 static Adafruit_MCP23X17 mcpBPF;
 
@@ -49,75 +52,98 @@ void setup() {
   delay(5000);
 
   // Set Wire2 I2C bus to 100KHz and start
-  Wire.setClock(100000UL);
-  Wire.setSDA(0);
-  Wire.setSCL(1);
-  Wire.begin();
+  Wire2.setClock(100000UL);
+  //Wire.setSDA(0);
+  //Wire.setSCL(1);
+  Wire2.begin();
   
   // Set the I2C Address
   while (!mcpBPF.begin_I2C(BPF_BOARD_MCP23017_ADDR,&Wire2)){
     Serial.println("BPF MCP23017 not found at 0x"+String(BPF_BOARD_MCP23017_ADDR,HEX));
     delay(5000);
   }
-  mcpBPF.enableAddrPins();
 
-  // Set all pins to be outputs
+  // Enable the address pins A0, A1, and A2.  
+  mcpBPF.enableAddrPins();
+  // Set all chip pins to be outputs
   for (int i=0;i<16;i++){
     mcpBPF.pinMode(i, OUTPUT);
   }
-
   // Set to BYPASS for startup.
-  GPAB_state = 0x0008;
+  GPAB_state = BAND_BYPASS;
   mcpBPF.writeGPIOAB(GPAB_state); 
 }
 
 void print_state(void){
-  uint16_t band = GPAB_state;
-  Serial.print("LPF Band: ");
+uint16_t band = GPAB_state;
+  Serial.print("BPF Band: ");
   switch(band) {
     case BAND_BYPASS:
-      Serial.println("BYPASS [0008]");
+      Serial.print("BYPASS [0b");
+      Serial.print(BAND_BYPASS,BIN);
+      Serial.println("]");
       break;
     case BAND_6M:
-      Serial.println("6m [0004]");
+      Serial.print("6m [0b");
+      Serial.print(BAND_6M,BIN);
+      Serial.println("]");
       break;
     case BAND_10M:
-      Serial.println("10m [0002]");
+      Serial.print("10m [0b");
+      Serial.print(BAND_10M,BIN);
+      Serial.println("]");
       break;
     case BAND_12M:
-      Serial.println("12m [0001]");
+      Serial.print("12m [0b");
+      Serial.print(BAND_12M,BIN);
+      Serial.println("]");
       break;
     case BAND_15M:
-      Serial.println("15m [8000]");
+      Serial.print("15m [0b");
+      Serial.print(BAND_15M,BIN);
+      Serial.println("]");
       break;
     case BAND_17M:
-      Serial.println("17m [4000]");
+      Serial.print("17m [0b");
+      Serial.print(BAND_17M,BIN);
+      Serial.println("]");
       break;
     case BAND_20M:
-      Serial.println("20m [2000]");
+      Serial.print("20m [0b");
+      Serial.print(BAND_20M,BIN);
+      Serial.println("]");
       break;
     case BAND_30M:
-      Serial.println("30m [1000]");
+      Serial.print("30m [0b");
+      Serial.print(BAND_30M,BIN);
+      Serial.println("]");
       break;
     case BAND_40M:
-      Serial.println("40m [0800]");
+      Serial.print("40m [0b");
+      Serial.print(BAND_40M,BIN);
+      Serial.println("]");
       break;
     case BAND_60M:
-      Serial.println("60m [0400]");
+      Serial.print("60m [0b");
+      Serial.print(BAND_60M,BIN);
+      Serial.println("]");
       break;
     case BAND_80M:
-      Serial.println("80m [0200]");
+      Serial.print("80m [0b");
+      Serial.print(BAND_80M,BIN);
+      Serial.println("]");
       break;
     case BAND_160M:
-      Serial.println("160m [0100]");
+      Serial.print("160m [0b");
+      Serial.print(BAND_160M,BIN);
+      Serial.println("]");
       break;
     default:
-      Serial.print("Unknown band: ");
-      Serial.println(band, BIN);
+      Serial.print("Unknown band: [0b");
+      Serial.print(band, BIN);
+      Serial.print("]");
       break;
   }
-
-  
 }
 
 void loop() {
@@ -142,9 +168,11 @@ void loop() {
   while (Serial.available() == 0) {}       //wait for data available
   String selection = Serial.readString();  //read until timeout
   selection.trim();                        // remove any \r \n whitespace at the end of the String
-
+  
+  Serial.print("Selection was-> ");
+  Serial.println(selection);
   if (selection == "N"){
-      Serial.println("Selecting NF band");
+      Serial.println("Selecting bypass");
       GPAB_state = BAND_BYPASS;
   } 
   if (selection == "6"){
@@ -192,10 +220,10 @@ void loop() {
       GPAB_state = BAND_160M;
   } 
 //  Update to new band
-  mcpBPF.writeGPIOAB(GPAB_state); 
-//  Write new band filter selection to the console
-  Serial.print("Written to GPAB: ");
-  Serial.println(GPAB_state, BIN);
+  mcpBPF.writeGPIOAB(GPAB_state);
+  Serial.print("Written to GPAB: [");
+  Serial.print(GPAB_state, BIN);
+  Serial.println("]");
   Serial.println("-------------------------\n");
 
 }
