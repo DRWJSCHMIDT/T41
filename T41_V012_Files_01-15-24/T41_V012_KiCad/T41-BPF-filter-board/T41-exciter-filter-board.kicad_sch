@@ -3422,12 +3422,6 @@
 		(uuid "025d1833-27ee-4486-82ac-af2fe3022921")
 	)
 	(junction
-		(at 16.51 227.33)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "026d34cd-bd50-4e15-bab8-0c1a863a6ae8")
-	)
-	(junction
 		(at 109.22 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4236,12 +4230,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8a880895-d727-4876-8c08-15d573c4c2ac")
-	)
-	(junction
-		(at 26.67 217.17)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8abf2479-33a4-4183-a37c-9b3b02fbd66e")
 	)
 	(junction
 		(at 133.35 35.56)
@@ -9623,16 +9611,6 @@
 	)
 	(wire
 		(pts
-			(xy 16.51 217.17) (xy 26.67 217.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b052d517-daeb-410a-b498-227a8f4e659e")
-	)
-	(wire
-		(pts
 			(xy 307.34 43.18) (xy 308.61 43.18)
 		)
 		(stroke
@@ -10060,16 +10038,6 @@
 			(type default)
 		)
 		(uuid "c345afa5-aee3-4d2d-b5fa-f827e0663d39")
-	)
-	(wire
-		(pts
-			(xy 16.51 224.79) (xy 16.51 227.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c36ab8a8-e568-4404-865f-3420157645d9")
 	)
 	(wire
 		(pts
@@ -11792,17 +11760,6 @@
 			(justify left bottom)
 		)
 		(uuid "98858c27-7182-4797-8e06-dbd77df0b0c4")
-	)
-	(text "Pullup selects BYPASS\nwhen board is powered\n& I2C is not configured"
-		(exclude_from_sim no)
-		(at 14.224 210.82 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "a1a78886-5efe-4ab7-841a-28ec3404687c")
 	)
 	(text "RFCONTROL SIGNALS:\nRxTx: H=Tx, L=Rx"
 		(exclude_from_sim no)
@@ -19977,6 +19934,84 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 368.3 204.47 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3c03ae57-3ece-4b8b-9f8a-b4d6dabba195")
+		(property "Reference" "R8"
+			(at 370.586 203.454 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "2k2"
+			(at 369.824 205.486 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 370.078 204.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 368.3 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 368.3 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "652-CR1206FX-2201ELF"
+			(at 368.3 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3f1ae628-8b82-4ab6-88cf-af98ab6b68d9")
+		)
+		(pin "1"
+			(uuid "0e92fb79-10c4-4adc-9596-e0872a5b98df")
+		)
+		(instances
+			(project "T41-exciter-filter-board"
+				(path "/56a77fe5-f7a5-414c-a0f7-d659071572ee"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 100.33 30.48 90)
 		(unit 1)
@@ -20048,84 +20083,6 @@
 			(project "T41-exciter-filter-board"
 				(path "/56a77fe5-f7a5-414c-a0f7-d659071572ee"
 					(reference "C101")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 16.51 220.98 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3dd52090-2626-4420-805b-2e9d549c0498")
-		(property "Reference" "R7"
-			(at 18.796 219.964 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "2k2"
-			(at 18.034 221.996 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
-			(at 18.288 220.98 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 16.51 220.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 16.51 220.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "652-CR1206FX-2201ELF"
-			(at 16.51 220.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "57c4eb31-856e-43b2-92ed-431faf21d7cd")
-		)
-		(pin "1"
-			(uuid "94a1be8b-d777-427f-9448-b96a2673fb13")
-		)
-		(instances
-			(project "T41-exciter-filter-board"
-				(path "/56a77fe5-f7a5-414c-a0f7-d659071572ee"
-					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -24953,6 +24910,72 @@
 			(project "T41-exciter-filter-board"
 				(path "/56a77fe5-f7a5-414c-a0f7-d659071572ee"
 					(reference "C292")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 368.3 208.28 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "703a4440-59c4-4351-b4d1-e9c65fbb7171")
+		(property "Reference" "#PWR061"
+			(at 368.3 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 370.84 209.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 368.3 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 368.3 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 368.3 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3ac64eb1-9ad1-4201-a195-787272493f7f")
+		)
+		(instances
+			(project "T41-exciter-filter-board"
+				(path "/56a77fe5-f7a5-414c-a0f7-d659071572ee"
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -31679,6 +31702,84 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 368.3 186.69 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bb2d6c00-36dc-49a6-918c-a6a299258496")
+		(property "Reference" "R7"
+			(at 370.586 185.674 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "2k2"
+			(at 369.824 187.706 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 370.078 186.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 368.3 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 368.3 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "652-CR1206FX-2201ELF"
+			(at 368.3 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0eb48c25-9d47-48c9-8eac-564967f049fb")
+		)
+		(pin "1"
+			(uuid "defbb125-812c-4054-aae2-b5e21623b49f")
+		)
+		(instances
+			(project "T41-exciter-filter-board"
+				(path "/56a77fe5-f7a5-414c-a0f7-d659071572ee"
+					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 26.67 22.86 0)
 		(unit 1)
@@ -38017,6 +38118,72 @@
 			(project "T41-exciter-filter-board"
 				(path "/56a77fe5-f7a5-414c-a0f7-d659071572ee"
 					(reference "L102")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 368.3 190.5 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fa49ecaa-3943-40ab-85c0-98418be4e28f")
+		(property "Reference" "#PWR041"
+			(at 368.3 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 370.84 191.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 368.3 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 368.3 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 368.3 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0e864b53-f4e2-4dad-ae31-730efae14208")
+		)
+		(instances
+			(project "T41-exciter-filter-board"
+				(path "/56a77fe5-f7a5-414c-a0f7-d659071572ee"
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
