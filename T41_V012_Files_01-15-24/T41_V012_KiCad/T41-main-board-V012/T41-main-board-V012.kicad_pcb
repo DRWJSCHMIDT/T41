@@ -19423,7 +19423,7 @@
 			)
 		)
 		(property "Value" "SUP90P06-09L"
-			(at 2.54 2.5 270)
+			(at 2.54 2.5 -90)
 			(layer "F.Fab")
 			(uuid "827acab7-9416-43db-9b8c-e2f454015347")
 			(effects
@@ -19694,7 +19694,7 @@
 			(uuid "b2d83ba3-dba1-4340-811e-bf0a472b1abc")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 2.54 -4.27 270)
+			(at 2.54 -4.27 -90)
 			(layer "F.Fab")
 			(uuid "823a358f-6ded-4165-bc86-d4e60d2d793b")
 			(effects
@@ -20002,7 +20002,7 @@
 		(descr "Diode SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "diode")
 		(property "Reference" "D4"
-			(at -3.0988 -0.4064 180)
+			(at -3.302 -0.381 180)
 			(layer "F.SilkS")
 			(uuid "7e1a6cdb-f54b-43b9-8cc8-149565cfd372")
 			(effects
@@ -37178,6 +37178,16 @@
 		(uuid "433fa584-e2bb-48d9-86c1-dd8c012a5590")
 	)
 	(gr_line
+		(start 58.674 138.303)
+		(end 58.674 141.986)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "B.SilkS")
+		(uuid "deadd022-5820-4f46-a595-6b8d3764724b")
+	)
+	(gr_line
 		(start 128.9304 61.722)
 		(end 128.9304 84.9884)
 		(stroke
@@ -37219,8 +37229,8 @@
 		(uuid "2760db8a-100e-4f42-a72f-93113a87a56c")
 	)
 	(gr_line
-		(start 70.9168 142.3416)
-		(end 70.9168 137.7696)
+		(start 71.12 128.397)
+		(end 71.12 137.7696)
 		(stroke
 			(width 0.15)
 			(type default)
@@ -37229,8 +37239,8 @@
 		(uuid "3530a3b0-ab00-4001-9762-aa7d7157af79")
 	)
 	(gr_line
-		(start 76.5556 142.3416)
-		(end 70.9168 142.3416)
+		(start 76.581 128.397)
+		(end 71.12 128.397)
 		(stroke
 			(width 0.15)
 			(type default)
@@ -37260,6 +37270,16 @@
 		(uuid "55412eef-f443-47bc-b595-41aebf8051dc")
 	)
 	(gr_line
+		(start 109.347 128.524)
+		(end 109.347 131.064)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "56007fb0-c2cc-4c74-bc7b-d358f72aeb7e")
+	)
+	(gr_line
 		(start 88.1888 84.9884)
 		(end 88.1888 64.4652)
 		(stroke
@@ -37270,8 +37290,8 @@
 		(uuid "5c48ac3d-fe84-4562-a57f-1b05cca548f3")
 	)
 	(gr_line
-		(start 76.5556 126.4412)
-		(end 76.5556 142.3416)
+		(start 76.5556 125.73)
+		(end 76.581 128.397)
 		(stroke
 			(width 0.15)
 			(type default)
@@ -37300,8 +37320,8 @@
 		(uuid "60183be0-ee6f-46b3-80a6-9bbe0abe018d")
 	)
 	(gr_line
-		(start 86.106 126.4412)
-		(end 76.5556 126.4412)
+		(start 86.106 125.73)
+		(end 76.5556 125.73)
 		(stroke
 			(width 0.15)
 			(type default)
@@ -37343,7 +37363,7 @@
 	)
 	(gr_line
 		(start 86.106 124.714)
-		(end 86.106 126.4412)
+		(end 86.106 125.73)
 		(stroke
 			(width 0.15)
 			(type default)
@@ -37352,7 +37372,7 @@
 		(uuid "86f78b87-173a-44be-8a10-d72e9ea29bf8")
 	)
 	(gr_line
-		(start 70.9168 137.7696)
+		(start 71.12 137.7696)
 		(end 61.1632 137.7696)
 		(stroke
 			(width 0.15)
@@ -37370,6 +37390,16 @@
 		)
 		(layer "F.SilkS")
 		(uuid "9533030c-9efc-4439-964f-d70ba354aae7")
+	)
+	(gr_line
+		(start 59.69 60.96)
+		(end 62.23 60.96)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "9591b6e4-2812-45d8-b306-65d5cfb5a5e6")
 	)
 	(gr_line
 		(start 70.2564 73.5584)
@@ -37430,6 +37460,26 @@
 		)
 		(layer "F.SilkS")
 		(uuid "be0ac2c5-6a53-409b-9901-244808e6e5c9")
+	)
+	(gr_line
+		(start 106.172 119.634)
+		(end 106.172 122.174)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "bfd5d6ec-95d1-418c-8dbc-709ccd99f818")
+	)
+	(gr_line
+		(start 77.47 126.111)
+		(end 81.026 126.111)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "ce562b21-b8f1-48e3-8035-f8e6ee2f427a")
 	)
 	(gr_line
 		(start 71.9836 73.5584)
