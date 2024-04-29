@@ -54,6 +54,7 @@ void loop()
   if (CurrentStateOn == true) {
     if (digitalRead(TOTAL_SHUTDOWN) == HIGH) {   // Teensy says we are through the shutdown code.  Just shut down now.
       digitalWrite(FET_SWITCH, LOW);        // Set the FET switch to "OFF".
+      digitalWrite(START_SHUTDOWN, LOW);    // Prepare for RADIO ON - Tell Teensy that 
       CurrentStateOn = false;               // and remember we shut off the radio for next pass.
       delay(1000L);                         // Wait a second while so we don't just trigger an "ON" state accidentally.
     }
