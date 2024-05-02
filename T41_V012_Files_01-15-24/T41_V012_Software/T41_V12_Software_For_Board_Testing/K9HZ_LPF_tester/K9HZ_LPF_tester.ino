@@ -100,12 +100,10 @@ void setup() {
   delay(5000);
 
   // Set Wire2 I2C bus to 100KHz and start
-  Wire.setClock(100000UL);
-  Wire.setSDA(0);
-  Wire.setSCL(1);
-  Wire.begin();
+  Wire2.setClock(100000UL);
+  Wire2.begin();
   
-  while (!mcpLPF.begin_I2C(LPF_BOARD_MCP23017_ADDR,&Wire)){
+  while (!mcpLPF.begin_I2C(LPF_BOARD_MCP23017_ADDR, &Wire2)){
     Serial.println("LPF MCP23017 not found at 0x"+String(LPF_BOARD_MCP23017_ADDR,HEX));
     scanner();
     delay(5000);
