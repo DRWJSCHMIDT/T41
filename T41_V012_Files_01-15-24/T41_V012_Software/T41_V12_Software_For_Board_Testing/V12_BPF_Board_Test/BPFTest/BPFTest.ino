@@ -25,52 +25,20 @@
 #define BPF_BOARD_MCP23017_ADDR 0x24   // For BPF #1 Address
 //#define BPF_BOARD_MCP23017_ADDR 0x26   // For BPF #2 Address
 
-/*
-<<<<<<< Updated upstream
-// Define BPF Band words [GPB7,...,GPB0,GPA7,...,GPA0]
-
-#define BAND_BYPASS 0b0000000000001000  //GPA3 = 1
-#define BAND_6M     0b0000000000000100  //GPA2 = 1
-#define BAND_10M    0b0100000000000010  //GPA1 = 1
-#define BAND_12M    0b0000000000000001  //GPA0 = 1
-#define BAND_15M    0b1000000000000000  //GPB7 = 1
-#define BAND_17M    0b0100000000000000  //GPB6 = 1
-#define BAND_20M    0b0010000000000000  //GPB5 = 1
-#define BAND_30M    0b0001000000000000  //GPB4 = 1
-#define BAND_40M    0b0000100000000000  //GPB3 = 1
-#define BAND_80M    0b0000010000000000  //GPB2 = 1
-#define BAND_160M   0b0000001000000000  //GPB1 = 1
-#define BAND_60M    0b0000000100000000  //GPB0 = 1
-#define BAND_UDEF   0b0000000000000000  //GPBA = 0
-=======
-*/
-#define ESP32
-
 // Define BPF Band words
-// When the pin of the MCP23017 is HIGH, then pin6/V1/control A of 
-// MASWSS0179 is HIGH and RFC is connected to RF1.
-// To select any of the bands we want to connect RFC to RF1, so drive
-// the corresponding pin on MCP23017 HIGH. To select BYPASS we want 
-// instead to connect RFC to RF2, which means driving it LOW.
 // Word definition: GPB7 GPB6 ... GPB0 GPA7 GPA6 ... GPA0
-//#define BAND_BYPASS 0x0008
-#define BAND_BYPASS 0b0000000000001000
-#define BAND_6M     0x0004//+0x0008
-#define BAND_10M    0x0002//+0x0008
-#define BAND_12M    0x0001//+0x0008
-#define BAND_15M    0x8000//+0x0008
-#define BAND_17M    0x4000//+0x0008
-#define BAND_20M    0x2000//+0x0008
-
-#define BAND_30M    0x1000//+0x0008
-#define BAND_40M    0x0800//+0x0008
-#define BAND_60M    0x0100//+0x0008
-#define BAND_80M    0x0400//+0x0008
-#define BAND_160M   0x0200//+0x0008
-//                0000 0010 0000 1000
-
-#define PINRXTX 0
-//>>>>>>> Stashed changes
+#define BAND_BYPASS 0x0008
+#define BAND_6M     0x0004
+#define BAND_10M    0x0002
+#define BAND_12M    0x0001
+#define BAND_15M    0x8000
+#define BAND_17M    0x4000
+#define BAND_20M    0x2000
+#define BAND_30M    0x1000
+#define BAND_40M    0x0800
+#define BAND_60M    0x0100
+#define BAND_80M    0x0400
+#define BAND_160M   0x0200
 
 static Adafruit_MCP23X17 mcpBPF;
 
@@ -78,31 +46,14 @@ uint16_t GPAB_state;
 
 void setup() {
   // put your setup code here, to run once:
-
   Serial.begin(115200);
   delay(5000);
 
-  #ifdef ESP32
-  Wire.begin(21,22,100000UL);
-  #else
   // Set Wire2 I2C bus to 100KHz and start
   Wire2.setClock(100000UL);
-/*<<<<<<< Updated upstream
-  //Wire.setSDA(0);
-  //Wire.setSCL(1);
   Wire2.begin();
   
-=======*/
-  Wire2.begin();
-  #endif
-
-//>>>>>>> Stashed changes
-  // Set the I2C Address
-  #ifdef ESP32
-  while (!mcpBPF.begin_I2C(BPF_BOARD_MCP23017_ADDR,&Wire)){
-  #else
   while (!mcpBPF.begin_I2C(BPF_BOARD_MCP23017_ADDR,&Wire2)){
-  #endif
     Serial.println("BPF MCP23017 not found at 0x"+String(BPF_BOARD_MCP23017_ADDR,HEX));
     delay(5000);
   }
@@ -117,9 +68,6 @@ void setup() {
   GPAB_state = BAND_BYPASS;
   mcpBPF.writeGPIOAB(GPAB_state); 
 
-  // Set up RXTX
-  pinMode(PINRXTX, OUTPUT);
-  digitalWrite(PINRXTX, 0);  // RX mode
 }
 
 void print_state(void){
@@ -212,9 +160,7 @@ void loop() {
   Serial.println("60  - Select 60M band");
   Serial.println("80  - Select 80M band");
   Serial.println("160 - Select 160M band");
-  Serial.println("T   - Select TX mode");
-  Serial.println("R   - Select RX mode");
-
+  
   while (Serial.available() == 0) {}       //wait for data available
   String selection = Serial.readString();  //read until timeout
   selection.trim();                        // remove any \r \n whitespace at the end of the String
@@ -268,14 +214,6 @@ void loop() {
   if (selection == "160"){
     Serial.println("Selecting 160m band");
       GPAB_state = BAND_160M;
-  }
-  if (selection == "T"){
-    Serial.println("Selecting TX mode");
-    digitalWrite(PINRXTX, 1);  // TX mode
-  }
-  if (selection == "R"){
-    Serial.println("Selecting RX mode");
-    digitalWrite(PINRXTX, 0);  // RX mode
   }
 
 //  Update to new band
