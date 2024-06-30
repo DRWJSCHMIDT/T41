@@ -66,6 +66,12 @@
     "visible_layers": "fffffff_ffffffff",
     "zone_display_mode": 0
   },
+  "git": {
+    "repo_password": "",
+    "repo_type": "",
+    "repo_username": "",
+    "ssh_key": ""
+  },
   "meta": {
     "filename": "K9HZ_100W_11band_LPF-Filter.kicad_prl",
     "version": 3
