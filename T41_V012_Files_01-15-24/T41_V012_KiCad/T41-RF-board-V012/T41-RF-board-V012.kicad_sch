@@ -10,7 +10,7 @@
 		(rev "V012.6")
 		(comment 1 "        Transcribed to KiCAD by OG King-KI3P")
 		(comment 2 "By Al Peter-AC8GY, Revised by WJ Schmidt-K9HZ")
-		(comment 3 "Change log: Added R73 to schematic")
+		(comment 3 "Change log: Added R73 to schematic, updated C5,C8,C19,C21")
 	)
 	(lib_symbols
 		(symbol "74xGxx:74LVC1G04"
@@ -29506,7 +29506,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "68pF 50V"
+		(property "Value" "180pF 50V"
 			(at 319.659 49.4721 0)
 			(effects
 				(font
@@ -32254,7 +32254,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "68pF 50V"
+		(property "Value" "105pF 50V"
 			(at 326.39 111.76 90)
 			(effects
 				(font
@@ -37506,7 +37506,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "68pF 50V"
+		(property "Value" "105pF 50V"
 			(at 326.39 63.5 90)
 			(effects
 				(font
@@ -42768,7 +42768,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "68pF 50V"
+		(property "Value" "180pF 50V"
 			(at 319.659 97.7321 0)
 			(effects
 				(font
