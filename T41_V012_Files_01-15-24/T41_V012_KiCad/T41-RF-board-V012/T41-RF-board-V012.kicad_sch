@@ -6,13 +6,11 @@
 	(paper "A3")
 	(title_block
 		(title "T41 RF Board")
-		(date "2024-04-08")
+		(date "2024-07-18")
 		(rev "V012.6")
 		(comment 1 "        Transcribed to KiCAD by OG King-KI3P")
 		(comment 2 "By Al Peter-AC8GY, Revised by WJ Schmidt-K9HZ")
-		(comment 3 "Change log: switched the order of attenuator and amp in receive chain")
-		(comment 4 "  - Added ground test points & pad, silkscreen edits")
-		(comment 5 "  - Added JP4 for electrical disconnect of CAL signal (4/8/24)")
+		(comment 3 "Change log: Added R73 to schematic, updated C5,C8,C19,C21")
 	)
 	(lib_symbols
 		(symbol "74xGxx:74LVC1G04"
@@ -7916,6 +7914,12 @@
 		(uuid "2424fd54-e7ff-4ccd-98f5-c1b8711b0a48")
 	)
 	(junction
+		(at 260.35 251.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "24aac518-36ae-4752-ac89-37c9a05ee92c")
+	)
+	(junction
 		(at 106.68 241.3)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8568,6 +8572,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c348fccd-d23d-4eb4-a212-ed51a6b8b185")
+	)
+	(junction
+		(at 260.35 259.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c6e8d226-bb25-49d2-a059-e69ad07b5554")
 	)
 	(junction
 		(at 78.74 96.52)
@@ -11521,6 +11531,16 @@
 	)
 	(wire
 		(pts
+			(xy 251.46 259.08) (xy 260.35 259.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "571a81e5-9ecf-4965-9af7-2823cbb38860")
+	)
+	(wire
+		(pts
 			(xy 177.8 62.23) (xy 177.8 63.5)
 		)
 		(stroke
@@ -13748,6 +13768,16 @@
 			(type default)
 		)
 		(uuid "a49c113b-e148-4e91-a4cc-ba7be33236f8")
+	)
+	(wire
+		(pts
+			(xy 251.46 251.46) (xy 260.35 251.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4c2dcfd-aa59-4d14-acd9-23bedfece0d8")
 	)
 	(wire
 		(pts
@@ -16739,6 +16769,16 @@
 			(justify left bottom)
 		)
 		(uuid "3ec9a43b-1f03-45a1-b375-ad34d73bc17c")
+	)
+	(text "R73 stacked \non top of C73"
+		(exclude_from_sim no)
+		(at 251.46 262.89 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4017eba2-9a4d-4511-814a-a8fc2b3e3030")
 	)
 	(text "10T"
 		(exclude_from_sim no)
@@ -21961,6 +22001,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 251.46 255.27 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "2b7b24b8-bee6-4bd4-921e-3f00839e3468")
+		(property "Reference" "R73"
+			(at 248.92 254.3697 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100k"
+			(at 248.92 256.794 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 253.238 255.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 251.46 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 251.46 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 251.46 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "fe1d7a52-5991-4086-bdc4-bfaa9e158bb0")
+		)
+		(pin "1"
+			(uuid "bf0e3f96-2ee3-4afb-9235-67b6446daa92")
+		)
+		(instances
+			(project "T41-RF-board-V012"
+				(path "/3c4b9d3b-a516-4fd7-b325-b74c836dee65"
+					(reference "R73")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 278.13 66.04 0)
 		(unit 1)
@@ -25315,7 +25434,7 @@
 			)
 		)
 		(property "Value" "0.1uF 50V"
-			(at 254 257.81 0)
+			(at 259.334 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29387,7 +29506,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "68pF 50V"
+		(property "Value" "180pF 50V"
 			(at 319.659 49.4721 0)
 			(effects
 				(font
@@ -32135,7 +32254,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "68pF 50V"
+		(property "Value" "105pF 50V"
 			(at 326.39 111.76 90)
 			(effects
 				(font
@@ -37387,7 +37506,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "68pF 50V"
+		(property "Value" "105pF 50V"
 			(at 326.39 63.5 90)
 			(effects
 				(font
@@ -42649,7 +42768,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "68pF 50V"
+		(property "Value" "180pF 50V"
 			(at 319.659 97.7321 0)
 			(effects
 				(font
