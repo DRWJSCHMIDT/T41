@@ -139,10 +139,10 @@ void setup() {
   TXRX_state = RXSTATE;
   digitalWrite(TXRX_PIN, TXRX_state);  // RX mode
 
-  while (!swrADC.begin(AD7991_I2C_ADDR1,&Wire)){
+  while (!swrADC.begin(AD7991_I2C_ADDR1,&Wire2)){
     Serial.println("AD7991 not found at 0x"+String(AD7991_I2C_ADDR1,HEX));
 
-    if (swrADC.begin(AD7991_I2C_ADDR2,&Wire)){
+    if (swrADC.begin(AD7991_I2C_ADDR2,&Wire2)){
       Serial.println("AD7991 found at alternative 0x"+String(AD7991_I2C_ADDR2,HEX));
       break;
     }
