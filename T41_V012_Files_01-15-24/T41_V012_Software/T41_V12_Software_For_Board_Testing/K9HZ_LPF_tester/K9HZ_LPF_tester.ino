@@ -6,7 +6,7 @@
 #define LPF_BOARD_MCP23017_ADDR 0x25
 #define TXSTATE 1
 #define RXSTATE 0
-#define TXRX_PIN 2
+#define TXRX_PIN 22
 
 // The attenuation of the binocular toroid coupler and the attenuation of the pad
 #define COUPLER_ATTENUATION_DB 20
