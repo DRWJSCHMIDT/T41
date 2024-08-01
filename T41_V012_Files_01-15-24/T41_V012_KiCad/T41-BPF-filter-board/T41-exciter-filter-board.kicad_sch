@@ -11697,6 +11697,56 @@
 		)
 		(uuid "f1d6dd69-0318-4348-8d0c-20213ee5a508")
 	)
+	(text "16T T37-0 9\""
+		(exclude_from_sim no)
+		(at 334.264 105.918 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "01ce6250-cf42-4f76-9163-b1bb2614828e")
+	)
+	(text "22T T37-1 12\"\n"
+		(exclude_from_sim no)
+		(at 123.698 52.324 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "04ac2df1-ae7e-488c-a7ae-48c2cb013f3b")
+	)
+	(text "34T T37-0 18\""
+		(exclude_from_sim no)
+		(at 105.664 77.724 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "062d2bb7-6cac-49f6-b02a-1d443c085404")
+	)
+	(text "18T T37-10 10\""
+		(exclude_from_sim no)
+		(at 124.206 149.606 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "0d096e1d-dc3f-4332-b4a0-3df0fb5637fc")
+	)
+	(text "34T T37-0 18\""
+		(exclude_from_sim no)
+		(at 132.588 47.244 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "0f5ce337-7693-4395-a0e4-df32d92fe810")
+	)
 	(text "20m"
 		(exclude_from_sim no)
 		(at 59.69 85.09 0)
@@ -11708,6 +11758,17 @@
 			(justify left bottom)
 		)
 		(uuid "1442a1c7-8713-4ce6-9447-ab9ef28aa01f")
+	)
+	(text "June 1st 2024 vk3pe: corrected wire length for L91  and L95"
+		(exclude_from_sim no)
+		(at 270.51 245.364 0)
+		(effects
+			(font
+				(size 3 3)
+				(color 255 42 21 1)
+			)
+		)
+		(uuid "15c44bdc-76a1-44fa-b74b-3c77635a1dae")
 	)
 	(text "Added for backwards compatibility\nwith V010/V011 LPF boards. Do not \npopulate if using V012 LPF boards."
 		(exclude_from_sim no)
@@ -11723,6 +11784,66 @@
 		)
 		(uuid "16c702d7-6153-4cde-a3dc-e7ff0e869afd")
 	)
+	(text "22T T37-10 12\""
+		(exclude_from_sim no)
+		(at 123.444 116.332 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "1974dbc3-069b-4593-9c92-b01c35a7ab48")
+	)
+	(text "22T T37-0 12\""
+		(exclude_from_sim no)
+		(at 308.61 105.664 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "27333a49-8b94-47ca-b762-1124a927651e")
+	)
+	(text "26T T37-6  14\""
+		(exclude_from_sim no)
+		(at 307.848 45.974 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "36e33092-95ca-4a1a-b06a-e287bd63d195")
+	)
+	(text "17T T37-0 9\""
+		(exclude_from_sim no)
+		(at 106.934 141.224 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "39fe27ba-30fa-4fab-9cc8-1150981532f0")
+	)
+	(text "9T T37-0 5\"\n"
+		(exclude_from_sim no)
+		(at 109.474 207.772 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3a3ef804-98b6-4103-8d9a-916e5363990b")
+	)
+	(text "16T T37-0 9\"\n"
+		(exclude_from_sim no)
+		(at 131.064 108.458 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3c305dec-eeea-4821-a213-e2ef116430ee")
+	)
 	(text "6m"
 		(exclude_from_sim no)
 		(at 59.69 184.15 0)
@@ -11735,6 +11856,77 @@
 		)
 		(uuid "45894874-f2fb-47af-96c7-5a773bc2daa9")
 	)
+	(text "14t FT37-61 14\""
+		(exclude_from_sim no)
+		(at 323.088 19.812 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "46b149cd-d74e-48bc-b56e-42cf72f74d78")
+	)
+	(text "ALL TOROIDS WOUND WITH #28 WIRE    0.32mm"
+		(exclude_from_sim no)
+		(at 294.64 121.666 0)
+		(effects
+			(font
+				(size 3 3)
+				(color 255 27 14 1)
+			)
+		)
+		(uuid "4c7e39fd-fc1b-493b-80d5-ffaff26b545b")
+	)
+	(text "27T T37-6 14\""
+		(exclude_from_sim no)
+		(at 123.952 82.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5b76859b-42b9-4785-b9e2-b8ca06201421")
+	)
+	(text "38T T37-10 20\""
+		(exclude_from_sim no)
+		(at 322.834 80.772 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "65548de0-06b9-4372-9266-6e42cbf751db")
+	)
+	(text "26T T37-0 14\""
+		(exclude_from_sim no)
+		(at 134.366 77.978 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "68d74f4d-d171-49b7-9bef-ec1bd0990eaf")
+	)
+	(text "13T T37-0 7\""
+		(exclude_from_sim no)
+		(at 134.112 174.498 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "70cb1d48-da91-4e7b-9225-8c7205947b67")
+	)
+	(text "13T T37-0 7\""
+		(exclude_from_sim no)
+		(at 133.35 140.97 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "78dca7e5-3277-4dbb-86f0-fab9a49c41a6")
+	)
 	(text "12/10m"
 		(exclude_from_sim no)
 		(at 57.15 151.13 0)
@@ -11746,6 +11938,26 @@
 			(justify left bottom)
 		)
 		(uuid "85baf692-3338-4c82-a87f-b88da927a0d6")
+	)
+	(text "17T T37-10 11\""
+		(exclude_from_sim no)
+		(at 123.444 181.356 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8d31bceb-06c2-4a6c-82aa-36e4d7f08e9e")
+	)
+	(text "18T T37-10 10\""
+		(exclude_from_sim no)
+		(at 306.832 75.438 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8f7c50a6-2e39-4065-8a33-7ceef32ce292")
 	)
 	(text "A2  A1  A0  ADDR\n0   0   0   0x20\n0   0   1   0x21\n0   1   0   0x22\n0   1   1   0x23\n1   0   0   0x24\n1   0   1   0x25\n1   1   0   0x26\n1   1   1   0x27"
 		(exclude_from_sim no)
@@ -11760,6 +11972,17 @@
 			(justify left bottom)
 		)
 		(uuid "98858c27-7182-4797-8e06-dbd77df0b0c4")
+	)
+	(text "1.5nF+100p"
+		(exclude_from_sim no)
+		(at 321.056 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 60 32 1)
+			)
+		)
+		(uuid "9a068f12-1f7b-4400-8b29-4b111668bc51")
 	)
 	(text "RFCONTROL SIGNALS:\nRxTx: H=Tx, L=Rx"
 		(exclude_from_sim no)
@@ -11783,6 +12006,27 @@
 		)
 		(uuid "b1ab3246-c5e5-47ce-8668-62c8adf7b40f")
 	)
+	(text "25T T37-1 13\""
+		(exclude_from_sim no)
+		(at 323.342 50.546 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b8a2cb38-78e8-4f9e-838b-7d30dfa33733")
+	)
+	(text "JULY 30th 2024 VK3PE ADDED SOME NOTES"
+		(exclude_from_sim no)
+		(at 250.444 250.698 0)
+		(effects
+			(font
+				(size 3 3)
+				(color 25 28 255 1)
+			)
+		)
+		(uuid "be795d43-fb29-47d7-8015-6af8e62c3044")
+	)
 	(text "ADDRESS SELECT"
 		(exclude_from_sim no)
 		(at 267.97 205.74 0)
@@ -11793,6 +12037,16 @@
 			(justify left bottom)
 		)
 		(uuid "c02fc485-a891-44f2-ab34-0cee43ed319f")
+	)
+	(text "21T T37-0 11\"\n"
+		(exclude_from_sim no)
+		(at 106.172 108.712 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c039a6a9-04ea-4b77-843f-799fec957ee2")
 	)
 	(text "30m"
 		(exclude_from_sim no)
@@ -11805,6 +12059,16 @@
 			(justify left bottom)
 		)
 		(uuid "c41c2b12-a8cd-4b6c-b6ac-a2af4a22e70a")
+	)
+	(text "16T T37-0 9\""
+		(exclude_from_sim no)
+		(at 108.204 175.006 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c4a4cb89-8734-4b1e-8afb-088b05d9908a")
 	)
 	(text "17/15m"
 		(exclude_from_sim no)
@@ -11844,6 +12108,26 @@
 		)
 		(uuid "ce74f367-813c-4b7e-82dd-c677299a9a16")
 	)
+	(text "7T T37-0 4\""
+		(exclude_from_sim no)
+		(at 134.62 207.518 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d061bf6a-d207-4233-a44d-13184be8850f")
+	)
+	(text "10T T37-2 6\""
+		(exclude_from_sim no)
+		(at 332.994 75.438 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d0899d03-f2c1-4254-a036-c069339c0939")
+	)
 	(text "40m"
 		(exclude_from_sim no)
 		(at 59.69 54.61 0)
@@ -11855,6 +12139,26 @@
 			(justify left bottom)
 		)
 		(uuid "e2021364-447f-43a6-9a32-3345dcea20a8")
+	)
+	(text "26T T37-1 14\""
+		(exclude_from_sim no)
+		(at 124.206 21.336 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e5226392-313c-4fd6-85bd-d0b42d96c643")
+	)
+	(text "20T T37-10 11\""
+		(exclude_from_sim no)
+		(at 106.68 47.244 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ebef6ca2-635f-4156-9181-aa59d6abeca0")
 	)
 	(text "60m"
 		(exclude_from_sim no)
@@ -11891,6 +12195,16 @@
 			(justify left bottom)
 		)
 		(uuid "f4e6bbdc-2ce9-4846-80d3-d7d8bf68ebde")
+	)
+	(text "20t T37-10 11\""
+		(exclude_from_sim no)
+		(at 334.01 45.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f83d9208-bcb3-4b55-8ed1-37a39b6ac0c4")
 	)
 	(label "160m"
 		(at 344.17 177.8 0)
