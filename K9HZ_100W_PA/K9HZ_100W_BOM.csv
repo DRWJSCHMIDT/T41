@@ -20,7 +20,7 @@
 "Q1","BSS84","Package_TO_SOT_SMD:SOT-23","1","512-BSS84"
 "Q2","BS170","Package_TO_SOT_THT:TO-92_Inline","1","512-BS170"
 "Q3","BD677","Package_TO_SOT_THT:TO-126-3_Horizontal_TabUp","1","511-BD677"
-"Q4,Q5","RD100HHF1C","T41_Library:RD100HHF1","2",""
+"Q4,Q5","RD100HHF1C","-- mixed values --","2",""
 "R4,R5","5k6","Resistor_SMD:R_1206_3216Metric","2","279-CRGCQ1206F5K6"
 "R7","3.0k 1%","Resistor_SMD:R_1206_3216Metric","1","603-RT1206FRE073KL"
 "R8","0.005 Ohm 4W","Resistor_SMD:R_2010_5025Metric_Pad1.40x2.65mm_HandSolder","1","755-GMR50HJAAFD5L00"
