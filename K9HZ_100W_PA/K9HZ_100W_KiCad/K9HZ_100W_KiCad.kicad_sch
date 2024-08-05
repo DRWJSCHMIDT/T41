@@ -12092,8 +12092,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Potentiometer")
-		(at 134.62 172.72 0)
-		(mirror y)
+		(at 134.62 172.72 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12101,7 +12100,7 @@
 		(dnp no)
 		(uuid "604b6b81-af4f-4c69-b0c5-8cdf584198b9")
 		(property "Reference" "RV2"
-			(at 136.398 171.5078 0)
+			(at 136.398 173.9322 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12110,7 +12109,7 @@
 			)
 		)
 		(property "Value" "500R"
-			(at 136.398 173.9321 0)
+			(at 136.398 171.5079 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16104,15 +16103,15 @@
 	(symbol
 		(lib_id "Device:R_Potentiometer")
 		(at 104.14 172.72 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "d48a9444-0569-45dd-ace0-e49b413b3a4d")
 		(property "Reference" "RV1"
-			(at 102.362 171.5078 0)
+			(at 102.362 173.9322 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16121,7 +16120,7 @@
 			)
 		)
 		(property "Value" "500R"
-			(at 102.362 173.9321 0)
+			(at 102.362 171.5079 0)
 			(effects
 				(font
 					(size 1.27 1.27)
