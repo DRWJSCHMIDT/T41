@@ -6,11 +6,11 @@
 	(paper "A3")
 	(title_block
 		(title "T41 RF Board")
-		(date "2024-07-18")
+		(date "2024-09-07")
 		(rev "V012.6")
 		(comment 1 "        Transcribed to KiCAD by OG King-KI3P")
 		(comment 2 "By Al Peter-AC8GY, Revised by WJ Schmidt-K9HZ")
-		(comment 3 "Change log: Added R73 to schematic, updated C5,C8,C19,C21")
+		(comment 3 "Change log: Changed R35&R37 to 0R")
 	)
 	(lib_symbols
 		(symbol "74xGxx:74LVC1G04"
@@ -21277,7 +21277,7 @@
 				)
 			)
 		)
-		(property "Value" "3k3"
+		(property "Value" "0"
 			(at 205.74 144.9761 90)
 			(effects
 				(font
@@ -34604,7 +34604,7 @@
 				)
 			)
 		)
-		(property "Value" "3k3"
+		(property "Value" "0"
 			(at 205.74 165.2961 90)
 			(effects
 				(font
