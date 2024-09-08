@@ -6,7 +6,7 @@
 	(paper "A3")
 	(title_block
 		(title "T41 Exciter Filter Board")
-		(date "2024-04-20")
+		(date "2024-08-25")
 		(rev "V 012.06")
 		(comment 1 "       KiCad version by Oliver King KI3P")
 		(comment 2 "By Al Peter AC8GY & Bill Schmidt K9HZ")
@@ -11759,20 +11759,21 @@
 		)
 		(uuid "1442a1c7-8713-4ce6-9447-ab9ef28aa01f")
 	)
-	(text "June 1st 2024 vk3pe: corrected wire length for L91  and L95"
+	(text "June 1 2024: VK3PE Corrected wire length for L91 and L95\nJuly 30 2024: VK3PE Added some notes\nAugust 25 2024: KI3P Clarified instructions in red box"
 		(exclude_from_sim no)
-		(at 270.51 245.364 0)
+		(at 196.342 241.3 0)
 		(effects
 			(font
 				(size 3 3)
 				(color 255 42 21 1)
 			)
+			(justify left)
 		)
 		(uuid "15c44bdc-76a1-44fa-b74b-3c77635a1dae")
 	)
-	(text "Added for backwards compatibility\nwith V010/V011 LPF boards. Do not \npopulate if using V012 LPF boards."
+	(text "Added for backwards compatibility \nwith V010/V011 LPF boards and V012 \nsecond receiver operation. Only \npopulate if using V012 2nd receiver \nor with V010/V011 LPF boards."
 		(exclude_from_sim no)
-		(at 78.74 254 0)
+		(at 77.978 258.318 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12016,17 +12017,6 @@
 		)
 		(uuid "b8a2cb38-78e8-4f9e-838b-7d30dfa33733")
 	)
-	(text "JULY 30th 2024 VK3PE ADDED SOME NOTES"
-		(exclude_from_sim no)
-		(at 250.444 250.698 0)
-		(effects
-			(font
-				(size 3 3)
-				(color 25 28 255 1)
-			)
-		)
-		(uuid "be795d43-fb29-47d7-8015-6af8e62c3044")
-	)
 	(text "ADDRESS SELECT"
 		(exclude_from_sim no)
 		(at 267.97 205.74 0)
@@ -12082,7 +12072,7 @@
 		)
 		(uuid "c57b8cf6-30a1-461e-aa29-a51d47dd2ba7")
 	)
-	(text "Solder JP10 and JP11 closed\nif using V012 LPF boards"
+	(text "Solder JP10 and JP11 closed\nif using V012 LPF boards and\nsingle receiver"
 		(exclude_from_sim no)
 		(at 130.81 237.49 0)
 		(effects
