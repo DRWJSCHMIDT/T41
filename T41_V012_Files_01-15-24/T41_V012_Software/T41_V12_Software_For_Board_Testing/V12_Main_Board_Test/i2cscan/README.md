@@ -2,21 +2,23 @@
 
 Modified version for test T41-EP
 
-Scans Wire, Wire1 and Wire2 and initializes Audio Board so that the boards I2C address is seen.
-
-If just the Audio Board and si5351 are installed then you should see:
+Scans Wire, Wire1 and Wire2 to look for connected I2C devices. If all the boards are connected you should see the following output:
 
 ```
-14:27:19.730 -> Scanning Wire ...
-14:27:19.730 -> I2C device found at address 0x0A  !
-14:27:19.730 -> I2C device found at address 0x60  !
-14:27:19.730 -> done
-14:27:19.730 -> 
-14:27:19.730 -> Scanning Wire1 ...
-14:27:19.839 -> No I2C devices found
-14:27:19.839 -> 
-14:27:19.839 -> Scanning Wire2 ...
-14:27:19.839 -> No I2C devices found
-```
+Scanning Wire ...
+I2C device found at address 0x0A: Teensy audio adapter / hat  !
+I2C device found at address 0x27: RF board MCP23017 for first receiver  !
+I2C device found at address 0x60: RF board Si5351 oscillator  !
+done
 
-The Audio board is at address 0x0A and the si5351 at 0x60.
+Scanning Wire1 ...
+I2C device found at address 0x20: Front panel MCP23017 for switches 1-16  !
+I2C device found at address 0x21: Front panel MCP23017 for switches 17-18, encoders  !
+done
+
+Scanning Wire2 ...
+I2C device found at address 0x24: BPF MCP23017 for first receiver  !
+I2C device found at address 0x25: K9HZ LPF MCP23017  !
+I2C device found at address 0x28: K9HZ LPF AD7991 ADC  !
+done
+```
