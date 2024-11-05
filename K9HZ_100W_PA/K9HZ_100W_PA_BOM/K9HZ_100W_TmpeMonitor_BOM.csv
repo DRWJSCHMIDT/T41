@@ -1,8 +1,0 @@
-"Reference","Value","Footprint","Qty","Mouser Part Number"
-"C1,C8","0.1uF 50V","Capacitor_SMD:C_1206_3216Metric","2","581-12065F104K4"
-"J3","Over-Temp Alarm","Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical","1",""
-"J7","Temp monitor","Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical","1",""
-"L1,L2","FB","-- mixed values --","2","-- mixed values --"
-"R1,R2,R3","3k3","Resistor_SMD:R_1206_3216Metric","3","279-CRGCQ1206F3K3"
-"R6","10k","Resistor_SMD:R_1206_3216Metric","1","279-CRGCQ1206F10K"
-"U1","ADT75","Package_SO:MSOP-8_3x3mm_P0.65mm","1","584-ADT75ARMZ-R"
