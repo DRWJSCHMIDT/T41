@@ -7980,6 +7980,12 @@
 		(uuid "4e42b4a9-4900-431e-8298-20488ac76112")
 	)
 	(junction
+		(at 148.59 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "500e8d02-ab38-4472-9dff-638bfe50af8b")
+	)
+	(junction
 		(at 308.61 154.94)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8242,6 +8248,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9192c284-76b1-419a-b69a-5dd63370c610")
+	)
+	(junction
+		(at 146.05 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "98d273a6-358d-470a-b6f4-436ec8764499")
 	)
 	(junction
 		(at 354.33 90.17)
@@ -9323,6 +9335,16 @@
 	)
 	(wire
 		(pts
+			(xy 148.59 55.88) (xy 142.24 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14e5a28f-d02a-4070-855b-013806e080bb")
+	)
+	(wire
+		(pts
 			(xy 43.18 152.4) (xy 36.83 152.4)
 		)
 		(stroke
@@ -9380,6 +9402,16 @@
 			(type default)
 		)
 		(uuid "1804f88e-b698-4e0f-bd01-bc9ae29dc09a")
+	)
+	(wire
+		(pts
+			(xy 148.59 50.8) (xy 148.59 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18073c71-2668-4d2a-a17b-4b4bc7a85f2b")
 	)
 	(wire
 		(pts
@@ -10603,6 +10635,16 @@
 	)
 	(wire
 		(pts
+			(xy 231.14 156.21) (xy 254 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "424ea302-9230-45eb-855c-e4307696907a")
+	)
+	(wire
+		(pts
 			(xy 212.09 142.24) (xy 209.55 142.24)
 		)
 		(stroke
@@ -11573,7 +11615,7 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 140.97) (xy 240.03 140.97)
+			(xy 212.09 140.97) (xy 220.98 140.97)
 		)
 		(stroke
 			(width 0)
@@ -11590,6 +11632,16 @@
 			(type default)
 		)
 		(uuid "65ceaf14-ec65-4f79-9d66-bb8305e68db6")
+	)
+	(wire
+		(pts
+			(xy 152.4 62.23) (xy 147.32 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65e17505-7379-4b56-9971-c61abb4c6ece")
 	)
 	(wire
 		(pts
@@ -13443,7 +13495,7 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 156.21) (xy 254 156.21)
+			(xy 219.71 156.21) (xy 220.98 156.21)
 		)
 		(stroke
 			(width 0)
@@ -13580,6 +13632,16 @@
 			(type default)
 		)
 		(uuid "b0aba0a5-f0ac-4465-8df7-11496703db26")
+	)
+	(wire
+		(pts
+			(xy 148.59 50.8) (xy 153.67 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0c514a2-a343-42ed-acab-f641df07278e")
 	)
 	(wire
 		(pts
@@ -14483,6 +14545,16 @@
 	)
 	(wire
 		(pts
+			(xy 231.14 140.97) (xy 240.03 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d23ac487-6937-4432-85c2-5575b58333f4")
+	)
+	(wire
+		(pts
 			(xy 322.58 39.37) (xy 322.58 29.21)
 		)
 		(stroke
@@ -14640,6 +14712,16 @@
 			(type default)
 		)
 		(uuid "d85469b1-cf41-4a50-a516-13b926623ddf")
+	)
+	(wire
+		(pts
+			(xy 147.32 62.23) (xy 147.32 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d88c0f3a-ada6-4c1f-8a8e-1032733b2601")
 	)
 	(wire
 		(pts
@@ -15583,6 +15665,16 @@
 	)
 	(wire
 		(pts
+			(xy 147.32 60.96) (xy 146.05 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fef2b9c8-3e67-4038-9451-3c9a159ba96b")
+	)
+	(wire
+		(pts
 			(xy 280.67 138.43) (xy 280.67 139.7)
 		)
 		(stroke
@@ -16218,7 +16310,6 @@
 	)
 	(label "TC1"
 		(at 100.33 132.08 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16229,7 +16320,6 @@
 	)
 	(label "X Mode"
 		(at 257.81 191.77 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16240,7 +16330,6 @@
 	)
 	(label "RC0.5"
 		(at 91.44 114.3 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16251,7 +16340,6 @@
 	)
 	(label "TC8"
 		(at 334.01 233.68 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16262,7 +16350,6 @@
 	)
 	(label "TC4"
 		(at 100.33 137.16 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16273,7 +16360,6 @@
 	)
 	(label "ExciterEnable"
 		(at 185.42 248.92 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16285,7 +16371,6 @@
 	)
 	(label "SCL"
 		(at 280.67 161.29 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16297,7 +16382,6 @@
 	)
 	(label "RXTX"
 		(at 134.62 158.75 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16310,7 +16394,6 @@
 	)
 	(label "RC8"
 		(at 100.33 162.56 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16321,7 +16404,6 @@
 	)
 	(label "RC0.5"
 		(at 100.33 152.4 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16332,7 +16414,6 @@
 	)
 	(label "Q_out"
 		(at 384.81 45.72 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16343,7 +16424,6 @@
 	)
 	(label "SDA"
 		(at 53.34 129.54 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16355,7 +16435,6 @@
 	)
 	(label "SDA"
 		(at 137.16 151.13 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16367,7 +16446,6 @@
 	)
 	(label "TC8"
 		(at 100.33 139.7 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16378,7 +16456,6 @@
 	)
 	(label "Cal"
 		(at 354.33 251.46 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16391,7 +16468,6 @@
 	)
 	(label "TC1"
 		(at 318.77 233.68 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16402,7 +16478,6 @@
 	)
 	(label "RC1"
 		(at 97.79 114.3 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16413,7 +16488,6 @@
 	)
 	(label "SCL"
 		(at 139.7 148.59 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16425,7 +16499,6 @@
 	)
 	(label "RXTX"
 		(at 147.32 265.43 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16438,7 +16511,6 @@
 	)
 	(label "I_out"
 		(at 384.81 88.9 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16449,7 +16521,6 @@
 	)
 	(label "RC8"
 		(at 113.03 114.3 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16460,7 +16531,6 @@
 	)
 	(label "RC16"
 		(at 85.09 114.3 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16471,7 +16541,6 @@
 	)
 	(label "CW on{slash}off"
 		(at 134.62 156.21 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16483,7 +16552,6 @@
 	)
 	(label "SDA"
 		(at 280.67 163.83 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16495,7 +16563,6 @@
 	)
 	(label "RC1"
 		(at 100.33 154.94 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16506,7 +16573,6 @@
 	)
 	(label "SCL"
 		(at 53.34 132.08 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16518,7 +16584,6 @@
 	)
 	(label "RC2"
 		(at 102.87 114.3 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16529,7 +16594,6 @@
 	)
 	(label "RC2"
 		(at 100.33 157.48 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16540,7 +16604,6 @@
 	)
 	(label "TC0.5"
 		(at 312.42 233.68 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16551,7 +16614,6 @@
 	)
 	(label "RC4"
 		(at 100.33 160.02 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16562,7 +16624,6 @@
 	)
 	(label "TC16"
 		(at 306.07 233.68 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16573,7 +16634,6 @@
 	)
 	(label "RC16"
 		(at 100.33 165.1 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16584,7 +16644,6 @@
 	)
 	(label "RFIN"
 		(at 388.62 218.44 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16595,7 +16654,6 @@
 	)
 	(label "TC2"
 		(at 323.85 233.68 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16606,7 +16664,6 @@
 	)
 	(label "CW on{slash}off"
 		(at 242.57 247.65 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16618,7 +16675,6 @@
 	)
 	(label "TC4"
 		(at 328.93 233.68 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16629,7 +16685,6 @@
 	)
 	(label "X Mode"
 		(at 162.56 153.67 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16642,7 +16697,6 @@
 	)
 	(label "TC16"
 		(at 100.33 142.24 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16653,7 +16707,6 @@
 	)
 	(label "RC4"
 		(at 107.95 114.3 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16664,7 +16717,6 @@
 	)
 	(label "Cal"
 		(at 162.56 158.75 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16677,7 +16729,6 @@
 	)
 	(label "RFIN"
 		(at 15.24 83.82 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16688,7 +16739,6 @@
 	)
 	(label "TC2"
 		(at 100.33 134.62 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16699,7 +16749,6 @@
 	)
 	(label "TC0.5"
 		(at 100.33 129.54 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18228,6 +18277,82 @@
 		)
 	)
 	(symbol
+		(lib_id "Jumper:Jumper_2_Open")
+		(at 226.06 156.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0c75fcb2-8cd9-42a8-8f44-644db553eaac")
+		(property "Reference" "JP6"
+			(at 226.06 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CLK1"
+			(at 226.06 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 226.06 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 226.06 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 226.06 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 226.06 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "03b84580-68dc-4b21-8e35-37db4b178468")
+		)
+		(pin "1"
+			(uuid "4bd705bf-f51a-4799-8070-d9555326185c")
+		)
+		(instances
+			(project "T41-RF-board-V012"
+				(path "/3c4b9d3b-a516-4fd7-b325-b74c836dee65"
+					(reference "JP6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 35.56 147.32 0)
 		(mirror y)
@@ -19110,7 +19235,7 @@
 				)
 			)
 		)
-		(property "Value" "MC33078"
+		(property "Value" "AD8599"
 			(at 271.78 51.2501 0)
 			(effects
 				(font
@@ -19127,7 +19252,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/MC33078-D.PDF"
+		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/AD8597_8599.pdf"
 			(at 271.78 44.45 0)
 			(effects
 				(font
@@ -19825,7 +19950,7 @@
 				)
 			)
 		)
-		(property "Value" "MC33078"
+		(property "Value" "OPA2209"
 			(at 332.74 96.9701 0)
 			(effects
 				(font
@@ -19842,7 +19967,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/MC33078-D.PDF"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/opa2209.pdf"
 			(at 332.74 90.17 0)
 			(effects
 				(font
@@ -23954,7 +24079,7 @@
 				)
 			)
 		)
-		(property "Value" "MC33078"
+		(property "Value" "AD8599"
 			(at 270.51 99.5101 0)
 			(effects
 				(font
@@ -23971,7 +24096,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/MC33078-D.PDF"
+		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/AD8597_8599.pdf"
 			(at 270.51 92.71 0)
 			(effects
 				(font
@@ -24138,7 +24263,7 @@
 				)
 			)
 		)
-		(property "Value" "MC33078"
+		(property "Value" "OPA2209"
 			(at 335.28 64.4469 90)
 			(effects
 				(font
@@ -24155,7 +24280,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/MC33078-D.PDF"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/opa2209.pdf"
 			(at 335.28 68.58 0)
 			(effects
 				(font
@@ -24384,7 +24509,7 @@
 				)
 			)
 		)
-		(property "Value" "MC33078"
+		(property "Value" "AD8599"
 			(at 275.59 73.3369 90)
 			(effects
 				(font
@@ -24401,7 +24526,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/MC33078-D.PDF"
+		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/AD8597_8599.pdf"
 			(at 275.59 77.47 0)
 			(effects
 				(font
@@ -29274,6 +29399,81 @@
 			(project "T41-RF-board-V012"
 				(path "/3c4b9d3b-a516-4fd7-b325-b74c836dee65"
 					(reference "G1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 152.4 62.23 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8296739c-d7e0-49ac-a4e9-7eca3db4e197")
+		(property "Reference" "G6"
+			(at 156.21 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 153.67 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+			(at 152.4 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 152.4 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 152.4 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 152.4 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "91f489d0-6caf-4ba5-a5ae-7f1af66fdfac")
+		)
+		(instances
+			(project "T41-RF-board-V012"
+				(path "/3c4b9d3b-a516-4fd7-b325-b74c836dee65"
+					(reference "G6")
 					(unit 1)
 				)
 			)
@@ -36915,6 +37115,81 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 148.59 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d842fef4-a027-430c-9f28-fee9793190e3")
+		(property "Reference" "G5"
+			(at 149.86 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 148.59 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+			(at 153.67 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 153.67 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 148.59 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 148.59 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "48f3c58f-1aef-4d01-a2b9-761ea71a8d8d")
+		)
+		(instances
+			(project "T41-RF-board-V012"
+				(path "/3c4b9d3b-a516-4fd7-b325-b74c836dee65"
+					(reference "G5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 248.92 82.55 0)
 		(mirror y)
@@ -39109,6 +39384,81 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 153.67 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ed5dee6c-9f5c-4874-8b38-e5aa9b1a5923")
+		(property "Reference" "G4"
+			(at 154.94 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 153.67 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+			(at 158.75 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 158.75 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 153.67 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 153.67 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7a6b5e65-5aba-4351-abe6-147c3e91dd22")
+		)
+		(instances
+			(project "T41-RF-board-V012"
+				(path "/3c4b9d3b-a516-4fd7-b325-b74c836dee65"
+					(reference "G4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 68.58 228.6 270)
 		(unit 1)
@@ -39868,7 +40218,7 @@
 				)
 			)
 		)
-		(property "Value" "MC33078"
+		(property "Value" "OPA2209"
 			(at 332.74 48.7101 0)
 			(effects
 				(font
@@ -39885,7 +40235,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/MC33078-D.PDF"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/opa2209.pdf"
 			(at 332.74 41.91 0)
 			(effects
 				(font
@@ -40746,6 +41096,82 @@
 			(project "T41-RF-board-V012"
 				(path "/3c4b9d3b-a516-4fd7-b325-b74c836dee65"
 					(reference "C9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:Jumper_2_Open")
+		(at 226.06 140.97 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fe24ca3f-fa60-4ba6-ba81-2034ba3be623")
+		(property "Reference" "JP5"
+			(at 226.06 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CLK0"
+			(at 226.06 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 226.06 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 226.06 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 226.06 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 226.06 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "917be49c-b995-4425-9b6e-0cd16d76759b")
+		)
+		(pin "1"
+			(uuid "c19d20e8-42b2-4ea3-86d0-4c8e36dbfcd1")
+		)
+		(instances
+			(project "T41-RF-board-V012"
+				(path "/3c4b9d3b-a516-4fd7-b325-b74c836dee65"
+					(reference "JP5")
 					(unit 1)
 				)
 			)
