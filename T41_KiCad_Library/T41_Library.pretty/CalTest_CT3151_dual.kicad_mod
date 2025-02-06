@@ -1,0 +1,242 @@
+(footprint "CalTest_CT3151_dual"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Right-angle standard banana jack, http://www.caltestelectronics.com/images/attachments/P315100rH_drawing.pdf")
+	(tags "banana jack horizontal")
+	(property "Reference" "REF**"
+		(at 9.906 -6.35 0)
+		(layer "F.SilkS")
+		(uuid "749a3356-c11d-4dcb-8e40-9ac4a6b1dc71")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "CalTest_CT3151_dual"
+		(at 9.144 9.144 0)
+		(layer "F.Fab")
+		(uuid "60acd24b-c2a4-499e-b3b7-1d29c29860f0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "db95f31e-ef66-44d3-b618-9d49656924f4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "304835b7-0f1b-454e-ab42-283588cae79a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "624f0b32-1071-4c3d-aee3-88edab5dabff")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_circle
+		(center 0 0)
+		(end 6 0)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "1441782f-2d06-47d1-8884-486df6b678cf")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 6.75 0)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "bb10df67-4779-4031-acd0-62c2355e44aa")
+	)
+	(fp_circle
+		(center 19.2 0)
+		(end 25.2 0)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "68308475-b145-42fe-b488-78691cc857fc")
+	)
+	(fp_circle
+		(center 19.2 0)
+		(end 25.95 0)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "46e1986e-7727-4251-978c-e72b2b0c6514")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 5.75 0)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "044fbe6e-3985-4580-ab0c-e0afd32a5580")
+	)
+	(fp_circle
+		(center 19.2 0)
+		(end 24.95 0)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "7b0f4f42-0645-446c-9ee3-1816b47a2406")
+	)
+	(fp_line
+		(start -0.68 -2.21)
+		(end -0.68 -0.72)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6a559993-b9e4-438e-9ff1-78175bd74974")
+	)
+	(fp_line
+		(start 18.52 -2.21)
+		(end 18.52 -0.72)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b32eb06f-2b3b-4155-8906-13ca51d0d789")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 9.144 6.35 0)
+		(layer "F.Fab")
+		(uuid "46585c79-5ad5-4a2c-b48f-11b553454b16")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -1.685 -1.685)
+		(size 2.6 2.6)
+		(drill 1.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "41bcc782-91c6-40ab-b6bb-38e1e8b2761e")
+	)
+	(pad "1" thru_hole circle
+		(at -1.685 1.685)
+		(size 2.6 2.6)
+		(drill 1.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c33a89f0-b02d-4311-967e-e1818f428c24")
+	)
+	(pad "1" thru_hole circle
+		(at 1.685 -1.685)
+		(size 2.6 2.6)
+		(drill 1.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "6cc6a53f-4392-42db-8dca-7f769ec395e3")
+	)
+	(pad "1" thru_hole circle
+		(at 1.685 1.685)
+		(size 2.6 2.6)
+		(drill 1.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "aea8329d-4f69-42dc-9a6d-41ad1a67aa94")
+	)
+	(pad "2" thru_hole circle
+		(at 17.515 -1.685)
+		(size 2.6 2.6)
+		(drill 1.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "83782aa4-8878-4d4b-89c8-de165a345567")
+	)
+	(pad "2" thru_hole circle
+		(at 17.515 1.685)
+		(size 2.6 2.6)
+		(drill 1.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "8a3db658-e60e-4362-91cd-ba72b5c25963")
+	)
+	(pad "2" thru_hole circle
+		(at 20.885 -1.685)
+		(size 2.6 2.6)
+		(drill 1.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "1a5824cf-3f03-4e99-845d-c520fdc797be")
+	)
+	(pad "2" thru_hole circle
+		(at 20.885 1.685)
+		(size 2.6 2.6)
+		(drill 1.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "5ab3a472-3747-4a86-a95a-11b75f6d20b0")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Connector.3dshapes/CalTest_CT3151.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

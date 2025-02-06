@@ -13681,6 +13681,20 @@
 		)
 		(uuid "d6f26caa-ba05-420b-8171-49755fd2a5df")
 	)
+	(text "If using 3V3, replace \nR4 and R5 with 0R?"
+		(exclude_from_sim no)
+		(at 200.66 172.974 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 255 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "eedad4b0-3d00-458f-8bd9-b705696edfa4")
+	)
 	(label "Key1 in"
 		(at 134.62 190.5 0)
 		(fields_autoplaced yes)
