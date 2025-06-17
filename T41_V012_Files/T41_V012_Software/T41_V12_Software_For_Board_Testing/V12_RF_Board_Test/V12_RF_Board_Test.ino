@@ -3,7 +3,7 @@
 #include <math.h>
 #include "si5351.h"
 
-#define RF_BOARD_MCP23017_ADDR 0x22
+#define RF_BOARD_MCP23017_ADDR 0x27
 #define RF_BOARD_SI5351A_ADDR 0x60
 
 #define TXSTATE 1
