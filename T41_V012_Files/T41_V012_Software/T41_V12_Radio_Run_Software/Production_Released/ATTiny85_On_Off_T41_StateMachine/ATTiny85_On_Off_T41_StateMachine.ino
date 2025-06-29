@@ -81,7 +81,7 @@ void loop()
       if (digitalRead(PANEL_SWITCH) == HIGH) {
         digitalWrite(START_SHUTDOWN, HIGH);   // Tell the Teensy to run the Teensy shut down code
         currentState = SHUTDOWN_STATE;        // change to SHUTDOWN_STATE
-        delay(3000L);                         // Wait 3 seconds (poor man's debounce)
+        delay(500L);                         // Wait 0.5 seconds (poor man's debounce)
       }
       break;
     case SHUTDOWN_STATE:
