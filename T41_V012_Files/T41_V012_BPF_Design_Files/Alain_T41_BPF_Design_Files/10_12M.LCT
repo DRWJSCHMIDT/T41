@@ -1,0 +1,40 @@
+Elsie circuit file 70
+80M Filter (Narrow span)
+01/03/2025 18:32:59 
+* Added information:
+ 
+* Family, order, stages, topology, Cauer:
+ 2  4  7 G 0 
+* Width, center, Fstop normalized:
+ 7487300  2.77578E+07  0 
+* Apass, Astop:
+ .1  0 
+* Rsource, Rload, Rratio, Rstandard:
+ 50  50  .7378106  50 
+* Qind, Qcap:
+ 200  1000 
+* Gj, Hj:
+ 1.108787  0 
+ 1.306184  0 
+ 1.770351  0 
+ .8180751  0 
+* Element type, L, Ltolerance, C, Ctolerance
+ 5  1.178455E-06  5  3.595607E-11  5 
+ 4  0  0  1.244638E-10  .5 
+ 5  1.178455E-06  .25  4.661295E-11  .25 
+ 4  0  0  1.57271E-10  .1 
+ 5  1.178455E-06  .25  4.661295E-11  .25 
+ 4  0  0  1.244638E-10  .1 
+ 5  1.178455E-06  5  3.595607E-11  5 
+* Lin or log, Fstart, Fstop, Fstep or NrIntervals:
+ 2  1E+07  4E+07  1000 
+* Graph scales:
+-100  0  0  1.2E-07  2.2  120  10  10 
+* Limits Y/N:
+N
+* Markers Y/N:
+Y
+* Marker frequencies:
+ 2.489E+07  2.97E+07 
+* M-derived zeros Y/N:
+N
