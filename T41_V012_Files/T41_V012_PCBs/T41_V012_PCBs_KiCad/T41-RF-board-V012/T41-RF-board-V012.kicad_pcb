@@ -20045,7 +20045,7 @@
 			)
 			(fill no)
 			(layer "F.SilkS")
-			(uuid "4efec2ca-c428-47c7-95ec-8aa58797369d")
+			(uuid "0dda3eb9-343a-4822-a6c5-c68bd245744d")
 		)
 		(fp_poly
 			(pts
@@ -20057,7 +20057,7 @@
 			)
 			(fill yes)
 			(layer "F.SilkS")
-			(uuid "be467f56-686a-457d-99c7-945cf3d5179d")
+			(uuid "b307db73-baf7-417d-b944-b3603536a595")
 		)
 		(fp_rect
 			(start -1.2 -10.87)
@@ -20068,7 +20068,7 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "55ea5acd-70f4-44be-bf84-99004421cb13")
+			(uuid "72b75b3d-6b33-497d-b799-98bf35380235")
 		)
 		(fp_text user "3V3"
 			(at 14.732 -7.112 0)
@@ -20103,6 +20103,20 @@
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "6e962340-bab6-4547-ad26-0ebe41fca4f8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.2)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(fp_text user "GND"
+			(at 14.732 -9.144 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "9045ea26-241a-402e-ab51-b99a4a667924")
 			(effects
 				(font
 					(size 1 1)
@@ -20368,17 +20382,6 @@
 			(uuid "5a5028ce-117a-49c7-98cb-47b0c7708ba8")
 		)
 		(embedded_fonts no)
-		(model "/home/oliver/Sync/Ham/T41/T41/T41_KiCad_Library/3D_models/HFD4_relay.step"
-			(offset
-				(xyz -1.2 -5.9 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 	)
 	(footprint "Capacitor_SMD:C_1206_3216Metric"
 		(layer "F.Cu")
@@ -31326,7 +31329,7 @@
 			)
 			(fill no)
 			(layer "F.SilkS")
-			(uuid "76037828-5f40-427c-a479-a150a34f352b")
+			(uuid "668cbd5a-60fb-4c07-a8f6-b5d5afcf5932")
 		)
 		(fp_poly
 			(pts
@@ -31338,7 +31341,7 @@
 			)
 			(fill yes)
 			(layer "F.SilkS")
-			(uuid "542b1b76-e25d-4c44-9fca-4e4f19df71ea")
+			(uuid "170c470f-e98a-4bb8-81ed-b6b52d8fa78d")
 		)
 		(fp_rect
 			(start -1.2 -5.79)
@@ -31349,7 +31352,7 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "ae983875-8d15-42b9-a039-6ca3452d8c2e")
+			(uuid "c11e92c4-2134-433c-a3b2-73b91cbe05f2")
 		)
 		(fp_text user "0.5"
 			(at 0.508 4.064 0)
@@ -31663,17 +31666,6 @@
 			(uuid "dc79233f-c225-4d97-8006-733c754c48ae")
 		)
 		(embedded_fonts no)
-		(model "/home/oliver/Sync/Ham/T41/T41/T41_KiCad_Library/3D_models/HFD4_relay.step"
-			(offset
-				(xyz -1.2 -5.9 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 	)
 	(footprint "Capacitor_SMD:C_1206_3216Metric"
 		(layer "F.Cu")
@@ -46728,7 +46720,7 @@
 			)
 			(fill no)
 			(layer "F.SilkS")
-			(uuid "581e5792-a18d-447c-9ca9-c59f836a91f5")
+			(uuid "b76fb2ff-06bb-46c9-8aa5-55b532bf8cf2")
 		)
 		(fp_poly
 			(pts
@@ -46740,7 +46732,7 @@
 			)
 			(fill yes)
 			(layer "F.SilkS")
-			(uuid "f87ca6cc-50c1-4f9a-95d5-64d88b9b7bc1")
+			(uuid "8b36719a-d463-482c-b7cd-ef831f349975")
 		)
 		(fp_rect
 			(start -1.2 -5.79)
@@ -46751,7 +46743,7 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "1c2e60c0-d64b-44e3-aa6e-4382e19aab00")
+			(uuid "6942771d-b149-41ed-874c-4b67a23e6e9b")
 		)
 		(fp_text user "G"
 			(at 5.588 4.064 180)
@@ -47065,17 +47057,6 @@
 			(uuid "9de07d8a-fa5b-4b3a-9f51-ac957bd0d92a")
 		)
 		(embedded_fonts no)
-		(model "/home/oliver/Sync/Ham/T41/T41/T41_KiCad_Library/3D_models/HFD4_relay.step"
-			(offset
-				(xyz -1.2 -5.9 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 	)
 	(footprint "Capacitor_SMD:C_1206_3216Metric"
 		(layer "F.Cu")
@@ -50574,6 +50555,18 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "TX0"
+		(at 100.584 107.188 0)
+		(layer "F.SilkS")
+		(uuid "73baeba6-d2ef-4aad-adae-c497d7cdbf6c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "T41 RF Board: V12.1\nDesig: AC8GY/K9HZ/KI3P\n4 layer, 2025/12/27"
 		(at 61.214 79.248 270)
 		(layer "F.SilkS")
@@ -50646,6 +50639,18 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "RX90"
+		(at 91.186 80.772 0)
+		(layer "F.SilkS")
+		(uuid "9e4d1ce5-ed77-47f4-bf6c-d2015c127e0c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "CW envelope\nshaping"
 		(at 114.046 119.888 0)
 		(layer "F.SilkS")
@@ -50706,10 +50711,34 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "TX90"
+		(at 82.55 107.442 0)
+		(layer "F.SilkS")
+		(uuid "b90abb40-4956-4ec4-8df8-fe2a83f5e356")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "ADDRESS\nSELECT"
 		(at 68.741 79.3 0)
 		(layer "F.SilkS")
 		(uuid "c05d5524-929d-4578-ac01-2653fccbd5a2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "RX0"
+		(at 82.55 76.708 0)
+		(layer "F.SilkS")
+		(uuid "c1e12fde-d9bc-4f47-80ef-b7fe19cf4546")
 		(effects
 			(font
 				(size 1 1)

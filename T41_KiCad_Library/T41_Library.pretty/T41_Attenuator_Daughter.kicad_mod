@@ -361,15 +361,4 @@
 		(uuid "80fa54c6-32ff-4614-a1dd-0b16d3231cb6")
 	)
 	(embedded_fonts no)
-	(model "/home/oliver/Sync/Ham/T41/T41/T41_KiCad_Library/3D_models/HFD4_relay.step"
-		(offset
-			(xyz -1.2 -5.9 0)
-		)
-		(scale
-			(xyz 1 1 1)
-		)
-		(rotate
-			(xyz 0 0 0)
-		)
-	)
 )
