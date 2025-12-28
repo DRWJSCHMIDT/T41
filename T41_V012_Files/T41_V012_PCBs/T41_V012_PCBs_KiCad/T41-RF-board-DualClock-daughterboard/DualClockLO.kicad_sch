@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Si5351A-B-GM Breakout Board")
-		(date "2025-11-25")
-		(rev "1")
+		(date "2025-12-27")
+		(rev "2")
 		(company "Oliver King, KI3P")
 	)
 	(lib_symbols

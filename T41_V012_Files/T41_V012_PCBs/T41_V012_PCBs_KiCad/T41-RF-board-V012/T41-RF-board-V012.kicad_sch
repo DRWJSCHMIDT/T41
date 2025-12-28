@@ -6,11 +6,11 @@
 	(paper "A3")
 	(title_block
 		(title "T41 RF Board")
-		(date "2024-12-13")
-		(rev "V012.7")
-		(comment 1 "        Transcribed to KiCAD by OG King-KI3P")
+		(date "2025-12-27")
+		(rev "V012.8")
+		(comment 1 "        Additional work by Oliver KI3P")
 		(comment 2 "By Al Peter-AC8GY, Revised by WJ Schmidt-K9HZ")
-		(comment 3 "Change log: Removed clock divider")
+		(comment 3 "Change log: Added daughterboards")
 	)
 	(lib_symbols
 		(symbol "74xGxx:74LVC1G04"
@@ -11300,7 +11300,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 152.4) (xy 207.01 152.4)
+			(xy 205.74 153.67) (xy 209.55 153.67)
 		)
 		(stroke
 			(width 0)
@@ -13760,16 +13760,6 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 153.67) (xy 205.74 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c9f281ca-862f-4c36-8151-6aa477ceeae7")
-	)
-	(wire
-		(pts
 			(xy 172.72 275.59) (xy 177.8 275.59)
 		)
 		(stroke
@@ -14710,16 +14700,6 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 156.21) (xy 207.01 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f858ff70-6b75-4ff2-aa01-3535c64f2406")
-	)
-	(wire
-		(pts
 			(xy 245.11 198.12) (xy 245.11 200.66)
 		)
 		(stroke
@@ -14740,7 +14720,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 156.21) (xy 207.01 156.21)
+			(xy 205.74 156.21) (xy 209.55 156.21)
 		)
 		(stroke
 			(width 0)
@@ -14989,7 +14969,7 @@
 		(uuid "1c1c0c57-a5f2-4a5f-99a2-547973a52b26")
 	)
 	(label "SDA"
-		(at 207.01 152.4 0)
+		(at 209.55 153.67 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15377,7 +15357,7 @@
 		(uuid "ed78916e-8030-4072-9fb6-ee772f607e63")
 	)
 	(label "SCL"
-		(at 207.01 154.94 0)
+		(at 209.55 156.21 0)
 		(effects
 			(font
 				(size 1.27 1.27)

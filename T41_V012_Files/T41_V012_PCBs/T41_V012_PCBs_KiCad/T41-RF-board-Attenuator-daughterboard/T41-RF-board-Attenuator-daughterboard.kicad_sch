@@ -4,6 +4,12 @@
 	(generator_version "9.0")
 	(uuid "4fb44e34-3372-47df-9694-9168f4fad0b1")
 	(paper "A4")
+	(title_block
+		(title "T41 RF Board Attenuator Daughterboard")
+		(date "2025-12-27")
+		(rev "1")
+		(company "Oliver King, KI3P")
+	)
 	(lib_symbols
 		(symbol "Connector:Conn_01x06_Socket"
 			(pin_names
