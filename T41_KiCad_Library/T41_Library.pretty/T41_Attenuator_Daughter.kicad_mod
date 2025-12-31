@@ -52,8 +52,8 @@
 	)
 	(attr through_hole)
 	(fp_rect
-		(start 13.97 -5.842)
-		(end -1.27 5.842)
+		(start 13.97 -6.096)
+		(end -1.27 6.096)
 		(stroke
 			(width 0.12)
 			(type default)
@@ -75,8 +75,8 @@
 		(uuid "3688cf0d-4bc5-43e5-bca1-4f285b42665c")
 	)
 	(fp_rect
-		(start -1.2 -5.79)
-		(end 13.88 5.79)
+		(start -1.2 -6.044)
+		(end 13.88 6.044)
 		(stroke
 			(width 0.12)
 			(type default)
