@@ -113,7 +113,7 @@
 			(justify left bottom)
 		)
 	)
-	(fp_text user "CLK0"
+	(fp_text user "RX90"
 		(at 0.508 -5.08 90)
 		(unlocked yes)
 		(layer "F.SilkS")
@@ -142,7 +142,7 @@
 		)
 	)
 	(fp_text user "GND"
-		(at 5.588 -5.588 90)
+		(at 5.588 -5.842 90)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "6ee7a25e-c722-40fb-9eb5-629c1b2e08c9")
@@ -183,7 +183,7 @@
 			(justify left bottom)
 		)
 	)
-	(fp_text user "CLK5"
+	(fp_text user "TX90"
 		(at 3.048 9.144 90)
 		(unlocked yes)
 		(layer "F.SilkS")
@@ -211,7 +211,7 @@
 			(justify left bottom)
 		)
 	)
-	(fp_text user "CLK4"
+	(fp_text user "TX0"
 		(at 0.508 9.144 90)
 		(unlocked yes)
 		(layer "F.SilkS")
@@ -225,8 +225,8 @@
 			(justify left bottom)
 		)
 	)
-	(fp_text user "CLK1"
-		(at 3.048 -5.08 90)
+	(fp_text user "RX0"
+		(at 3.048 -6.096 90)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "f0c3e841-51ab-4411-958e-c2ebbc4fa5de")
@@ -239,7 +239,7 @@
 			(justify left bottom)
 		)
 	)
-	(fp_text user "CLK6"
+	(fp_text user "TXCW"
 		(at 8.128 9.144 90)
 		(unlocked yes)
 		(layer "F.SilkS")

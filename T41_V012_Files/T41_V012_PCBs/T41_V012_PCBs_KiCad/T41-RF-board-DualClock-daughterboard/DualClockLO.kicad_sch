@@ -4112,6 +4112,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 168.91 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "9d6933bd-a6e1-45f7-beb2-acf055c4d754")
 		)
@@ -4250,8 +4259,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
-			(at 217.17 49.53 0)
+		(property "PN" "BMC-Q1JY0500H"
+			(at 217.17 49.53 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4259,7 +4268,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" "BMC-Q1JY0500H"
+		(property "LCSC" "C1002"
 			(at 217.17 49.53 90)
 			(effects
 				(font
@@ -4404,6 +4413,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 251.46 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "06afaeb9-0af4-4198-9ca6-a7b370db2f2f")
 		)
@@ -4437,7 +4455,7 @@
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "2f4b0cb2-c792-4eb4-8753-b8fdc80b3d9a")
@@ -4487,6 +4505,15 @@
 			)
 		)
 		(property "PN" "SM04B-SRSS-TB(LF)(SN)"
+			(at 246.38 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C160404"
 			(at 246.38 128.27 0)
 			(effects
 				(font
@@ -4563,6 +4590,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x06, script generated"
+			(at 266.7 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 266.7 99.06 0)
 			(effects
 				(font
@@ -4718,6 +4754,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 262.89 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project ""
 				(path "/19e7ad66-8f4f-49d3-ad58-95c831b9d6b3"
@@ -4781,7 +4826,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "PN" "ECS-TXO53-S3-33-250-BN-TR "
 			(at 135.89 72.39 0)
 			(effects
 				(font
@@ -4790,7 +4835,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" "ECS-TXO53-S3-33-250-BN-TR "
+		(property "LCSC" "C18457614"
 			(at 135.89 72.39 0)
 			(effects
 				(font
@@ -4940,8 +4985,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
-			(at 213.36 62.23 0)
+		(property "PN" "BMC-Q1JY0500H"
+			(at 213.36 62.23 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4949,7 +4994,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" "BMC-Q1JY0500H"
+		(property "LCSC" "C1002"
 			(at 213.36 62.23 90)
 			(effects
 				(font
@@ -5028,8 +5073,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
-			(at 198.12 58.42 0)
+		(property "PN" "CC0603KRX7R9BB104"
+			(at 198.12 58.42 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5037,7 +5082,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" "CC0603KRX7R9BB104"
+		(property "LCSC" "C14663"
 			(at 198.12 58.42 90)
 			(effects
 				(font
@@ -5068,7 +5113,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "4557afa9-8e8b-4f9f-ae3d-00d6dc75b77d")
 		(property "Reference" "Y2"
 			(at 160.02 81.3958 90)
@@ -5115,8 +5160,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
-			(at 162.56 76.2 0)
+		(property "LCSC" ""
+			(at 162.56 76.2 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5323,8 +5368,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
-			(at 139.7 58.42 0)
+		(property "PN" "CC0603KRX7R9BB104"
+			(at 139.7 58.42 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5332,7 +5377,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" "CC0603KRX7R9BB104"
+		(property "LCSC" "C14663"
 			(at 139.7 58.42 90)
 			(effects
 				(font
@@ -5476,8 +5521,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
-			(at 147.32 72.39 0)
+		(property "PN" "CC0603KRX7R9BB104"
+			(at 147.32 72.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5485,7 +5530,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" "CC0603KRX7R9BB104"
+		(property "LCSC" "C14663"
 			(at 147.32 72.39 90)
 			(effects
 				(font
@@ -5565,6 +5610,15 @@
 			)
 		)
 		(property "PN" "SI5351A-B-GM"
+			(at 207.01 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C22413806"
 			(at 207.01 92.71 0)
 			(effects
 				(font
@@ -5781,9 +5835,9 @@
 		(at 163.83 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "81981280-7d2b-4556-8fe7-05c7571e8a9a")
 		(property "Reference" "R1"
@@ -5823,6 +5877,24 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 163.83 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C4190"
+			(at 163.83 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "CRGP0603F2K2"
 			(at 163.83 93.98 0)
 			(effects
 				(font
@@ -5901,8 +5973,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
-			(at 220.98 53.34 0)
+		(property "PN" "CC0603KRX7R9BB104"
+			(at 220.98 53.34 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5910,7 +5982,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" "CC0603KRX7R9BB104"
+		(property "LCSC" "C14663"
 			(at 220.98 53.34 90)
 			(effects
 				(font
@@ -6052,6 +6124,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 176.53 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "22443693-2bd3-4c58-81d8-2d9d6bfb4c08")
 		)
@@ -6120,7 +6201,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "LCSC" ""
 			(at 186.69 90.17 0)
 			(effects
 				(font
@@ -6199,6 +6280,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 140.97 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project ""
 				(path "/19e7ad66-8f4f-49d3-ad58-95c831b9d6b3"
@@ -6255,6 +6345,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated"
+			(at 242.57 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 242.57 143.51 0)
 			(effects
 				(font
@@ -6733,8 +6832,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
-			(at 201.93 46.99 0)
+		(property "PN" "BMC-Q1JY0500H"
+			(at 201.93 46.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6742,7 +6841,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" "BMC-Q1JY0500H"
+		(property "LCSC" "C1002"
 			(at 201.93 46.99 90)
 			(effects
 				(font
@@ -6820,8 +6919,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
-			(at 133.35 54.61 0)
+		(property "PN" "BMC-Q1JY0500H"
+			(at 133.35 54.61 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6829,7 +6928,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" "BMC-Q1JY0500H"
+		(property "LCSC" "C1002"
 			(at 133.35 54.61 90)
 			(effects
 				(font
@@ -7105,8 +7204,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
-			(at 217.17 66.04 0)
+		(property "PN" "CC0603KRX7R9BB104"
+			(at 217.17 66.04 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7114,7 +7213,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" "CC0603KRX7R9BB104"
+		(property "LCSC" "C14663"
 			(at 217.17 66.04 90)
 			(effects
 				(font
@@ -7193,6 +7292,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 140.97 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "DualClockLO"
 				(path "/19e7ad66-8f4f-49d3-ad58-95c831b9d6b3"
@@ -7207,9 +7315,9 @@
 		(at 156.21 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "fbf86804-66f1-49f0-b484-375fced4ed00")
 		(property "Reference" "R2"
@@ -7249,6 +7357,24 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 156.21 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C4190"
+			(at 156.21 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "CRGP0603F2K2"
 			(at 156.21 93.98 0)
 			(effects
 				(font

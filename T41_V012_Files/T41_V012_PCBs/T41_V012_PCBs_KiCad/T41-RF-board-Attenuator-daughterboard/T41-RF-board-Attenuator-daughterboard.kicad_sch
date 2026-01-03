@@ -2261,7 +2261,16 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "LCSC" "C500480"
+			(at 135.89 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "PE4312C-Z"
 			(at 135.89 96.52 0)
 			(effects
 				(font
@@ -2526,8 +2535,17 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
-			(at 147.32 73.66 0)
+		(property "LCSC" "C14663"
+			(at 147.32 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "CC0603KRX7R9BB104"
+			(at 147.32 73.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2736,7 +2754,16 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "LCSC" "C1002"
+			(at 138.43 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "BMC-Q1JY0500H"
 			(at 138.43 60.96 0)
 			(effects
 				(font
@@ -2880,7 +2907,16 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "LCSC" "C25804"
+			(at 120.65 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "CMP0603-FX-1002ELF"
 			(at 120.65 109.22 0)
 			(effects
 				(font
@@ -3024,7 +3060,16 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "LCSC" "C25804"
+			(at 111.76 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "CMP0603-FX-1002ELF"
 			(at 111.76 81.28 0)
 			(effects
 				(font
@@ -3166,8 +3211,17 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
-			(at 157.48 73.66 0)
+		(property "LCSC" "C96446"
+			(at 157.48 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "GXT188R61C106KE13D"
+			(at 157.48 73.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3302,6 +3356,24 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x06, script generated"
+			(at 173.99 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 173.99 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" ""
 			(at 173.99 93.98 0)
 			(effects
 				(font
@@ -3642,6 +3714,24 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x06, script generated"
+			(at 83.82 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 83.82 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" ""
 			(at 83.82 96.52 0)
 			(effects
 				(font

@@ -127,7 +127,7 @@
 			(justify left bottom)
 		)
 	)
-	(fp_text user "8"
+	(fp_text user "4"
 		(at 8.128 -3.048 90)
 		(unlocked yes)
 		(layer "F.SilkS")
@@ -141,7 +141,7 @@
 			(justify left bottom)
 		)
 	)
-	(fp_text user "4"
+	(fp_text user "3"
 		(at 5.588 -3.048 90)
 		(unlocked yes)
 		(layer "F.SilkS")
@@ -197,7 +197,7 @@
 			(justify left bottom)
 		)
 	)
-	(fp_text user "0.5"
+	(fp_text user "0"
 		(at 0.508 4.064 90)
 		(unlocked yes)
 		(layer "F.SilkS")
@@ -211,7 +211,7 @@
 			(justify left bottom)
 		)
 	)
-	(fp_text user "16"
+	(fp_text user "5"
 		(at 13.208 4.064 90)
 		(unlocked yes)
 		(layer "F.SilkS")

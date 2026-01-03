@@ -7032,7 +7032,7 @@
 	)
 	(text "RF output"
 		(exclude_from_sim no)
-		(at 27.178 206.248 0)
+		(at 27.178 198.628 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7243,7 +7243,7 @@
 	)
 	(text_box "Auto calibrate switch"
 		(exclude_from_sim no)
-		(at 80.01 208.28 0)
+		(at 80.01 200.66 0)
 		(size -53.34 52.07)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -7287,8 +7287,8 @@
 	)
 	(text_box "Mode select"
 		(exclude_from_sim no)
-		(at 179.07 184.15 0)
-		(size -55.88 54.61)
+		(at 123.19 184.15 0)
+		(size 55.88 54.61)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -7331,8 +7331,8 @@
 	)
 	(text_box "Transmit RF gain control"
 		(exclude_from_sim no)
-		(at 123.19 200.66 0)
-		(size -43.18 34.29)
+		(at 80.01 201.93 0)
+		(size 43.18 34.29)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -7397,8 +7397,8 @@
 	)
 	(text_box "Summing transformer"
 		(exclude_from_sim no)
-		(at 226.06 210.82 0)
-		(size -46.99 68.58)
+		(at 179.07 210.82 0)
+		(size 46.99 68.58)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -7945,7 +7945,7 @@
 		(uuid "4b713454-f6b8-4fce-8740-812a12506493")
 	)
 	(junction
-		(at 66.04 256.54)
+		(at 66.04 248.92)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4b8930b4-0fb9-482f-8418-82be296c12d2")
@@ -8347,7 +8347,7 @@
 		(uuid "bfe5a80e-2136-4e7e-a47a-b1ffe2fb05c8")
 	)
 	(junction
-		(at 86.36 219.71)
+		(at 86.36 220.98)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c06596cb-e5e1-4c69-b384-db52f299c54a")
@@ -8736,7 +8736,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 241.3) (xy 52.07 241.3)
+			(xy 62.23 233.68) (xy 52.07 233.68)
 		)
 		(stroke
 			(width 0)
@@ -8806,7 +8806,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 223.52) (xy 77.47 223.52)
+			(xy 77.47 215.9) (xy 92.71 215.9)
 		)
 		(stroke
 			(width 0)
@@ -8856,7 +8856,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 165.1) (xy 168.91 193.04)
+			(xy 168.91 163.83) (xy 168.91 193.04)
 		)
 		(stroke
 			(width 0)
@@ -9066,7 +9066,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 228.6) (xy 62.23 228.6)
+			(xy 66.04 220.98) (xy 62.23 220.98)
 		)
 		(stroke
 			(width 0)
@@ -9386,7 +9386,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 222.25) (xy 86.36 222.25)
+			(xy 92.71 223.52) (xy 86.36 223.52)
 		)
 		(stroke
 			(width 0)
@@ -9833,6 +9833,16 @@
 			(type default)
 		)
 		(uuid "2d51710b-f9ab-45b3-bd2c-90b8e066935f")
+	)
+	(wire
+		(pts
+			(xy 187.96 162.56) (xy 187.96 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2da946a4-6bc2-4d9f-942b-9dd61b4d1201")
 	)
 	(wire
 		(pts
@@ -10396,7 +10406,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 220.98) (xy 87.63 220.98)
+			(xy 90.17 222.25) (xy 87.63 222.25)
 		)
 		(stroke
 			(width 0)
@@ -10516,23 +10526,13 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 226.06) (xy 40.64 226.06)
+			(xy 41.91 218.44) (xy 40.64 218.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "4552cb31-dc05-42e9-9419-f6d39550e042")
-	)
-	(wire
-		(pts
-			(xy 92.71 214.63) (xy 81.28 214.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "469afb3b-2baf-4e0a-9753-d22b2e3e5c03")
 	)
 	(wire
 		(pts
@@ -10546,7 +10546,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 231.14) (xy 62.23 241.3)
+			(xy 62.23 223.52) (xy 62.23 233.68)
 		)
 		(stroke
 			(width 0)
@@ -10603,16 +10603,6 @@
 			(type default)
 		)
 		(uuid "4b25cb88-1dbf-465c-b1a1-fc84e40d9ff4")
-	)
-	(wire
-		(pts
-			(xy 190.5 162.56) (xy 190.5 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4bda3c1d-bb17-4b6b-a113-71d487fb958a")
 	)
 	(wire
 		(pts
@@ -10713,16 +10703,6 @@
 			(type default)
 		)
 		(uuid "51c052e1-90ce-44f8-8db0-5e1870b511db")
-	)
-	(wire
-		(pts
-			(xy 187.96 168.91) (xy 187.96 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "51c5e39f-3937-4672-be9c-57cc447cda66")
 	)
 	(wire
 		(pts
@@ -10846,23 +10826,13 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 217.17) (xy 111.76 217.17)
+			(xy 115.57 218.44) (xy 111.76 218.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "57c85413-b309-49c5-9070-6e505724f2db")
-	)
-	(wire
-		(pts
-			(xy 115.57 223.52) (xy 115.57 222.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "57f6b802-bbc1-4ab6-8939-53fb17d1d03e")
 	)
 	(wire
 		(pts
@@ -10996,7 +10966,7 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 215.9) (xy 21.59 212.09)
+			(xy 21.59 208.28) (xy 21.59 204.47)
 		)
 		(stroke
 			(width 0)
@@ -11036,7 +11006,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 223.52) (xy 62.23 223.52)
+			(xy 69.85 215.9) (xy 62.23 215.9)
 		)
 		(stroke
 			(width 0)
@@ -11046,7 +11016,7 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 212.09) (xy 22.86 212.09)
+			(xy 21.59 204.47) (xy 22.86 204.47)
 		)
 		(stroke
 			(width 0)
@@ -11246,7 +11216,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 219.71) (xy 111.76 219.71)
+			(xy 115.57 220.98) (xy 111.76 220.98)
 		)
 		(stroke
 			(width 0)
@@ -11436,7 +11406,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 256.54) (xy 66.04 256.54)
+			(xy 52.07 248.92) (xy 66.04 248.92)
 		)
 		(stroke
 			(width 0)
@@ -11616,7 +11586,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 212.09) (xy 92.71 212.09)
+			(xy 86.36 213.36) (xy 92.71 213.36)
 		)
 		(stroke
 			(width 0)
@@ -11653,16 +11623,6 @@
 			(type default)
 		)
 		(uuid "765f00fa-d3b0-4085-a4ba-0b5f2b8fa875")
-	)
-	(wire
-		(pts
-			(xy 115.57 222.25) (xy 111.76 222.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "76b23c09-4f79-4e6b-b7f5-b7e62bea64f3")
 	)
 	(wire
 		(pts
@@ -11846,7 +11806,7 @@
 	)
 	(wire
 		(pts
-			(xy 15.24 226.06) (xy 33.02 226.06)
+			(xy 15.24 218.44) (xy 33.02 218.44)
 		)
 		(stroke
 			(width 0)
@@ -11996,7 +11956,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 219.71) (xy 86.36 217.17)
+			(xy 86.36 220.98) (xy 86.36 218.44)
 		)
 		(stroke
 			(width 0)
@@ -12176,7 +12136,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 259.08) (xy 66.04 256.54)
+			(xy 66.04 251.46) (xy 66.04 248.92)
 		)
 		(stroke
 			(width 0)
@@ -12316,7 +12276,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 220.98) (xy 40.64 220.98)
+			(xy 41.91 213.36) (xy 40.64 213.36)
 		)
 		(stroke
 			(width 0)
@@ -12366,7 +12326,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 224.79) (xy 113.03 224.79)
+			(xy 111.76 226.06) (xy 113.03 226.06)
 		)
 		(stroke
 			(width 0)
@@ -12596,6 +12556,16 @@
 	)
 	(wire
 		(pts
+			(xy 111.76 223.52) (xy 119.38 223.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b5aee08-117e-4860-9486-5b829b086994")
+	)
+	(wire
+		(pts
 			(xy 281.94 96.52) (xy 281.94 83.82)
 		)
 		(stroke
@@ -12716,7 +12686,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 224.79) (xy 92.71 224.79)
+			(xy 86.36 226.06) (xy 92.71 226.06)
 		)
 		(stroke
 			(width 0)
@@ -12726,7 +12696,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 241.3) (xy 52.07 256.54)
+			(xy 52.07 233.68) (xy 52.07 248.92)
 		)
 		(stroke
 			(width 0)
@@ -12786,7 +12756,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 222.25) (xy 86.36 219.71)
+			(xy 86.36 223.52) (xy 86.36 220.98)
 		)
 		(stroke
 			(width 0)
@@ -13046,7 +13016,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 219.71) (xy 86.36 219.71)
+			(xy 85.09 220.98) (xy 86.36 220.98)
 		)
 		(stroke
 			(width 0)
@@ -13356,7 +13326,7 @@
 	)
 	(wire
 		(pts
-			(xy 15.24 226.06) (xy 15.24 83.82)
+			(xy 15.24 218.44) (xy 15.24 83.82)
 		)
 		(stroke
 			(width 0)
@@ -13386,7 +13356,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 220.98) (xy 26.67 220.98)
+			(xy 33.02 213.36) (xy 26.67 213.36)
 		)
 		(stroke
 			(width 0)
@@ -13556,7 +13526,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 219.71) (xy 90.17 220.98)
+			(xy 90.17 220.98) (xy 90.17 222.25)
 		)
 		(stroke
 			(width 0)
@@ -13706,7 +13676,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 217.17) (xy 92.71 217.17)
+			(xy 86.36 218.44) (xy 92.71 218.44)
 		)
 		(stroke
 			(width 0)
@@ -13846,7 +13816,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 212.09) (xy 111.76 212.09)
+			(xy 115.57 213.36) (xy 111.76 213.36)
 		)
 		(stroke
 			(width 0)
@@ -14216,7 +14186,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 219.71) (xy 90.17 219.71)
+			(xy 92.71 220.98) (xy 90.17 220.98)
 		)
 		(stroke
 			(width 0)
@@ -14296,7 +14266,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 214.63) (xy 111.76 214.63)
+			(xy 115.57 215.9) (xy 111.76 215.9)
 		)
 		(stroke
 			(width 0)
@@ -14356,7 +14326,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 165.1) (xy 195.58 165.1)
+			(xy 168.91 163.83) (xy 195.58 163.83)
 		)
 		(stroke
 			(width 0)
@@ -14383,16 +14353,6 @@
 			(type default)
 		)
 		(uuid "e2837bf8-1a1f-4d69-93e8-29abc7bfd773")
-	)
-	(wire
-		(pts
-			(xy 81.28 214.63) (xy 81.28 223.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e2a359b3-85da-4ebf-8ae2-d2e78f588d5a")
 	)
 	(wire
 		(pts
@@ -14573,16 +14533,6 @@
 			(type default)
 		)
 		(uuid "ebaf72e5-9309-4f4f-9263-54005cb1de9a")
-	)
-	(wire
-		(pts
-			(xy 119.38 223.52) (xy 115.57 223.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ec2ac529-fcfb-4b8f-92b3-d8ba95252caa")
 	)
 	(wire
 		(pts
@@ -14936,7 +14886,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 162.56) (xy 195.58 165.1)
+			(xy 195.58 162.56) (xy 195.58 163.83)
 		)
 		(stroke
 			(width 0)
@@ -14973,6 +14923,16 @@
 			(type default)
 		)
 		(uuid "fd45149b-7050-4370-91a3-adfcae3a55fa")
+	)
+	(wire
+		(pts
+			(xy 190.5 162.56) (xy 190.5 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd4677eb-92a5-4878-9efa-0e9ec7b1672f")
 	)
 	(wire
 		(pts
@@ -15075,7 +15035,7 @@
 		(uuid "14d56a45-ba66-47d2-a3ee-c6ae779e8c03")
 	)
 	(label "TC4"
-		(at 115.57 217.17 0)
+		(at 115.57 218.44 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15096,7 +15056,7 @@
 		(uuid "1eab2b5c-b1f7-48d6-9ba5-0947ddddc164")
 	)
 	(label "TC8"
-		(at 115.57 219.71 0)
+		(at 115.57 220.98 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15106,14 +15066,14 @@
 		(uuid "25c05216-9334-44c0-a86e-b4e4a2ca29a4")
 	)
 	(label "TX90"
-		(at 189.23 193.04 0)
+		(at 190.5 168.91 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "2645aa3b-401e-40ec-9e1b-8041badbc370")
+		(uuid "2b3e4fda-2833-49c8-af2f-b309f8b325d3")
 	)
 	(label "TC4"
 		(at 100.33 137.16 0)
@@ -15159,7 +15119,7 @@
 		(uuid "39d1e1a4-9b52-42fb-a4f0-6719b21f3623")
 	)
 	(label "TC0.5"
-		(at 86.36 212.09 0)
+		(at 86.36 213.36 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15177,6 +15137,16 @@
 			(justify left bottom)
 		)
 		(uuid "46a28b61-564a-4b3b-94ce-72592069f40b")
+	)
+	(label "TX0"
+		(at 187.96 166.37 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4733d42f-b29f-48ce-a5d6-416afe666c09")
 	)
 	(label "Q_out"
 		(at 384.81 45.72 0)
@@ -15221,7 +15191,7 @@
 		(uuid "5cc581c0-4a72-4141-aa9a-a8d10b2860c4")
 	)
 	(label "Cal"
-		(at 66.04 259.08 180)
+		(at 66.04 251.46 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15233,7 +15203,7 @@
 		(uuid "5f8d8838-129e-43ec-919e-37ad128d7480")
 	)
 	(label "TC1"
-		(at 115.57 212.09 0)
+		(at 115.57 213.36 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15294,6 +15264,16 @@
 			(justify left bottom)
 		)
 		(uuid "77a15a20-3ffb-4e99-a618-cb30bb55d4f2")
+	)
+	(label "RX0"
+		(at 190.5 134.62 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7d19b16c-46a9-4ec6-937d-65f99a09e770")
 	)
 	(label "RC16"
 		(at 85.09 99.06 0)
@@ -15357,16 +15337,6 @@
 		)
 		(uuid "9d6779fc-48a8-4916-89c1-b502abc34a8b")
 	)
-	(label "RX0"
-		(at 187.96 139.7 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9fc8e297-5b37-4701-834b-8151a8d98bd6")
-	)
 	(label "RC4"
 		(at 100.33 160.02 0)
 		(effects
@@ -15378,7 +15348,7 @@
 		(uuid "a7864cca-683e-49ab-82f1-e2b89084961f")
 	)
 	(label "TC16"
-		(at 86.36 224.79 0)
+		(at 86.36 226.06 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15398,7 +15368,7 @@
 		(uuid "aa879221-3e3c-47ff-9a0c-d32368519295")
 	)
 	(label "RFIN"
-		(at 31.75 226.06 180)
+		(at 31.75 218.44 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15408,7 +15378,7 @@
 		(uuid "ae685060-ae79-44a3-8d51-6c0d88e5a655")
 	)
 	(label "TC2"
-		(at 115.57 214.63 0)
+		(at 115.57 215.9 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15418,7 +15388,7 @@
 		(uuid "ae74c6e0-4916-42d6-9fc4-f2ee4a364baa")
 	)
 	(label "CW"
-		(at 195.58 165.1 0)
+		(at 195.58 163.83 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15437,16 +15407,6 @@
 			(justify right bottom)
 		)
 		(uuid "c74e5d9c-5fbe-43bb-8b0b-d2e553b32ce1")
-	)
-	(label "RX90"
-		(at 190.5 135.89 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d000bf5f-9f4c-4b3c-9860-46c3fc44b39a")
 	)
 	(label "X Mode"
 		(at 162.56 153.67 0)
@@ -15513,6 +15473,16 @@
 		)
 		(uuid "efe412e4-ab5c-4282-b978-13c6554cd1b8")
 	)
+	(label "RX90"
+		(at 187.96 139.7 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f0700102-db01-4ba8-b079-d10d6ee4fd99")
+	)
 	(label "TC0.5"
 		(at 100.33 129.54 0)
 		(effects
@@ -15522,16 +15492,6 @@
 			(justify left bottom)
 		)
 		(uuid "ff1dcbf5-2ff9-4899-a70f-bfce8ab3cb52")
-	)
-	(label "TX0"
-		(at 190.5 190.5 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ff5d057c-5645-4969-91d6-c541ad3b3781")
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -15589,7 +15549,16 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "LCSC" "C17948"
+			(at 217.17 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "RT1206FRE072K2L"
 			(at 217.17 256.54 0)
 			(effects
 				(font
@@ -15621,7 +15590,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "01a0ef8f-36af-4e18-b875-dced6f3511d3")
 		(property "Reference" "TP10"
@@ -15669,7 +15638,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "LCSC" ""
 			(at 290.83 175.26 0)
 			(effects
 				(font
@@ -15745,7 +15714,16 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "LCSC" "C17902"
+			(at 177.8 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "CR1206-FX-1002ELF"
 			(at 177.8 91.44 0)
 			(effects
 				(font
@@ -15776,7 +15754,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "034a0cd2-4926-422e-8eb0-b56bd12745b5")
 		(property "Reference" "TP18"
@@ -15824,7 +15802,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "LCSC" ""
 			(at 120.65 45.72 0)
 			(effects
 				(font
@@ -15899,8 +15877,17 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
-			(at 297.18 194.31 0)
+		(property "LCSC" "C2984401"
+			(at 297.18 194.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "CRCW120649R9FKEAC"
+			(at 297.18 194.31 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15976,7 +15963,16 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "LCSC" ""
+			(at 398.78 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "SJ1-3515N"
 			(at 398.78 63.5 0)
 			(effects
 				(font
@@ -16064,7 +16060,16 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "LCSC" "C205349"
+			(at 147.32 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "CRCW120636R5FKEA"
 			(at 147.32 86.36 0)
 			(effects
 				(font
@@ -16143,7 +16148,16 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "LCSC" ""
+			(at 34.29 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" " ECA-1EM471"
 			(at 34.29 49.53 0)
 			(effects
 				(font
@@ -16221,7 +16235,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "LCSC" ""
 			(at 39.37 146.05 0)
 			(effects
 				(font
@@ -16247,7 +16261,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 87.63 220.98 0)
+		(at 87.63 222.25 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16255,7 +16269,7 @@
 		(dnp no)
 		(uuid "089a996f-056a-4a83-b10b-03313b7a8230")
 		(property "Reference" "#PWR063"
-			(at 87.63 224.79 0)
+			(at 87.63 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16264,7 +16278,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 90.424 218.44 0)
+			(at 90.424 219.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16272,7 +16286,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 87.63 220.98 0)
+			(at 87.63 222.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16281,7 +16295,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 87.63 220.98 0)
+			(at 87.63 222.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16290,7 +16304,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 87.63 220.98 0)
+			(at 87.63 222.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16429,7 +16443,16 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "LCSC" "C1846"
+			(at 248.92 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "C1206C103K5RAC7210"
 			(at 248.92 102.87 0)
 			(effects
 				(font
@@ -16521,7 +16544,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 76.2 246.38 270)
+		(at 76.2 238.76 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -16530,7 +16553,7 @@
 		(dnp no)
 		(uuid "0acbd015-fe1f-4c27-a891-489b817ab310")
 		(property "Reference" "#PWR072"
-			(at 72.39 246.38 0)
+			(at 72.39 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16539,7 +16562,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 76.2 248.92 90)
+			(at 76.2 241.3 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16547,7 +16570,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 76.2 246.38 0)
+			(at 76.2 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16556,7 +16579,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 76.2 246.38 0)
+			(at 76.2 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16565,7 +16588,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 76.2 246.38 0)
+			(at 76.2 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16641,7 +16664,16 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "LCSC" "C17900"
+			(at 251.46 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "CRCW1206100KFKEAC"
 			(at 251.46 240.03 0)
 			(effects
 				(font
@@ -16667,7 +16699,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 73.66 223.52 270)
+		(at 73.66 215.9 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16675,7 +16707,7 @@
 		(dnp no)
 		(uuid "0b76c1f3-ae09-4964-a2c3-b3a138d419a3")
 		(property "Reference" "C63"
-			(at 73.66 229.8233 90)
+			(at 73.66 222.2033 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16683,7 +16715,7 @@
 			)
 		)
 		(property "Value" "0.1uF 50V"
-			(at 73.66 227.3991 90)
+			(at 73.66 219.7791 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16691,7 +16723,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 69.85 224.4852 0)
+			(at 69.85 216.8652 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16700,7 +16732,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 73.66 223.52 0)
+			(at 73.66 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16709,7 +16741,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 73.66 223.52 0)
+			(at 73.66 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16717,8 +16749,17 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
-			(at 73.66 223.52 0)
+		(property "LCSC" "C24497"
+			(at 73.66 215.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "C1206C104K5RACTU"
+			(at 73.66 215.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16796,7 +16837,16 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "LCSC" "C24497"
+			(at 91.44 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "C1206C104K5RACTU"
 			(at 91.44 49.53 0)
 			(effects
 				(font
@@ -16873,7 +16923,16 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "LCSC" ""
+			(at 398.78 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "SJ1-3515N"
 			(at 398.78 182.88 0)
 			(effects
 				(font
@@ -16962,7 +17021,16 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "LCSC" "C17902"
+			(at 242.57 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "CR1206-FX-1002ELF"
 			(at 242.57 223.52 0)
 			(effects
 				(font
@@ -17039,8 +17107,17 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
-			(at 382.27 205.74 0)
+		(property "LCSC" "C17888"
+			(at 382.27 205.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "1206S4J0000TDE"
+			(at 382.27 205.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17249,8 +17326,17 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
-			(at 351.79 158.75 0)
+		(property "LCSC" "C17902"
+			(at 351.79 158.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "CR1206-FX-1002ELF"
+			(at 351.79 158.75 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17326,7 +17412,16 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "LCSC" "C201726"
+			(at 62.23 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "LM1117T-3.3/NOPB"
 			(at 62.23 45.72 0)
 			(effects
 				(font
@@ -17426,7 +17521,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "110a334b-dcf5-4016-b548-43542d9a19ff")
 		(property "Reference" "TP6"
 			(at 177.673 107.3841 0)
@@ -17473,7 +17568,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "LCSC" ""
 			(at 179.07 102.87 0)
 			(effects
 				(font
@@ -17744,7 +17839,16 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "LCSC" "C8207"
+			(at 142.24 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "SN74LVC1G04DCKR"
 			(at 142.24 199.39 0)
 			(effects
 				(font
@@ -17829,7 +17933,16 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "LCSC" "C24497"
+			(at 44.45 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "C1206C104K5RACTU"
 			(at 44.45 49.53 0)
 			(effects
 				(font
@@ -17906,7 +18019,16 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "LCSC" "C207971"
+			(at 271.78 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "AD8599ARZ-REEL"
 			(at 271.78 44.45 0)
 			(effects
 				(font
@@ -18003,7 +18125,16 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "LCSC" "C24497"
+			(at 168.91 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "C1206C104K5RACTU"
 			(at 168.91 196.85 0)
 			(effects
 				(font
@@ -18148,7 +18279,16 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "LCSC" "C17948"
+			(at 346.71 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "RT1206FRE072K2L"
 			(at 346.71 227.33 0)
 			(effects
 				(font
@@ -18226,8 +18366,17 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
-			(at 297.18 158.75 0)
+		(property "LCSC" "C2984401"
+			(at 297.18 158.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "CRCW120649R9FKEAC"
+			(at 297.18 158.75 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18303,7 +18452,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "LCSC" ""
 			(at 148.59 153.67 0)
 			(effects
 				(font
@@ -18403,8 +18552,17 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
-			(at 346.71 90.17 0)
+		(property "LCSC" "C17888"
+			(at 346.71 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "1206S4J0000TDE"
+			(at 346.71 90.17 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18480,7 +18638,16 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "LCSC" "C2057330"
+			(at 332.74 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "OPA2209AIDR"
 			(at 332.74 90.17 0)
 			(effects
 				(font
@@ -18577,7 +18744,16 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "LCSC" "C24497"
+			(at 165.1 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "C1206C104K5RACTU"
 			(at 165.1 91.44 0)
 			(effects
 				(font
@@ -18655,8 +18831,17 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
-			(at 297.18 210.82 0)
+		(property "LCSC" "C2984401"
+			(at 297.18 210.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "CRCW120649R9FKEAC"
+			(at 297.18 210.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18733,7 +18918,16 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "LCSC" "C24497"
+			(at 285.75 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "C1206C104K5RACTU"
 			(at 285.75 57.15 0)
 			(effects
 				(font
@@ -18811,8 +19005,17 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
-			(at 361.95 205.74 0)
+		(property "LCSC" "C17948"
+			(at 361.95 205.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "RT1206FRE072K2L"
+			(at 361.95 205.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18890,7 +19093,16 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "LCSC" "C17888"
+			(at 187.96 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "1206S4J0000TDE"
 			(at 187.96 172.72 0)
 			(effects
 				(font
@@ -19035,8 +19247,17 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
-			(at 306.07 243.84 0)
+		(property "LCSC" "C13585"
+			(at 306.07 243.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "C1206C106K4PACTU"
+			(at 306.07 243.84 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19067,7 +19288,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "262ac98d-26f7-49b5-ad76-eaf48a8eba83")
 		(property "Reference" "TP11"
@@ -19115,7 +19336,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "LCSC" ""
 			(at 290.83 194.31 0)
 			(effects
 				(font
@@ -19189,8 +19410,17 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
-			(at 314.96 92.71 0)
+		(property "LCSC" "C26033"
+			(at 314.96 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "ERJ-8ENF5101V"
+			(at 314.96 92.71 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19466,7 +19696,16 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "LCSC" "C17902"
+			(at 281.94 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "CR1206-FX-1002ELF"
 			(at 281.94 100.33 0)
 			(effects
 				(font
@@ -19545,8 +19784,17 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
-			(at 161.29 226.06 0)
+		(property "LCSC" "C24497"
+			(at 161.29 226.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "C1206C104K5RACTU"
+			(at 161.29 226.06 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19623,7 +19871,16 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "LCSC" "C17900"
+			(at 168.91 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "CRCW1206100KFKEAC"
 			(at 168.91 262.89 0)
 			(effects
 				(font
@@ -19721,7 +19978,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "2c269965-af34-48bf-a484-1241d7d9c456")
 		(property "Reference" "TP5"
 			(at 245.11 92.71 0)
@@ -19768,7 +20025,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "LCSC" ""
 			(at 250.19 90.17 0)
 			(effects
 				(font
@@ -19844,7 +20101,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "LCSC" ""
 			(at 21.59 31.75 0)
 			(effects
 				(font
@@ -20121,7 +20378,16 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "LCSC" "C13585"
+			(at 73.66 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "C1206C106K4PACTU"
 			(at 73.66 49.53 0)
 			(effects
 				(font
@@ -20182,7 +20448,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" " ~"
+		(property "Datasheet" "~"
 			(at 21.59 102.87 0)
 			(effects
 				(font
@@ -20200,7 +20466,16 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "712-CONSMA001-G"
+		(property "LCSC" ""
+			(at 21.59 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "CONSMA001-G"
 			(at 21.59 102.87 0)
 			(effects
 				(font
@@ -20276,8 +20551,17 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
-			(at 346.71 41.91 0)
+		(property "LCSC" "C17888"
+			(at 346.71 41.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "1206S4J0000TDE"
+			(at 346.71 41.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20308,7 +20592,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "331eaf33-7aab-43bf-a853-46f75bae2c51")
 		(property "Reference" "TP14"
@@ -20356,8 +20640,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
-			(at 389.89 193.04 0)
+		(property "LCSC" ""
+			(at 389.89 193.04 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20431,7 +20715,16 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "LCSC" "C24497"
+			(at 289.56 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "C1206C104K5RACTU"
 			(at 289.56 105.41 0)
 			(effects
 				(font
@@ -20507,7 +20800,16 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "LCSC" "C24497"
+			(at 237.49 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "C1206C104K5RACTU"
 			(at 237.49 236.22 0)
 			(effects
 				(font
@@ -20586,7 +20888,16 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "LCSC" "C74486"
+			(at 297.18 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "HZ1206E601R-10"
 			(at 297.18 71.12 0)
 			(effects
 				(font
@@ -20662,8 +20973,17 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
-			(at 187.96 127 0)
+		(property "LCSC" "C17888"
+			(at 187.96 127 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "1206S4J0000TDE"
+			(at 187.96 127 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20688,7 +21008,7 @@
 	)
 	(symbol
 		(lib_id "T41_Library:T41_Attenuator_Daughter")
-		(at 102.87 218.44 0)
+		(at 102.87 219.71 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20697,7 +21017,7 @@
 		(fields_autoplaced yes)
 		(uuid "35a95134-2da2-46cd-8da3-6c320b7d18a4")
 		(property "Reference" "U3"
-			(at 102.235 204.47 0)
+			(at 102.235 205.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20705,7 +21025,7 @@
 			)
 		)
 		(property "Value" "T41_Attenuator_Daughter"
-			(at 102.235 207.01 0)
+			(at 102.235 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20713,7 +21033,7 @@
 			)
 		)
 		(property "Footprint" "T41_Library:T41_Attenuator_Daughter"
-			(at 106.045 222.25 0)
+			(at 106.045 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20722,7 +21042,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 106.68 224.79 0)
+			(at 106.68 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20731,7 +21051,16 @@
 			)
 		)
 		(property "Description" ""
-			(at 102.87 218.44 0)
+			(at 102.87 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 102.87 219.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20969,8 +21298,17 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
-			(at 361.95 170.18 0)
+		(property "LCSC" "C17948"
+			(at 361.95 170.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "RT1206FRE072K2L"
+			(at 361.95 170.18 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21111,8 +21449,17 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
-			(at 307.34 175.26 0)
+		(property "LCSC" "C17888"
+			(at 307.34 175.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "1206S4J0000TDE"
+			(at 307.34 175.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21188,8 +21535,17 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
-			(at 105.41 24.13 0)
+		(property "LCSC" "C5753503"
+			(at 105.41 24.13 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "IFSC2020DEER100M01"
+			(at 105.41 24.13 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21266,7 +21622,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "LCSC" ""
 			(at 39.37 140.97 0)
 			(effects
 				(font
@@ -21357,7 +21713,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 36.83 226.06 270)
+		(at 36.83 218.44 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21365,7 +21721,7 @@
 		(dnp no)
 		(uuid "3f20cd71-b0f0-4efe-8aeb-a6f588a7f0f4")
 		(property "Reference" "C58"
-			(at 36.83 232.3633 90)
+			(at 36.83 224.7433 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21373,7 +21729,7 @@
 			)
 		)
 		(property "Value" "0.1uF 50V"
-			(at 36.83 229.9391 90)
+			(at 36.83 222.3191 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21381,7 +21737,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 33.02 227.0252 0)
+			(at 33.02 219.4052 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21390,7 +21746,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 36.83 226.06 0)
+			(at 36.83 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21399,7 +21755,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 36.83 226.06 0)
+			(at 36.83 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21407,8 +21763,17 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
-			(at 36.83 226.06 0)
+		(property "LCSC" "C24497"
+			(at 36.83 218.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "C1206C104K5RACTU"
+			(at 36.83 218.44 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21552,7 +21917,16 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "LCSC" "C1848"
+			(at 243.84 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "CL31B105KBHNNNE"
 			(at 243.84 95.25 0)
 			(effects
 				(font
@@ -21629,7 +22003,16 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "LCSC" "C24497"
+			(at 92.71 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "C1206C104K5RACTU"
 			(at 92.71 121.92 0)
 			(effects
 				(font
@@ -21773,7 +22156,16 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "LCSC" "C1857"
+			(at 281.94 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "12065C204KAT4A"
 			(at 281.94 179.07 0)
 			(effects
 				(font
@@ -21851,8 +22243,17 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
-			(at 165.1 255.27 0)
+		(property "LCSC" "C17992"
+			(at 165.1 255.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "CR1206-FX-5102ELF"
+			(at 165.1 255.27 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21877,7 +22278,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 36.83 220.98 270)
+		(at 36.83 213.36 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -21886,7 +22287,7 @@
 		(dnp no)
 		(uuid "456d7ee3-11a5-475f-9775-38e22f0c7c37")
 		(property "Reference" "C53"
-			(at 36.83 214.6767 90)
+			(at 36.83 207.0567 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21894,7 +22295,7 @@
 			)
 		)
 		(property "Value" "0.1uF 50V"
-			(at 36.83 217.1009 90)
+			(at 36.83 209.4809 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21902,7 +22303,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 33.02 220.0148 0)
+			(at 33.02 212.3948 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21911,7 +22312,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 36.83 220.98 0)
+			(at 36.83 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21920,7 +22321,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 36.83 220.98 0)
+			(at 36.83 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21928,8 +22329,17 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
-			(at 36.83 220.98 0)
+		(property "LCSC" "C24497"
+			(at 36.83 213.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "C1206C104K5RACTU"
+			(at 36.83 213.36 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22020,7 +22430,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 22.86 212.09 0)
+		(at 22.86 204.47 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22028,7 +22438,7 @@
 		(dnp no)
 		(uuid "45a6b2d5-f8c0-4190-87aa-bbdcc720ada2")
 		(property "Reference" "#PWR069"
-			(at 22.86 218.44 0)
+			(at 22.86 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22037,7 +22447,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 25.4 213.36 90)
+			(at 25.4 205.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22045,7 +22455,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 22.86 212.09 0)
+			(at 22.86 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22054,7 +22464,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 22.86 212.09 0)
+			(at 22.86 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22063,7 +22473,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 22.86 212.09 0)
+			(at 22.86 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22138,8 +22548,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
-			(at 177.8 58.42 0)
+		(property "LCSC" ""
+			(at 177.8 58.42 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22284,6 +22694,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 185.42 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "605a0e81-f834-42f4-a088-26c412982994")
 		)
@@ -22354,7 +22773,16 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "LCSC" "C74486"
+			(at 248.92 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "HZ1206E601R-10"
 			(at 248.92 161.29 0)
 			(effects
 				(font
@@ -22431,7 +22859,16 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "LCSC" "C207971"
+			(at 270.51 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "AD8599ARZ-REEL"
 			(at 270.51 92.71 0)
 			(effects
 				(font
@@ -22525,7 +22962,16 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "LCSC" "C5223988"
+			(at 196.85 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "ADT2-1T+"
 			(at 196.85 226.06 0)
 			(effects
 				(font
@@ -22614,8 +23060,17 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
-			(at 335.28 68.58 0)
+		(property "LCSC" "C2057330"
+			(at 335.28 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "OPA2209AIDR"
+			(at 335.28 68.58 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22709,7 +23164,16 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "LCSC" "C24497"
+			(at 160.02 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "C1206C104K5RACTU"
 			(at 160.02 262.89 0)
 			(effects
 				(font
@@ -22741,7 +23205,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "4e3ca7f2-d693-4946-a6d8-4da61f0181be")
 		(property "Reference" "TP13"
@@ -22789,7 +23253,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "LCSC" ""
 			(at 290.83 210.82 0)
 			(effects
 				(font
@@ -22862,8 +23326,17 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
-			(at 275.59 77.47 0)
+		(property "LCSC" "C207971"
+			(at 275.59 77.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "AD8599ARZ-REEL"
+			(at 275.59 77.47 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22957,8 +23430,17 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
-			(at 25.4 24.13 0)
+		(property "LCSC" "C5753503"
+			(at 25.4 24.13 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "IFSC2020DEER100M01"
+			(at 25.4 24.13 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23100,7 +23582,16 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "LCSC" "C13585"
+			(at 297.18 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "C1206C106K4PACTU"
 			(at 297.18 80.01 0)
 			(effects
 				(font
@@ -23178,7 +23669,16 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "LCSC" "C13585"
+			(at 360.68 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "C1206C106K4PACTU"
 			(at 360.68 214.63 0)
 			(effects
 				(font
@@ -23256,8 +23756,17 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
-			(at 335.28 208.28 0)
+		(property "LCSC" "C17902"
+			(at 335.28 208.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "CR1206-FX-1002ELF"
+			(at 335.28 208.28 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23298,7 +23807,7 @@
 				)
 			)
 		)
-		(property "Value" "1k2"
+		(property "Value" "1k1"
 			(at 156.4061 269.24 90)
 			(effects
 				(font
@@ -23333,8 +23842,17 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
-			(at 153.67 269.24 0)
+		(property "LCSC" "C17889"
+			(at 153.67 269.24 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "CR1206-FX-1101ELF"
+			(at 153.67 269.24 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23478,7 +23996,16 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "LCSC" "C24497"
+			(at 243.84 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "C1206C104K5RACTU"
 			(at 243.84 168.91 0)
 			(effects
 				(font
@@ -23504,7 +24031,7 @@
 	)
 	(symbol
 		(lib_id "74xGxx:74LVC1G04")
-		(at 66.04 241.3 270)
+		(at 66.04 233.68 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -23513,7 +24040,7 @@
 		(dnp no)
 		(uuid "56a96225-9ca5-491e-a183-5347b72a3a02")
 		(property "Reference" "U10"
-			(at 72.39 240.03 90)
+			(at 72.39 232.41 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23521,7 +24048,7 @@
 			)
 		)
 		(property "Value" "SN74LVC1G04DCK"
-			(at 72.39 237.49 90)
+			(at 72.39 229.87 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23529,7 +24056,7 @@
 			)
 		)
 		(property "Footprint" "T41_Library:SOT-SC70"
-			(at 66.04 241.3 0)
+			(at 66.04 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23538,7 +24065,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc1g04.pdf"
-			(at 66.04 241.3 0)
+			(at 66.04 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23547,7 +24074,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 66.04 241.3 0)
+			(at 66.04 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23555,8 +24082,17 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
-			(at 66.04 241.3 0)
+		(property "LCSC" "C8207"
+			(at 66.04 233.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "SN74LVC1G04DCKR"
+			(at 66.04 233.68 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23640,8 +24176,17 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
-			(at 306.07 234.95 0)
+		(property "LCSC" "C24497"
+			(at 306.07 234.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "C1206C104K5RACTU"
+			(at 306.07 234.95 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23717,8 +24262,17 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
-			(at 314.96 29.21 0)
+		(property "LCSC" "C26033"
+			(at 314.96 29.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "ERJ-8ENF5101V"
+			(at 314.96 29.21 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23794,8 +24348,17 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
-			(at 330.2 77.47 0)
+		(property "LCSC" "C26033"
+			(at 330.2 77.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "ERJ-8ENF5101V"
+			(at 330.2 77.47 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23873,8 +24436,17 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
-			(at 363.22 236.22 0)
+		(property "LCSC" "C24497"
+			(at 363.22 236.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "C1206C104K5RACTU"
+			(at 363.22 236.22 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23952,7 +24524,16 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "LCSC" "C17948"
+			(at 137.16 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "RT1206FRE072K2L"
 			(at 137.16 140.97 0)
 			(effects
 				(font
@@ -24028,7 +24609,16 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "LCSC" "C24497"
+			(at 209.55 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "C1206C104K5RACTU"
 			(at 209.55 265.43 0)
 			(effects
 				(font
@@ -24106,7 +24696,16 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "LCSC" "C13585"
+			(at 203.2 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "C1206C106K4PACTU"
 			(at 203.2 265.43 0)
 			(effects
 				(font
@@ -24251,7 +24850,16 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "LCSC" "C13585"
+			(at 309.88 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "C1206C106K4PACTU"
 			(at 309.88 33.02 0)
 			(effects
 				(font
@@ -24331,7 +24939,16 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "LCSC" "C17948"
+			(at 217.17 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "RT1206FRE072K2L"
 			(at 217.17 265.43 0)
 			(effects
 				(font
@@ -24363,7 +24980,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "5eaba789-d211-4905-a570-b547e774fcbb")
 		(property "Reference" "TP7"
@@ -24411,7 +25028,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "LCSC" ""
 			(at 290.83 158.75 0)
 			(effects
 				(font
@@ -24552,8 +25169,17 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
-			(at 46.99 152.4 0)
+		(property "LCSC" "C17948"
+			(at 46.99 152.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "RT1206FRE072K2L"
+			(at 46.99 152.4 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24762,8 +25388,17 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
-			(at 269.24 83.82 0)
+		(property "LCSC" "C17944"
+			(at 269.24 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "ERA-8AEB202V"
+			(at 269.24 83.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24793,7 +25428,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "6607c6ca-58d6-44a7-a82e-b44704a75838")
 		(property "Reference" "TP3"
 			(at 349.25 87.63 0)
@@ -24840,7 +25475,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "LCSC" ""
 			(at 354.33 90.17 0)
 			(effects
 				(font
@@ -24916,7 +25551,16 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "LCSC" "C17902"
+			(at 185.42 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "CR1206-FX-1002ELF"
 			(at 185.42 82.55 0)
 			(effects
 				(font
@@ -24948,7 +25592,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "68a95678-9ace-47cf-870d-b27122453c7b")
 		(property "Reference" "TP9"
@@ -24996,8 +25640,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
-			(at 389.89 175.26 0)
+		(property "LCSC" ""
+			(at 389.89 175.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25024,7 +25668,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "68d16323-ac90-49ad-9e00-a36496cf6221")
 		(property "Reference" "TP17"
@@ -25072,7 +25716,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "LCSC" ""
 			(at 120.65 24.13 0)
 			(effects
 				(font
@@ -25214,7 +25858,16 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "LCSC" "C74486"
+			(at 217.17 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "HZ1206E601R-10"
 			(at 217.17 247.65 0)
 			(effects
 				(font
@@ -25291,7 +25944,16 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "LCSC" "C24497"
+			(at 256.54 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "C1206C104K5RACTU"
 			(at 256.54 240.03 0)
 			(effects
 				(font
@@ -25660,7 +26322,7 @@
 				)
 			)
 		)
-		(property "Value" "1k8"
+		(property "Value" "1k6"
 			(at 147.32 266.8961 90)
 			(effects
 				(font
@@ -25695,8 +26357,17 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
-			(at 147.32 264.16 0)
+		(property "LCSC" "C17896"
+			(at 147.32 264.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "ERJ-8ENF1601V"
+			(at 147.32 264.16 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25727,7 +26398,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "6f6953b1-4795-44d1-b2cf-7ab5d2ce88e2")
 		(property "Reference" "TP1"
 			(at 246.38 44.45 0)
@@ -25774,7 +26445,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "LCSC" ""
 			(at 251.46 41.91 0)
 			(effects
 				(font
@@ -25850,7 +26521,16 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "LCSC" "C527293"
+			(at 322.58 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "C1206C181J5GAC7800"
 			(at 322.58 48.26 0)
 			(effects
 				(font
@@ -25993,8 +26673,17 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
-			(at 307.34 210.82 0)
+		(property "LCSC" "C17888"
+			(at 307.34 210.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "1206S4J0000TDE"
+			(at 307.34 210.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26070,8 +26759,17 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
-			(at 314.96 77.47 0)
+		(property "LCSC" "C26033"
+			(at 314.96 77.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "ERJ-8ENF5101V"
+			(at 314.96 77.47 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26147,8 +26845,17 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
-			(at 269.24 35.56 0)
+		(property "LCSC" "C17944"
+			(at 269.24 35.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "ERA-8AEB202V"
+			(at 269.24 35.56 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26226,7 +26933,16 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "LCSC" "C24497"
+			(at 365.76 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "C1206C104K5RACTU"
 			(at 365.76 71.12 0)
 			(effects
 				(font
@@ -26305,7 +27021,16 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "LCSC" "C17948"
+			(at 139.7 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "RT1206FRE072K2L"
 			(at 139.7 140.97 0)
 			(effects
 				(font
@@ -26396,7 +27121,7 @@
 	)
 	(symbol
 		(lib_id "RF_Switch:MASWSS0179")
-		(at 52.07 226.06 0)
+		(at 52.07 218.44 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -26405,7 +27130,7 @@
 		(dnp no)
 		(uuid "780f732d-b8ac-481a-aa7d-16187ce59c70")
 		(property "Reference" "U9"
-			(at 52.07 215.5657 0)
+			(at 52.07 207.9457 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26413,7 +27138,7 @@
 			)
 		)
 		(property "Value" "MASWSS0179"
-			(at 52.07 217.9899 0)
+			(at 52.07 210.3699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26421,7 +27146,7 @@
 			)
 		)
 		(property "Footprint" "T41_Library:MASWSS0179-SOT-26"
-			(at 52.07 223.52 0)
+			(at 52.07 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26430,7 +27155,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn.macom.com/datasheets/MASWSS0179.pdf"
-			(at 52.07 223.52 0)
+			(at 52.07 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26439,7 +27164,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 52.07 226.06 0)
+			(at 52.07 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26447,8 +27172,17 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
-			(at 52.07 226.06 0)
+		(property "LCSC" "C3304462"
+			(at 52.07 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "MASWSS0179TR-3000"
+			(at 52.07 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26530,6 +27264,15 @@
 		)
 		(property "Description" ""
 			(at 194.31 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 194.31 152.4 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26721,7 +27464,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "7bc44fc1-feee-494b-8a0b-0806d2176844")
 		(property "Reference" "G3"
 			(at 135.89 58.42 90)
@@ -26766,8 +27509,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
-			(at 139.7 60.96 0)
+		(property "LCSC" ""
+			(at 139.7 60.96 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26842,8 +27585,17 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
-			(at 46.99 161.29 0)
+		(property "LCSC" "C17948"
+			(at 46.99 161.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "RT1206FRE072K2L"
+			(at 46.99 161.29 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26919,8 +27671,17 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
-			(at 307.34 194.31 0)
+		(property "LCSC" "C17888"
+			(at 307.34 194.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "1206S4J0000TDE"
+			(at 307.34 194.31 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26995,7 +27756,16 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "LCSC" "C2057560"
+			(at 347.98 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "MC33078DR"
 			(at 347.98 208.28 0)
 			(effects
 				(font
@@ -27044,7 +27814,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "825f1799-6cf2-46a3-99bb-df719361f44e")
 		(property "Reference" "G1"
 			(at 143.51 49.53 0)
@@ -27091,7 +27861,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "LCSC" ""
 			(at 142.24 53.34 0)
 			(effects
 				(font
@@ -27119,7 +27889,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "8296739c-d7e0-49ac-a4e9-7eca3db4e197")
 		(property "Reference" "G6"
 			(at 156.21 63.5 0)
@@ -27166,7 +27936,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "LCSC" ""
 			(at 152.4 62.23 0)
 			(effects
 				(font
@@ -27241,8 +28011,17 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
-			(at 262.89 234.95 0)
+		(property "LCSC" "C17902"
+			(at 262.89 234.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "CR1206-FX-1002ELF"
+			(at 262.89 234.95 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27318,8 +28097,17 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
-			(at 256.54 90.17 0)
+		(property "LCSC" "C17901"
+			(at 256.54 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "CR1206-FX-1000ELF"
+			(at 256.54 90.17 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27396,8 +28184,17 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
-			(at 351.79 194.31 0)
+		(property "LCSC" "C17902"
+			(at 351.79 194.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "CR1206-FX-1002ELF"
+			(at 351.79 194.31 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27475,7 +28272,16 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "LCSC" "C17902"
+			(at 168.91 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "CR1206-FX-1002ELF"
 			(at 168.91 91.44 0)
 			(effects
 				(font
@@ -27553,8 +28359,17 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
-			(at 372.11 170.18 0)
+		(property "LCSC" "C17902"
+			(at 372.11 170.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "CR1206-FX-1002ELF"
+			(at 372.11 170.18 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27698,7 +28513,16 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "LCSC" "C17902"
+			(at 168.91 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "CR1206-FX-1002ELF"
 			(at 168.91 82.55 0)
 			(effects
 				(font
@@ -27843,7 +28667,16 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "LCSC" "C13585"
+			(at 243.84 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "C1206C106K4PACTU"
 			(at 243.84 158.75 0)
 			(effects
 				(font
@@ -27935,7 +28768,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 85.09 219.71 0)
+		(at 85.09 220.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -27943,7 +28776,7 @@
 		(dnp no)
 		(uuid "8d42d7b8-4b0f-46a7-b4ef-b00cb3889791")
 		(property "Reference" "#PWR017"
-			(at 85.09 226.06 0)
+			(at 85.09 227.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27952,7 +28785,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 84.074 224.282 90)
+			(at 84.074 225.552 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27960,7 +28793,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 85.09 219.71 0)
+			(at 85.09 220.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27969,7 +28802,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 85.09 219.71 0)
+			(at 85.09 220.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27978,7 +28811,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 85.09 219.71 0)
+			(at 85.09 220.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28050,7 +28883,16 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "LCSC" "C3304462"
+			(at 146.05 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "MASWSS0179TR-3000"
 			(at 146.05 226.06 0)
 			(effects
 				(font
@@ -28142,7 +28984,16 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "LCSC" "C17889"
+			(at 336.55 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "CR1206-FX-1101ELF"
 			(at 336.55 236.22 0)
 			(effects
 				(font
@@ -28221,8 +29072,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
-			(at 143.51 19.05 0)
+		(property "LCSC" ""
+			(at 143.51 19.05 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28297,8 +29148,17 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
-			(at 322.58 107.95 0)
+		(property "LCSC" "C1884"
+			(at 322.58 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "CL31C101JGFNNNE"
+			(at 322.58 107.95 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28328,7 +29188,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "97527d4e-4333-4b55-84fe-8158fa000b4c")
 		(property "Reference" "TP2"
 			(at 349.25 39.37 0)
@@ -28375,7 +29235,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "LCSC" ""
 			(at 354.33 41.91 0)
 			(effects
 				(font
@@ -28450,8 +29310,17 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
-			(at 123.19 223.52 0)
+		(property "LCSC" "C24497"
+			(at 123.19 223.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "C1206C104K5RACTU"
+			(at 123.19 223.52 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28594,7 +29463,16 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "LCSC" "C24497"
+			(at 194.31 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "C1206C104K5RACTU"
 			(at 194.31 67.31 0)
 			(effects
 				(font
@@ -28671,8 +29549,17 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
-			(at 306.07 233.68 0)
+		(property "LCSC" "C2057560"
+			(at 306.07 233.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "MC33078DR"
+			(at 306.07 233.68 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28766,8 +29653,17 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
-			(at 257.81 46.99 0)
+		(property "LCSC" "C17901"
+			(at 257.81 46.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "CR1206-FX-1000ELF"
+			(at 257.81 46.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28845,8 +29741,17 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
-			(at 46.99 167.64 0)
+		(property "LCSC" "C17948"
+			(at 46.99 167.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "RT1206FRE072K2L"
+			(at 46.99 167.64 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29055,7 +29960,16 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "LCSC" "C17902"
+			(at 278.13 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "CR1206-FX-1002ELF"
 			(at 278.13 52.07 0)
 			(effects
 				(font
@@ -29266,8 +30180,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
-			(at 143.51 24.13 0)
+		(property "LCSC" ""
+			(at 143.51 24.13 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29341,7 +30255,16 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "LCSC" "C543079"
+			(at 207.01 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "SN74CBTLV3253DR"
 			(at 207.01 96.52 0)
 			(effects
 				(font
@@ -29591,8 +30514,17 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
-			(at 377.19 232.41 0)
+		(property "LCSC" "C74486"
+			(at 377.19 232.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "HZ1206E601R-10"
+			(at 377.19 232.41 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29668,8 +30600,17 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
-			(at 39.37 102.87 0)
+		(property "LCSC" "C24497"
+			(at 39.37 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "C1206C104K5RACTU"
+			(at 39.37 102.87 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29746,8 +30687,17 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
-			(at 335.28 172.72 0)
+		(property "LCSC" "C17902"
+			(at 335.28 172.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "CR1206-FX-1002ELF"
+			(at 335.28 172.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29824,7 +30774,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "LCSC" ""
 			(at 39.37 135.89 0)
 			(effects
 				(font
@@ -29902,7 +30852,16 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "LCSC" "C13585"
+			(at 351.79 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "C1206C106K4PACTU"
 			(at 351.79 69.85 0)
 			(effects
 				(font
@@ -30045,8 +31004,17 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
-			(at 168.91 208.28 0)
+		(property "LCSC" "C6937326"
+			(at 168.91 208.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "MAR-3SM+"
+			(at 168.91 208.28 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30195,7 +31163,16 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "LCSC" "C13585"
+			(at 309.88 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "C1206C106K4PACTU"
 			(at 309.88 81.28 0)
 			(effects
 				(font
@@ -30274,7 +31251,16 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "LCSC" "C13585"
+			(at 73.66 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "C1206C106K4PACTU"
 			(at 73.66 27.94 0)
 			(effects
 				(font
@@ -30350,7 +31336,16 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "LCSC" "C24497"
+			(at 346.71 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "C1206C104K5RACTU"
 			(at 346.71 236.22 0)
 			(effects
 				(font
@@ -30428,7 +31423,16 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "LCSC" "C17888"
+			(at 190.5 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "1206S4J0000TDE"
 			(at 190.5 172.72 0)
 			(effects
 				(font
@@ -30507,8 +31511,17 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
-			(at 46.99 173.99 0)
+		(property "LCSC" "C17948"
+			(at 46.99 173.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "RT1206FRE072K2L"
+			(at 46.99 173.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30533,7 +31546,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 55.88 246.38 270)
+		(at 55.88 238.76 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -30542,7 +31555,7 @@
 		(dnp no)
 		(uuid "ad7316fb-9a55-4356-9737-30a4911dbc6f")
 		(property "Reference" "#PWR073"
-			(at 49.53 246.38 0)
+			(at 49.53 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30551,7 +31564,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 55.88 248.92 90)
+			(at 55.88 241.3 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30559,7 +31572,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 55.88 246.38 0)
+			(at 55.88 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30568,7 +31581,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 55.88 246.38 0)
+			(at 55.88 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30577,7 +31590,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 55.88 246.38 0)
+			(at 55.88 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30604,7 +31617,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "ad87b898-c7a2-4996-b490-a56a31596238")
 		(property "Reference" "JP4"
 			(at 25.4 86.36 0)
@@ -30649,7 +31662,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "LCSC" ""
 			(at 25.4 83.82 0)
 			(effects
 				(font
@@ -30858,7 +31871,16 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "LCSC" "C24497"
+			(at 342.9 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "C1206C104K5RACTU"
 			(at 342.9 71.12 0)
 			(effects
 				(font
@@ -31000,8 +32022,17 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
-			(at 102.87 45.72 0)
+		(property "LCSC" "C5753503"
+			(at 102.87 45.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "IFSC2020DEER100M01"
+			(at 102.87 45.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31079,8 +32110,17 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
-			(at 130.81 259.08 0)
+		(property "LCSC" "C183332"
+			(at 130.81 259.08 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "LM317LIDR"
+			(at 130.81 259.08 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31175,8 +32215,17 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
-			(at 325.12 200.66 0)
+		(property "LCSC" "C17902"
+			(at 325.12 200.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "CR1206-FX-1002ELF"
+			(at 325.12 200.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31244,6 +32293,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 101.6 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 101.6 92.71 0)
 			(effects
 				(font
@@ -31351,7 +32409,16 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "LCSC" "C13585"
+			(at 200.66 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "C1206C106K4PACTU"
 			(at 200.66 67.31 0)
 			(effects
 				(font
@@ -31430,8 +32497,17 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
-			(at 351.79 162.56 0)
+		(property "LCSC" "C326631"
+			(at 351.79 162.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "GRM3195C1H222JA01D"
+			(at 351.79 162.56 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31509,8 +32585,17 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
-			(at 363.22 243.84 0)
+		(property "LCSC" "C13585"
+			(at 363.22 243.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "C1206C106K4PACTU"
+			(at 363.22 243.84 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31587,8 +32672,17 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
-			(at 377.19 247.65 0)
+		(property "LCSC" "C24497"
+			(at 377.19 247.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "C1206C104K5RACTU"
+			(at 377.19 247.65 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31664,8 +32758,17 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
-			(at 153.67 102.87 0)
+		(property "LCSC" "C24497"
+			(at 153.67 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "C1206C104K5RACTU"
+			(at 153.67 102.87 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31746,7 +32849,16 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "LCSC" ""
+			(at 245.11 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "BS170"
 			(at 245.11 234.95 0)
 			(effects
 				(font
@@ -31826,8 +32938,17 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
-			(at 307.34 158.75 0)
+		(property "LCSC" "C17888"
+			(at 307.34 158.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "1206S4J0000TDE"
+			(at 307.34 158.75 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31905,7 +33026,16 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "LCSC" "C24497"
+			(at 91.44 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "C1206C104K5RACTU"
 			(at 91.44 27.94 0)
 			(effects
 				(font
@@ -31982,7 +33112,16 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "LCSC" "C3192212"
+			(at 138.43 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "PSA-8A+"
 			(at 138.43 102.87 0)
 			(effects
 				(font
@@ -32071,8 +33210,17 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
-			(at 257.81 41.91 0)
+		(property "LCSC" "C17901"
+			(at 257.81 41.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "CR1206-FX-1000ELF"
+			(at 257.81 41.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32150,7 +33298,16 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "LCSC" "C24497"
+			(at 134.62 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "C1206C104K5RACTU"
 			(at 134.62 86.36 0)
 			(effects
 				(font
@@ -32227,8 +33384,17 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
-			(at 320.04 231.14 0)
+		(property "LCSC" "C74486"
+			(at 320.04 231.14 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "HZ1206E601R-10"
+			(at 320.04 231.14 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32304,8 +33470,17 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
-			(at 140.97 275.59 0)
+		(property "LCSC" "C1850238"
+			(at 140.97 275.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "LM358BIDR"
+			(at 140.97 275.59 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32348,7 +33523,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 49.53 236.22 0)
+		(at 49.53 228.6 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -32357,7 +33532,7 @@
 		(dnp no)
 		(uuid "c15b18a0-9c29-454b-8bea-0ec18a51bf49")
 		(property "Reference" "#PWR068"
-			(at 49.53 242.57 0)
+			(at 49.53 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32366,7 +33541,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 46.99 237.49 90)
+			(at 46.99 229.87 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32374,7 +33549,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 49.53 236.22 0)
+			(at 49.53 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32383,7 +33558,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 49.53 236.22 0)
+			(at 49.53 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32392,7 +33567,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 49.53 236.22 0)
+			(at 49.53 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32466,7 +33641,16 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "LCSC" "C725349"
+			(at 62.23 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "LM7805CT"
 			(at 62.23 24.13 0)
 			(effects
 				(font
@@ -32546,8 +33730,17 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
-			(at 382.27 170.18 0)
+		(property "LCSC" "C17888"
+			(at 382.27 170.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "1206S4J0000TDE"
+			(at 382.27 170.18 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32577,7 +33770,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "c26db767-1143-4bfc-bc02-6c1b5bb2986d")
 		(property "Reference" "TP12"
 			(at 217.932 235.9193 90)
@@ -32622,8 +33815,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
-			(at 214.63 231.14 0)
+		(property "LCSC" ""
+			(at 214.63 231.14 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32696,8 +33889,17 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
-			(at 190.5 127 0)
+		(property "LCSC" "C17888"
+			(at 190.5 127 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "1206S4J0000TDE"
+			(at 190.5 127 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32839,8 +34041,17 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
-			(at 72.39 102.87 0)
+		(property "LCSC" "C24497"
+			(at 72.39 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "C1206C104K5RACTU"
+			(at 72.39 102.87 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32915,7 +34126,16 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "LCSC" "C2057560"
+			(at 321.31 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "MC33078DR"
 			(at 321.31 175.26 0)
 			(effects
 				(font
@@ -33010,8 +34230,17 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
-			(at 121.92 96.52 0)
+		(property "LCSC" "C24497"
+			(at 121.92 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "C1206C104K5RACTU"
+			(at 121.92 96.52 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33169,7 +34398,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_Coaxial")
-		(at 21.59 220.98 180)
+		(at 21.59 213.36 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -33177,7 +34406,7 @@
 		(dnp no)
 		(uuid "c6a5ec2f-799a-483b-996f-795fc1edfc1b")
 		(property "Reference" "J6"
-			(at 19.0499 221.8989 0)
+			(at 19.0499 214.2789 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33186,7 +34415,7 @@
 			)
 		)
 		(property "Value" "RF_OUT"
-			(at 24.384 209.804 0)
+			(at 24.384 202.184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33195,7 +34424,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Coaxial:SMA_Amphenol_901-144_Vertical"
-			(at 21.59 220.98 0)
+			(at 21.59 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33203,8 +34432,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" " ~"
-			(at 21.59 220.98 0)
+		(property "Datasheet" "~"
+			(at 21.59 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33213,7 +34442,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 21.59 220.98 0)
+			(at 21.59 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33221,8 +34450,17 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "712-CONSMA001-G"
-			(at 21.59 220.98 0)
+		(property "LCSC" ""
+			(at 21.59 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "CONSMA001-G"
+			(at 21.59 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33299,8 +34537,17 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
-			(at 372.11 205.74 0)
+		(property "LCSC" "C17902"
+			(at 372.11 205.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "CR1206-FX-1002ELF"
+			(at 372.11 205.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33378,8 +34625,17 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
-			(at 322.58 59.69 0)
+		(property "LCSC" "C1884"
+			(at 322.58 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "CL31C101JGFNNNE"
+			(at 322.58 59.69 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33454,7 +34710,16 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "LCSC" "C2057560"
+			(at 321.31 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "MC33078DR"
 			(at 321.31 210.82 0)
 			(effects
 				(font
@@ -33616,7 +34881,16 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "LCSC" "C1846"
+			(at 248.92 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "C1206C103K5RAC7210"
 			(at 248.92 34.29 0)
 			(effects
 				(font
@@ -33693,8 +34967,17 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
-			(at 190.5 63.5 0)
+		(property "LCSC" "C74486"
+			(at 190.5 63.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "HZ1206E601R-10"
+			(at 190.5 63.5 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33770,8 +35053,17 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
-			(at 360.68 66.04 0)
+		(property "LCSC" "C74486"
+			(at 360.68 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "HZ1206E601R-10"
+			(at 360.68 66.04 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33802,7 +35094,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "ccfd5155-b814-4b89-8f85-cde5af9ba7ac")
 		(property "Reference" "TP4"
 			(at 65.913 104.9599 0)
@@ -33849,7 +35141,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "LCSC" ""
 			(at 67.31 102.87 0)
 			(effects
 				(font
@@ -33924,7 +35216,16 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "LCSC" "C1850238"
+			(at 146.05 257.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "LM358BIDR"
 			(at 146.05 257.81 0)
 			(effects
 				(font
@@ -34019,8 +35320,17 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
-			(at 363.22 234.95 0)
+		(property "LCSC" "C2057560"
+			(at 363.22 234.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "MC33078DR"
+			(at 363.22 234.95 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34115,7 +35425,16 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "LCSC" "C13585"
+			(at 360.68 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "C1206C106K4PACTU"
 			(at 360.68 179.07 0)
 			(effects
 				(font
@@ -34192,8 +35511,17 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
-			(at 304.8 44.45 0)
+		(property "LCSC" "C26033"
+			(at 304.8 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "ERJ-8ENF5101V"
+			(at 304.8 44.45 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34334,8 +35662,17 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
-			(at 330.2 29.21 0)
+		(property "LCSC" "C26033"
+			(at 330.2 29.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "ERJ-8ENF5101V"
+			(at 330.2 29.21 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34411,8 +35748,17 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
-			(at 304.8 92.71 0)
+		(property "LCSC" "C26033"
+			(at 304.8 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "ERJ-8ENF5101V"
+			(at 304.8 92.71 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34490,7 +35836,16 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "LCSC" "C17902"
+			(at 278.13 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "CR1206-FX-1002ELF"
 			(at 278.13 60.96 0)
 			(effects
 				(font
@@ -34569,8 +35924,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
-			(at 152.4 57.15 0)
+		(property "LCSC" ""
+			(at 152.4 57.15 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34645,7 +36000,16 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "LCSC" "C17902"
+			(at 281.94 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "CR1206-FX-1002ELF"
 			(at 281.94 109.22 0)
 			(effects
 				(font
@@ -34676,7 +36040,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "d842fef4-a027-430c-9f28-fee9793190e3")
 		(property "Reference" "G5"
 			(at 149.86 46.99 0)
@@ -34723,7 +36087,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "LCSC" ""
 			(at 148.59 50.8 0)
 			(effects
 				(font
@@ -34799,7 +36163,16 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "LCSC" "C1846"
+			(at 248.92 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "C1206C103K5RAC7210"
 			(at 248.92 82.55 0)
 			(effects
 				(font
@@ -35008,7 +36381,16 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "LCSC" "C13585"
+			(at 140.97 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "C1206C106K4PACTU"
 			(at 140.97 86.36 0)
 			(effects
 				(font
@@ -35087,7 +36469,16 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "LCSC" "C24497"
+			(at 234.95 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "C1206C104K5RACTU"
 			(at 234.95 176.53 0)
 			(effects
 				(font
@@ -35119,7 +36510,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "dada0933-3645-4ff8-a106-f85b8e3ebd22")
 		(property "Reference" "TP8"
@@ -35165,8 +36556,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
-			(at 214.63 220.98 0)
+		(property "LCSC" ""
+			(at 214.63 220.98 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35306,7 +36697,16 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "LCSC" "C1846"
+			(at 368.3 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "C1206C103K5RAC7210"
 			(at 368.3 214.63 0)
 			(effects
 				(font
@@ -35384,7 +36784,16 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "LCSC" "C1857"
+			(at 281.94 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "12065C204KAT4A"
 			(at 281.94 163.83 0)
 			(effects
 				(font
@@ -35462,7 +36871,16 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "LCSC" "C1848"
+			(at 243.84 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "CL31B105KBHNNNE"
 			(at 243.84 41.91 0)
 			(effects
 				(font
@@ -35488,7 +36906,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 113.03 224.79 0)
+		(at 113.03 226.06 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -35496,7 +36914,7 @@
 		(dnp no)
 		(uuid "def4a76e-7c98-4860-bf6d-7f340e558711")
 		(property "Reference" "#PWR064"
-			(at 113.03 231.14 0)
+			(at 113.03 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35505,7 +36923,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 112.014 229.362 90)
+			(at 112.014 230.632 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35513,7 +36931,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 113.03 224.79 0)
+			(at 113.03 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35522,7 +36940,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 113.03 224.79 0)
+			(at 113.03 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35531,7 +36949,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 113.03 224.79 0)
+			(at 113.03 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35604,8 +37022,17 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
-			(at 134.62 250.19 0)
+		(property "LCSC" "C17930"
+			(at 134.62 250.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "CR1206-FX-3300ELF"
+			(at 134.62 250.19 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35682,8 +37109,17 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
-			(at 297.18 175.26 0)
+		(property "LCSC" "C2984401"
+			(at 297.18 175.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "CRCW120649R9FKEAC"
+			(at 297.18 175.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35826,7 +37262,16 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "LCSC" "C13585"
+			(at 340.36 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "C1206C106K4PACTU"
 			(at 340.36 236.22 0)
 			(effects
 				(font
@@ -35903,8 +37348,17 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
-			(at 314.96 44.45 0)
+		(property "LCSC" "C26033"
+			(at 314.96 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "ERJ-8ENF5101V"
+			(at 314.96 44.45 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36247,7 +37701,16 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "LCSC" "C47023"
+			(at 76.2 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "MCP23017-E/SO"
 			(at 76.2 149.86 0)
 			(effects
 				(font
@@ -36404,7 +37867,16 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "LCSC" "C24497"
+			(at 287.02 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "C1206C104K5RACTU"
 			(at 287.02 80.01 0)
 			(effects
 				(font
@@ -36482,7 +37954,16 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "LCSC" "C1857"
+			(at 281.94 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "12065C204KAT4A"
 			(at 281.94 198.12 0)
 			(effects
 				(font
@@ -36560,8 +38041,17 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
-			(at 161.29 220.98 0)
+		(property "LCSC" "C24497"
+			(at 161.29 220.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "C1206C104K5RACTU"
+			(at 161.29 220.98 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36638,7 +38128,16 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "LCSC" "C1846"
+			(at 368.3 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "C1206C103K5RAC7210"
 			(at 368.3 179.07 0)
 			(effects
 				(font
@@ -36716,7 +38215,16 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "LCSC" "C543079"
+			(at 248.92 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "SN74CBTLV3253DR"
 			(at 248.92 195.58 0)
 			(effects
 				(font
@@ -36900,8 +38408,17 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
-			(at 139.7 241.3 0)
+		(property "LCSC" "C395022"
+			(at 139.7 241.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "LQM31PN1R5M00L"
+			(at 139.7 241.3 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36931,7 +38448,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "ed5dee6c-9f5c-4874-8b38-e5aa9b1a5923")
 		(property "Reference" "G4"
 			(at 138.43 34.29 0)
@@ -36978,7 +38495,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "LCSC" ""
 			(at 137.16 38.1 0)
 			(effects
 				(font
@@ -37054,8 +38571,17 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
-			(at 351.79 198.12 0)
+		(property "LCSC" "C326631"
+			(at 351.79 198.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "GRM3195C1H222JA01D"
+			(at 351.79 198.12 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37132,7 +38658,16 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "LCSC" "C1857"
+			(at 281.94 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "12065C204KAT4A"
 			(at 281.94 215.9 0)
 			(effects
 				(font
@@ -37210,7 +38745,16 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "LCSC" "C1848"
+			(at 243.84 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "CL31B105KBHNNNE"
 			(at 243.84 90.17 0)
 			(effects
 				(font
@@ -37241,7 +38785,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "f0a0dbef-e94b-4cbc-979a-04e93ac10be5")
 		(property "Reference" "G2"
 			(at 135.89 53.34 90)
@@ -37286,8 +38830,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
-			(at 139.7 55.88 0)
+		(property "LCSC" ""
+			(at 139.7 55.88 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37360,8 +38904,17 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
-			(at 256.54 95.25 0)
+		(property "LCSC" "C17901"
+			(at 256.54 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "CR1206-FX-1000ELF"
+			(at 256.54 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37634,7 +39187,16 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "LCSC" "C2057560"
+			(at 347.98 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "MC33078DR"
 			(at 347.98 172.72 0)
 			(effects
 				(font
@@ -37729,7 +39291,16 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "LCSC" "C2057330"
+			(at 332.74 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "OPA2209AIDR"
 			(at 332.74 41.91 0)
 			(effects
 				(font
@@ -37823,8 +39394,17 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
-			(at 143.51 78.74 0)
+		(property "LCSC" "C74486"
+			(at 143.51 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "HZ1206E601R-10"
+			(at 143.51 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37899,8 +39479,17 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
-			(at 130.81 245.11 0)
+		(property "LCSC" "C17901"
+			(at 130.81 245.11 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "CR1206-FX-1000ELF"
+			(at 130.81 245.11 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37976,7 +39565,16 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "LCSC" "C2683432"
+			(at 55.88 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "ADT1-1+"
 			(at 55.88 97.79 0)
 			(effects
 				(font
@@ -38322,8 +39920,17 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
-			(at 325.12 165.1 0)
+		(property "LCSC" "C17902"
+			(at 325.12 165.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "CR1206-FX-1002ELF"
+			(at 325.12 165.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38467,7 +40074,16 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "LCSC" "C527293"
+			(at 322.58 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "C1206C181J5GAC7800"
 			(at 322.58 96.52 0)
 			(effects
 				(font
@@ -38612,7 +40228,16 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "LCSC" "C395022"
+			(at 147.32 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "LQM31PN1R5M00L"
 			(at 147.32 96.52 0)
 			(effects
 				(font
@@ -38691,7 +40316,16 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "LCSC" "C1848"
+			(at 243.84 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "CL31B105KBHNNNE"
 			(at 243.84 46.99 0)
 			(effects
 				(font
@@ -38769,7 +40403,16 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "LCSC" "C1846"
+			(at 248.92 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "C1206C103K5RAC7210"
 			(at 248.92 54.61 0)
 			(effects
 				(font
