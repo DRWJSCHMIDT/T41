@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 3,
+    "active_layer": 0,
     "active_layer_preset": "All Layers",
     "auto_track_width": true,
     "hidden_netclasses": [],
@@ -8,7 +8,7 @@
     "high_contrast_mode": 0,
     "net_color_mode": 1,
     "opacity": {
-      "images": 0.0,
+      "images": 0.6,
       "pads": 1.0,
       "shapes": 1.0,
       "tracks": 1.0,
@@ -36,6 +36,7 @@
       "grid",
       "footprints_front",
       "footprints_back",
+      "footprint_values",
       "footprint_references",
       "tracks",
       "drc_errors",
@@ -44,6 +45,7 @@
       "pads",
       "zones",
       "drc_warnings",
+      "drc_exclusions",
       "locked_item_shadows",
       "conflict_shadows",
       "shapes"
@@ -52,19 +54,16 @@
     "zone_display_mode": 0
   },
   "git": {
-    "repo_password": "",
     "repo_type": "",
     "repo_username": "",
     "ssh_key": ""
   },
   "meta": {
-    "filename": "T41-RF-board-V012.kicad_prl",
+    "filename": "T41-RF-board-Attenuator-daughterboard.kicad_prl",
     "version": 5
   },
   "net_inspector_panel": {
     "col_hidden": [
-      false,
-      false,
       false,
       false,
       false,
@@ -86,13 +85,9 @@
       6,
       7,
       8,
-      9,
-      10,
-      11
+      9
     ],
     "col_widths": [
-      0,
-      0,
       0,
       0,
       0,
