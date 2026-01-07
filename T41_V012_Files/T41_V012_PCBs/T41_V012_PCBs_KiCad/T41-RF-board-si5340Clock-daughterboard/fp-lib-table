@@ -1,0 +1,5 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "T41_Library")(type "KiCad")(uri "C:/Users/Dad/Documents/GitHub/T41/T41_KiCad_Library/T41_Library.pretty")(options "")(descr ""))
+  (lib (name "SparkFun-qwiic")(type "KiCad")(uri "C:/Users/Dad/Documents/GitHub/T41/T41_KiCad_Library/SparkFun-Qwiic.pretty")(options "")(descr ""))
+)

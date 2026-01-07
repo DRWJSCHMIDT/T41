@@ -1,0 +1,29 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model SY10EP51VKG
+#/938058/1857836/2.50/8/3/Integrated Circuit
+DEF SY10EP51VKG IC 0 30 Y Y 1 F N
+F0 "IC" 950 300 50 H V L CNN
+F1 "SY10EP51VKG" 950 200 50 H V L CNN
+F2 "SOP65P490X110-8N" 950 100 50 H I L CNN
+F3 "https://componentsearchengine.com/Datasheets/2/SY10EP51VKG.pdf" 950 0 50 H I L CNN
+F4 "Microchip SY10EP51VKG D Type Flip Flop IC, ECL, PECL, 3.3  5 V, 8-Pin MSOP" 950 -100 50 H I L CNN "Description"
+F5 "1.1" 950 -200 50 H I L CNN "Height"
+F6 "998-SY10EP51VKG" 950 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Microchip-Technology/SY10EP51VKG?qs=dl0mufiodq6tuRydKDJktw%3D%3D" 950 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Microchip" 950 -500 50 H I L CNN "Manufacturer_Name"
+F9 "SY10EP51VKG" 950 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X RESET 1 0 0 200 R 50 50 0 0 P
+X D 2 0 -100 200 R 50 50 0 0 P
+X CLK 3 0 -200 200 R 50 50 0 0 P
+X ~CLK 4 0 -300 200 R 50 50 0 0 P
+X VCC 8 1100 0 200 L 50 50 0 0 P
+X Q 7 1100 -100 200 L 50 50 0 0 P
+X ~Q 6 1100 -200 200 L 50 50 0 0 P
+X VEE 5 1100 -300 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 900 100 900 -400 200 -400 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library
