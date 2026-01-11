@@ -1,0 +1,8 @@
+Reference,Qty,Value,DNP,Exclude from BOM,Exclude from Board,Footprint,Datasheet,LCSC
+C1,1,0.1uF 50V,,,,Capacitor_SMD:C_0603_1608Metric,~,C14663
+C2,1,10uF 50V,,,,Capacitor_SMD:C_0603_1608Metric,~,C96446
+J1,1,Conn 1,DNP,,,Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical,~,
+J2,1,Conn 2,DNP,,,Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical,~,
+L1,1,FB,,,,Resistor_SMD:R_0603_1608Metric,~,C1002
+"R1,R2",2,10k,,,,Resistor_SMD:R_0603_1608Metric,~,C25804
+U1,1,PE4312,,,,T41_Library:PE4312-QFN-20,https://www.psemi.com/pdf/datasheets/pe4312ds.pdf,C500480
