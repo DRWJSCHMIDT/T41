@@ -1,0 +1,12 @@
+Id ,Designator,Footprint,Quantity,Designation,Manufacturer,Manufacturer Number
+1,C1,C_0603_1608Metric,1,10uF 50V SMD,Murata,GRM188R61C106MAALD
+2,C2,C_0603_1608Metric,1,0.1uF 50V X7R 0603 SMD,Kemet,C0603C104K5RACTU
+3,L1,R_0603_1608Metric,1,Ferrite bead 600 mOhm 1A 0603 SMD,Laird Technologies,MI0603J601R-10
+4,"R1, R2",R_0603_1608Metric,2,10K Ohm 1/8W 1%,Vishay,RCA060310K0FKEASR
+5,U1,PE4312-QFN-20,1,PE4312C-Z Attenuator 20 Lead 4x4 QFN,pSemi,PE4312C-Z
+,,,,,,
+ ,,,,,,
+ , ,,, , , 
+ ,,,,,,
+ ,,,,,,
+ ,,,,,,
