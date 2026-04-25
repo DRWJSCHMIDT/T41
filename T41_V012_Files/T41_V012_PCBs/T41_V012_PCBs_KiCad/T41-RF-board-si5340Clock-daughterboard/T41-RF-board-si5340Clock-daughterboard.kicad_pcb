@@ -1303,6 +1303,32 @@
 		(layer "Edge.Cuts")
 		(uuid "90038580-c9d4-485e-aaa8-0a6ea283a1b6")
 	)
+	(gr_text "*** TO BE REVISED ***"
+		(at 117.73 93.68 0)
+		(layer "F.Cu")
+		(uuid "14ae13c6-075a-46c1-bed2-7d617eeaca60")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "*** TO BE REVISED ***"
+		(at 143.9 90.98 0)
+		(layer "B.Cu")
+		(uuid "5186329a-485f-4e0b-a4d7-f14317e41a50")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom mirror)
+		)
+	)
 	(gr_text "1"
 		(at 118.491 78.486 90)
 		(layer "F.SilkS")

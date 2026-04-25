@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ECS-TXO-3225-100-TR
+D TCXO Oscillators 10MHz 3.3V HCMOS 2.5ppm -30C +85C
+K
+F https://componentsearchengine.com/Datasheets/1/ECS-TXO-3225-120-TR.pdf
+$ENDCMP
+#
+#End Doc Library

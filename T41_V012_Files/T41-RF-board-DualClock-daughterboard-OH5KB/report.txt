@@ -1,6 +1,0 @@
-Front (top side) placement file: 'C:\Users\Dad\Documents\GitHub\T41\T41_V012_Files\T41_V012_Gerbers\DualClockLO-top-pos.csv'.
-Info: Component count: 19.
-Back (bottom side) placement file: 'C:\Users\Dad\Documents\GitHub\T41\T41_V012_Files\T41_V012_Gerbers\DualClockLO-bottom-pos.csv'.
-Info: Component count: 0.
-Info: Full component count: 19.
-Info: Done.

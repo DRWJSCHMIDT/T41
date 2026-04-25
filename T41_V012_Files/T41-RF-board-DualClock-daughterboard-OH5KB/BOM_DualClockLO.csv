@@ -1,7 +1,0 @@
-"Reference","Qty","Value","Exclude from BOM","Exclude from Board","Footprint","LCSC"
-"C1,C2,C3,C4,C5","5","0.1uF 50V","","","Capacitor_SMD:C_0603_1608Metric","C14663"
-"J3,J4","2","pin header","","","Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical",""
-"J5","1","qwiic","","","Connector_JST:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal","C160404"
-"L1,L2,L3,L4","4","FB","","","Inductor_SMD:L_0603_1608Metric","C1002"
-"Y1","1","8122S-25.000NQ33FTL","","","Oscillator:Oscillator_SMD_Abracon_ASE-4Pin_3.2x2.5mm","C20623084"
-"Y4","1","Si5351A-B-GM","","","Package_DFN_QFN:QFN-20-1EP_4x4mm_P0.5mm_EP2.7x2.7mm","C22413806"

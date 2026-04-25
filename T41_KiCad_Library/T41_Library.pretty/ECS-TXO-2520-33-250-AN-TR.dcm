@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ECS-TXO-2520-33-250-AN-TR
+D TCXO Oscillators 25MHz 3.3V 2.5ppm -40C +85C
+K
+F https://componentsearchengine.com//ECS-TXO-2520-33-250-AN-TR.pdf
+$ENDCMP
+#
+#End Doc Library
