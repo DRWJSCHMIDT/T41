@@ -3054,7 +3054,7 @@
 		)
 		(uuid "1b756f9e-8aa3-4087-99b0-dbb5da8d3c21")
 	)
-	(text_box "Option 1: 4-SMD 3.2 x 2.5"
+	(text_box "Option 3: 4-SMD 3.2 x 2.5"
 		(exclude_from_sim no)
 		(at 95.25 135.128 0)
 		(size 35.56 32.766)

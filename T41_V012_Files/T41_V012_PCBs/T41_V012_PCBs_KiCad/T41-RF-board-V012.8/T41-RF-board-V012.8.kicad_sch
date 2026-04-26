@@ -7030,6 +7030,18 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Attenuator Daughter Board Options\n----------------------------\n1.  Single PE4312 Attenuator Daughterboard\n2.  Dual PE4312 Attenuator Daughterboard"
+		(exclude_from_sim no)
+		(at 235.966 131.826 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "02f51579-d735-4c94-bdbe-66fff4b7dae5")
+	)
 	(text "RF output"
 		(exclude_from_sim no)
 		(at 27.178 198.628 0)
@@ -7073,6 +7085,18 @@
 			(justify left bottom)
 		)
 		(uuid "3210d3f4-fc6c-4282-9091-35516b10ac05")
+	)
+	(text "Oscillator Daughter Board Options\n----------------------------\n1.  si5351A-B-GM Oscillator Daughterboard\n2.  si5340 Oscillator Daughterboard"
+		(exclude_from_sim no)
+		(at 301.498 131.826 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "35517483-6667-4803-8c48-82beea7acea8")
 	)
 	(text "CW Mode"
 		(exclude_from_sim no)
@@ -7241,6 +7265,29 @@
 		)
 		(uuid "0494d2ca-87ad-4721-91a1-22489fd2db57")
 	)
+	(text_box "Oscillator"
+		(exclude_from_sim no)
+		(at 179.07 138.43 0)
+		(size 41.402 30.734)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.381)
+			(type dot)
+			(color 255 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify right top)
+		)
+		(uuid "110c20e9-bc09-4158-8d23-5c391e57e8dd")
+	)
 	(text_box "Auto calibrate switch"
 		(exclude_from_sim no)
 		(at 80.01 200.66 0)
@@ -7329,14 +7376,15 @@
 		)
 		(uuid "304d42e8-28b9-4d6f-b430-1fcd4d11bd83")
 	)
-	(text_box "Transmit RF gain control"
+	(text_box "Transmit RF Gain Control"
 		(exclude_from_sim no)
-		(at 80.01 201.93 0)
-		(size 43.18 34.29)
+		(at 82.042 200.914 0)
+		(size 37.846 35.56)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
-			(width 0)
-			(type default)
+			(width 0.381)
+			(type dot)
+			(color 255 0 0 1)
 		)
 		(fill
 			(type none)
@@ -7504,12 +7552,13 @@
 	)
 	(text_box "Receive RF gain control"
 		(exclude_from_sim no)
-		(at 77.47 59.69 0)
-		(size 50.8 54.61)
+		(at 76.962 71.374 0)
+		(size 43.18 37.592)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
-			(width 0)
-			(type default)
+			(width 0.381)
+			(type dot)
+			(color 255 0 0 1)
 		)
 		(fill
 			(type none)
@@ -21014,21 +21063,21 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "35a95134-2da2-46cd-8da3-6c320b7d18a4")
 		(property "Reference" "U3"
-			(at 102.235 205.74 0)
+			(at 102.616 208.788 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "T41_Attenuator_Daughter"
-			(at 102.235 208.28 0)
+		(property "Value" "Attenuator Daughter Board (See Legend)"
+			(at 101.346 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(color 255 0 0 1)
 				)
 			)
 		)
@@ -27235,11 +27284,12 @@
 				(justify left)
 			)
 		)
-		(property "Value" "T41_DualClock_Daughter"
-			(at 223.774 162.052 90)
+		(property "Value" "Oscillator Daughter Board (See Legend)"
+			(at 218.694 136.652 90)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(color 255 0 0 1)
 				)
 				(justify left)
 			)
@@ -32256,7 +32306,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "b697e643-c7f2-4ea5-8d1f-833c50bce0fc")
 		(property "Reference" "U11"
 			(at 100.965 78.74 0)
@@ -32266,11 +32315,12 @@
 				)
 			)
 		)
-		(property "Value" "T41_Attenuator_Daughter"
-			(at 100.965 81.28 0)
+		(property "Value" "Attenuator Daughter Board (See Legend)"
+			(at 99.314 68.072 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(color 255 0 0 1)
 				)
 			)
 		)
