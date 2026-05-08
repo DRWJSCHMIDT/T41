@@ -1,0 +1,26 @@
+### Footprint positions - created on 2026-05-06T12:27:55 ###
+### Printed by KiCad version 10.0.1
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref     Val                  Package                                                PosX       PosY       Rot  Side
+C1        0.1uF_50V            C_0603_1608Metric                                  140.2335  -100.5840    0.0000  top
+C2        0.1uF_50V            C_0603_1608Metric                                  127.0000   -93.7260  -90.0000  top
+C3        0.1uF_50V            C_0603_1608Metric                                  118.7450   -83.0580   90.0000  top
+C4        0.1uF_50V            C_0603_1608Metric                                  121.8060   -90.8050    0.0000  top
+C5        0.1uF_50V            C_0603_1608Metric                                  114.8080   -86.7410   90.0000  top
+J1        qwiic                JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal   144.7800   -86.8680   90.0000  top
+J2        pin_header           PinHeader_1x04_P2.54mm_Vertical                    140.9700   -79.7560  -90.0000  top
+J3        pin_header           PinHeader_1x06_P2.54mm_Vertical                    115.5700   -79.7560   90.0000  top
+J4        pin_header           PinHeader_1x06_P2.54mm_Vertical                    128.2700  -100.0760  -90.0000  top
+J5        OEBSSEN              PinHeader_1x03_P2.54mm_Vertical                    123.8250   -83.3120   90.0000  top
+L1        FB                   L_0603_1608Metric                                  140.2080   -98.8060    0.0000  top
+L2        FB                   L_0603_1608Metric                                  121.7930   -92.4560  180.0000  top
+L3        FB                   L_0603_1608Metric                                  117.2210   -83.0580  -90.0000  top
+L4        FB                   L_0603_1608Metric                                  114.8080   -89.7890   90.0000  top
+R1        2k2                  R_0603_1608Metric                                  134.8740   -84.3280  -90.0000  top
+R2        2k2                  R_0603_1608Metric                                  134.8740   -87.3760   90.0000  top
+U1        Si5351A-B-GM         QFN-20-1EP_4x4mm_P0.5mm_EP2.7x2.7mm                119.7160   -87.2090  180.0000  top
+U2        ECS-TX053-S3         Oscillator_ECS_TXO53_S3                            134.4020   -99.8220  180.0000  top
+U3        ECS-TXO-2520-250-TR  Oscillator_SMD_ECS_2520MV-xxx-xx-4Pin_2.5x2.0mm    138.1650   -94.9550  -90.0000  top
+U4        ECSTXO3225120TR      ECSTXO3225120TR                                    132.3700   -93.1300  180.0000  top
+## End
