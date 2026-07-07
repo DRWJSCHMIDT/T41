@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 0,
+    "active_layer": 5,
     "active_layer_preset": "All Layers",
     "auto_track_width": true,
     "hidden_netclasses": [],
@@ -15,6 +15,7 @@
       "vias": 1.0,
       "zones": 0.6
     },
+    "prototype_zone_fills": false,
     "selection_filter": {
       "dimensions": true,
       "footprints": true,
@@ -54,12 +55,13 @@
     "zone_display_mode": 0
   },
   "git": {
+    "integration_disabled": false,
     "repo_type": "",
     "repo_username": "",
     "ssh_key": ""
   },
   "meta": {
-    "filename": "T41-RF-board-Attenuator-daughterboard.kicad_prl",
+    "filename": "T41-Single-PE4312-Attenuator-daughterboard.kicad_prl",
     "version": 5
   },
   "net_inspector_panel": {
@@ -88,15 +90,15 @@
       9
     ],
     "col_widths": [
-      10,
-      10,
-      10,
-      10,
-      10,
-      10,
-      10,
-      10,
-      10,
+      70,
+      70,
+      98,
+      79,
+      85,
+      99,
+      87,
+      83,
+      42,
       114
     ],
     "custom_group_rules": [],
@@ -106,6 +108,7 @@
     "filter_text": "",
     "group_by_constraint": false,
     "group_by_netclass": false,
+    "show_time_domain_details": false,
     "show_unconnected_nets": false,
     "show_zero_pad_nets": false,
     "sort_ascending": true,
@@ -116,6 +119,7 @@
     "files": []
   },
   "schematic": {
+    "hierarchy_collapsed": [],
     "selection_filter": {
       "graphics": true,
       "images": true,
@@ -123,6 +127,7 @@
       "lockedItems": false,
       "otherItems": true,
       "pins": true,
+      "ruleAreas": true,
       "symbols": true,
       "text": true,
       "wires": true
