@@ -2644,7 +2644,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "242d148f-63f3-41df-8766-ef5f2c871a2b")
-		(property "Reference" "C1"
+		(property "Reference" "C2"
 			(at 153.6233 73.66 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2728,7 +2728,7 @@
 		(instances
 			(project "T41-Single-PE4312-Attenuator-daughterboard"
 				(path "/4fb44e34-3372-47df-9694-9168f4fad0b1"
-					(reference "C1")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -3444,7 +3444,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "96d6742b-6624-4601-89e2-7b7ec5989ee6")
-		(property "Reference" "C2"
+		(property "Reference" "C1"
 			(at 163.7833 73.66 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3528,7 +3528,7 @@
 		(instances
 			(project "T41-Single-PE4312-Attenuator-daughterboard"
 				(path "/4fb44e34-3372-47df-9694-9168f4fad0b1"
-					(reference "C2")
+					(reference "C1")
 					(unit 1)
 				)
 			)
