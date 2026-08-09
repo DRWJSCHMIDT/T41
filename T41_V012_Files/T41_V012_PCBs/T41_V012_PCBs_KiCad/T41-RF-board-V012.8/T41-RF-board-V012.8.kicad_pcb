@@ -17826,7 +17826,7 @@
 			(size 1.125 1.75)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.222222)
-			(net "/TX90")
+			(net "/TX0")
 			(pintype "passive")
 			(uuid "85d8f3b4-bacd-48aa-b2a0-467839baa1eb")
 		)
@@ -21799,7 +21799,7 @@
 			(size 1.125 1.75)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.222222)
-			(net "/RX0")
+			(net "/RX90")
 			(pintype "passive")
 			(uuid "cba2fe85-0f71-48e3-a769-6aab9c35ca4d")
 		)
@@ -22860,21 +22860,7 @@
 			(layer "F.CrtYd")
 			(uuid "ef0f950f-8114-41f2-b502-ac11f7705637")
 		)
-		(fp_text user "RX90"
-			(at 0.508 -5.08 90)
-			(unlocked yes)
-			(layer "F.SilkS")
-			(uuid "4e8d6672-86d2-47e5-8573-1b38376fef4d")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.2)
-					(bold yes)
-				)
-				(justify left bottom)
-			)
-		)
-		(fp_text user "TX0"
+		(fp_text user "TX90"
 			(at 0.508 9.144 90)
 			(unlocked yes)
 			(layer "F.SilkS")
@@ -22889,10 +22875,10 @@
 			)
 		)
 		(fp_text user "RX0"
-			(at 3.048 -6.096 90)
+			(at 0.578 -5.952 90)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "b0706eb7-c14d-4136-9b1c-0de459abf4f1")
+			(uuid "4e8d6672-86d2-47e5-8573-1b38376fef4d")
 			(effects
 				(font
 					(size 1 1)
@@ -22902,11 +22888,25 @@
 				(justify left bottom)
 			)
 		)
-		(fp_text user "TX90"
+		(fp_text user "TX0"
 			(at 3.048 9.144 90)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "3220e296-f675-48e3-82ba-5a11a14cf3ca")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.2)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(fp_text user "RX90"
+			(at 3.178 -5.002 90)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "b0706eb7-c14d-4136-9b1c-0de459abf4f1")
 			(effects
 				(font
 					(size 1 1)
@@ -23045,7 +23045,7 @@
 			(drill 0.85)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "/TX0")
+			(net "/TX90")
 			(pinfunction "CLK4")
 			(pintype "input")
 			(uuid "7b953c93-5971-4e2f-ba4a-dd86087fddb0")
@@ -23056,7 +23056,7 @@
 			(drill 0.85)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "/TX90")
+			(net "/TX0")
 			(pinfunction "CLK5")
 			(pintype "input")
 			(uuid "1f347799-6a98-4262-bdd0-0f486670895f")
@@ -23155,7 +23155,7 @@
 			(drill 0.85)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "/RX0")
+			(net "/RX90")
 			(pinfunction "CLK1")
 			(pintype "power_in")
 			(uuid "a49ace9a-acab-4ca9-93c1-d4d9498d0ef6")
@@ -23166,7 +23166,7 @@
 			(drill 0.85)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "/RX90")
+			(net "/RX0")
 			(pinfunction "CLK0")
 			(pintype "input")
 			(uuid "5a5028ce-117a-49c7-98cb-47b0c7708ba8")
@@ -29340,7 +29340,7 @@
 			(size 1.125 1.75)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.222222)
-			(net "/RX90")
+			(net "/RX0")
 			(pintype "passive")
 			(uuid "663cf409-d257-4de1-8cc6-4ce1cd0c0b29")
 		)
@@ -44519,7 +44519,7 @@
 			(size 1.125 1.75)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.222222)
-			(net "/TX0")
+			(net "/TX90")
 			(pintype "passive")
 			(uuid "f7841266-1ec6-4b70-b000-7d21e7b5998b")
 		)
@@ -57078,7 +57078,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "RX90"
+	(gr_text "RX0"
 		(at 81.9658 76.327 0)
 		(layer "F.SilkS")
 		(uuid "9e4d1ce5-ed77-47f4-bf6c-d2015c127e0c")
@@ -57090,7 +57090,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "TX0"
+	(gr_text "TX90"
 		(at 82.804 104.8258 0)
 		(layer "F.SilkS")
 		(uuid "73baeba6-d2ef-4aad-adae-c497d7cdbf6c")
@@ -57126,7 +57126,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "TX90"
+	(gr_text "TX0"
 		(at 90.7034 105.1052 0)
 		(layer "F.SilkS")
 		(uuid "b90abb40-4956-4ec4-8df8-fe2a83f5e356")
@@ -57138,7 +57138,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "RX0"
+	(gr_text "RX90"
 		(at 91.44 76.327 0)
 		(layer "F.SilkS")
 		(uuid "c1e12fde-d9bc-4f47-80ef-b7fe19cf4546")
@@ -72666,20 +72666,28 @@
 		(uuid "c6012b13-cb85-40f2-a6ec-cfdb539b92a5")
 	)
 	(segment
-		(start 89.662 104.8365)
-		(end 89.408 105.0905)
+		(start 87.122 104.7095)
+		(end 86.868 104.9635)
 		(width 0.2)
 		(layer "F.Cu")
 		(net "/TX90")
-		(uuid "745352da-b4d9-4479-ada3-d6da4b757422")
+		(uuid "49cee836-42c4-43eb-aed2-4cad8364e960")
 	)
 	(segment
-		(start 89.662 102.362)
-		(end 89.662 104.8365)
+		(start 86.868 104.9635)
+		(end 86.868 105.0905)
 		(width 0.2)
 		(layer "F.Cu")
 		(net "/TX90")
-		(uuid "901e163c-0ef9-4ea3-b665-3ac47a8f062a")
+		(uuid "99731725-7f04-472d-88a1-bb6cfe183537")
+	)
+	(segment
+		(start 87.122 102.362)
+		(end 87.122 104.7095)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/TX90")
+		(uuid "ce9cfe66-c859-473f-8e30-212b7a797b79")
 	)
 	(segment
 		(start 67.183001 110.744)
@@ -74046,7 +74054,7 @@
 		(end 90.17 79.6945)
 		(width 0.25)
 		(layer "F.Cu")
-		(net "/RX0")
+		(net "/RX90")
 		(uuid "37ba5706-676e-403d-8866-cfb7e53fad88")
 	)
 	(segment
@@ -74054,7 +74062,7 @@
 		(end 89.662 80.2025)
 		(width 0.25)
 		(layer "F.Cu")
-		(net "/RX0")
+		(net "/RX90")
 		(uuid "44dd00ce-b073-4374-a061-f04f0c514487")
 	)
 	(segment
@@ -74242,28 +74250,20 @@
 		(uuid "f03254ba-1824-4069-ac04-0392ce3c45d8")
 	)
 	(segment
-		(start 87.122 104.7095)
-		(end 86.868 104.9635)
+		(start 89.662 104.8365)
+		(end 89.408 105.0905)
 		(width 0.2)
 		(layer "F.Cu")
 		(net "/TX0")
-		(uuid "49cee836-42c4-43eb-aed2-4cad8364e960")
+		(uuid "745352da-b4d9-4479-ada3-d6da4b757422")
 	)
 	(segment
-		(start 86.868 104.9635)
-		(end 86.868 105.0905)
+		(start 89.662 102.362)
+		(end 89.662 104.8365)
 		(width 0.2)
 		(layer "F.Cu")
 		(net "/TX0")
-		(uuid "99731725-7f04-472d-88a1-bb6cfe183537")
-	)
-	(segment
-		(start 87.122 102.362)
-		(end 87.122 104.7095)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "/TX0")
-		(uuid "ce9cfe66-c859-473f-8e30-212b7a797b79")
+		(uuid "901e163c-0ef9-4ea3-b665-3ac47a8f062a")
 	)
 	(segment
 		(start 84.288 131.24)
@@ -74342,7 +74342,7 @@
 		(end 87.122 79.6945)
 		(width 0.25)
 		(layer "F.Cu")
-		(net "/RX90")
+		(net "/RX0")
 		(uuid "68fc6bb6-0751-4c0b-b6e2-75b282417014")
 	)
 	(segment
