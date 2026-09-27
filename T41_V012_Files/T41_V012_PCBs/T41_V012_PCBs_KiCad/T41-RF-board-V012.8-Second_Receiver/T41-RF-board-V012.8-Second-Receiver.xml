@@ -1,0 +1,4091 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\bill\Documents\GitHub\T41\T41_V012_Files\T41_V012_PCBs\T41_V012_PCBs_KiCad\T41-RF-board-V012.8-Second_Receiver\T41-RF-board-V012.8-Second-Receiver.kicad_sch</source>
+    <date>2026-09-26T17:39:23</date>
+    <tool>Eeschema 10.0.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>T41 RF Board - Populated As Second Receiver Only</title>
+        <company/>
+        <rev>V012.8</rev>
+        <date>2026-09-26</date>
+        <source>T41-RF-board-V012.8-Second-Receiver.kicad_sch</source>
+        <comment number="1" value="        Additional work by Oliver KI3P"/>
+        <comment number="2" value="By Al Peter-AC8GY, Revised by WJ Schmidt-K9HZ"/>
+        <comment number="3" value="Change log: Added daughterboards"/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>10uF 50V</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <fields>
+        <field name="LCSC">C13585</field>
+        <field name="PN">C1206C106K4PACTU</field>
+        <field name="Footprint">Capacitor_SMD:C_1206_3216Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C13585"/>
+      <property name="PN" value="C1206C106K4PACTU"/>
+      <property name="Sheetname" value="T41-RF-board-V012.8-Second-Receiver"/>
+      <property name="Sheetfile" value="T41-RF-board-V012.8-Second-Receiver.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5c05ddf4-faad-43ab-bfd2-7982d602ee8e</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C2">
+      <value>1uF 50V</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <fields>
+        <field name="LCSC">C1848</field>
+        <field name="PN">CL31B105KBHNNNE</field>
+        <field name="Footprint">Capacitor_SMD:C_1206_3216Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C1848"/>
+      <property name="PN" value="CL31B105KBHNNNE"/>
+      <property name="Sheetname" value="T41-RF-board-V012.8-Second-Receiver"/>
+      <property name="Sheetfile" value="T41-RF-board-V012.8-Second-Receiver.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dcf3d7ed-0a34-4fe2-b67a-7a5f225cb230</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C3">
+      <value>10uF 50V</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <fields>
+        <field name="LCSC">C13585</field>
+        <field name="PN">C1206C106K4PACTU</field>
+        <field name="Footprint">Capacitor_SMD:C_1206_3216Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C13585"/>
+      <property name="PN" value="C1206C106K4PACTU"/>
+      <property name="Sheetname" value="T41-RF-board-V012.8-Second-Receiver"/>
+      <property name="Sheetfile" value="T41-RF-board-V012.8-Second-Receiver.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b80eeb8b-7961-4aeb-8a6a-fb5018fa1137</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C4">
+      <value>10nF 50V</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <fields>
+        <field name="LCSC">C1846</field>
+        <field name="PN">C1206C103K5RAC7210</field>
+        <field name="Footprint">Capacitor_SMD:C_1206_3216Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C1846"/>
+      <property name="PN" value="C1206C103K5RAC7210"/>
+      <property name="Sheetname" value="T41-RF-board-V012.8-Second-Receiver"/>
+      <property name="Sheetfile" value="T41-RF-board-V012.8-Second-Receiver.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c9a08a05-b2b4-4515-bdf7-fca4a65ad8d4</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C5">
+      <value>105pF 50V</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <fields>
+        <field name="LCSC">C1884</field>
+        <field name="PN">CL31C101JGFNNNE</field>
+        <field name="Footprint">Capacitor_SMD:C_1206_3216Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C1884"/>
+      <property name="PN" value="CL31C101JGFNNNE"/>
+      <property name="Sheetname" value="T41-RF-board-V012.8-Second-Receiver"/>
+      <property name="Sheetfile" value="T41-RF-board-V012.8-Second-Receiver.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c8377519-e405-464b-add7-a151f724c18f</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C6">
+      <value>0.1uF 50V</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <fields>
+        <field name="LCSC">C24497</field>
+        <field name="PN">C1206C104K5RACTU</field>
+        <field name="Footprint">Capacitor_SMD:C_1206_3216Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C24497"/>
+      <property name="PN" value="C1206C104K5RACTU"/>
+      <property name="Sheetname" value="T41-RF-board-V012.8-Second-Receiver"/>
+      <property name="Sheetfile" value="T41-RF-board-V012.8-Second-Receiver.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>98ede7af-aa06-4d0f-abef-a1d4df9922a2</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C7">
+      <value>0.1uF 50V</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <fields>
+        <field name="LCSC">C24497</field>
+        <field name="PN">C1206C104K5RACTU</field>
+        <field name="Footprint">Capacitor_SMD:C_1206_3216Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C24497"/>
+      <property name="PN" value="C1206C104K5RACTU"/>
+      <property name="Sheetname" value="T41-RF-board-V012.8-Second-Receiver"/>
+      <property name="Sheetfile" value="T41-RF-board-V012.8-Second-Receiver.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1f82689d-ada3-4731-a445-a8ded8cac1a9</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C8">
+      <value>180pF 50V</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <fields>
+        <field name="LCSC">C527293</field>
+        <field name="PN">C1206C181J5GAC7800</field>
+        <field name="Footprint">Capacitor_SMD:C_1206_3216Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C527293"/>
+      <property name="PN" value="C1206C181J5GAC7800"/>
+      <property name="Sheetname" value="T41-RF-board-V012.8-Second-Receiver"/>
+      <property name="Sheetfile" value="T41-RF-board-V012.8-Second-Receiver.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>70307c71-cc1f-47ac-920e-e3974917f3ff</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C9">
+      <value>1uF 50V</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <fields>
+        <field name="LCSC">C1848</field>
+        <field name="PN">CL31B105KBHNNNE</field>
+        <field name="Footprint">Capacitor_SMD:C_1206_3216Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C1848"/>
+      <property name="PN" value="CL31B105KBHNNNE"/>
+      <property name="Sheetname" value="T41-RF-board-V012.8-Second-Receiver"/>
+      <property name="Sheetfile" value="T41-RF-board-V012.8-Second-Receiver.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fe164ae0-dcca-4349-802d-5ddc25918d2e</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C10">
+      <value>10nF 50V</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <fields>
+        <field name="LCSC">C1846</field>
+        <field name="PN">C1206C103K5RAC7210</field>
+        <field name="Footprint">Capacitor_SMD:C_1206_3216Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C1846"/>
+      <property name="PN" value="C1206C103K5RAC7210"/>
+      <property name="Sheetname" value="T41-RF-board-V012.8-Second-Receiver"/>
+      <property name="Sheetfile" value="T41-RF-board-V012.8-Second-Receiver.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ff464d46-eb32-4f6a-9f52-c013f7a3040e</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C11">
+      <value>10uF 50V</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <fields>
+        <field name="LCSC">C13585</field>
+        <field name="PN">C1206C106K4PACTU</field>
+        <field name="Footprint">Capacitor_SMD:C_1206_3216Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C13585"/>
+      <property name="PN" value="C1206C106K4PACTU"/>
+      <property name="Sheetname" value="T41-RF-board-V012.8-Second-Receiver"/>
+      <property name="Sheetfile" value="T41-RF-board-V012.8-Second-Receiver.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ab3ea4bc-56e0-44c9-ac0e-20e275a3bf54</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C12">
+      <value>10uF 50V</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <fields>
+        <field name="LCSC">C13585</field>
+        <field name="PN">C1206C106K4PACTU</field>
+        <field name="Footprint">Capacitor_SMD:C_1206_3216Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C13585"/>
+      <property name="PN" value="C1206C106K4PACTU"/>
+      <property name="Sheetname" value="T41-RF-board-V012.8-Second-Receiver"/>
+      <property name="Sheetfile" value="T41-RF-board-V012.8-Second-Receiver.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>da9d9f10-e820-4f3e-8019-31a36c3c8d4c</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C13">
+      <value>0.1uF 50V</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <fields>
+        <field name="LCSC">C24497</field>
+        <field name="PN">C1206C104K5RACTU</field>
+        <field name="Footprint">Capacitor_SMD:C_1206_3216Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C24497"/>
+      <property name="PN" value="C1206C104K5RACTU"/>
+      <property name="Sheetname" value="T41-RF-board-V012.8-Second-Receiver"/>
+      <property name="Sheetfile" value="T41-RF-board-V012.8-Second-Receiver.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>beec07e1-12b2-4f2e-bf96-0c2777e1b478</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C14">
+      <value>10uF 50V</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <fields>
+        <field name="LCSC">C13585</field>
+        <field name="PN">C1206C106K4PACTU</field>
+        <field name="Footprint">Capacitor_SMD:C_1206_3216Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C13585"/>
+      <property name="PN" value="C1206C106K4PACTU"/>
+      <property name="Sheetname" value="T41-RF-board-V012.8-Second-Receiver"/>
+      <property name="Sheetfile" value="T41-RF-board-V012.8-Second-Receiver.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>50d5da56-bfbf-4020-ba75-0dd794c1c4c7</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C15">
+      <value>1uF 50V</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <fields>
+        <field name="LCSC">C1848</field>
+        <field name="PN">CL31B105KBHNNNE</field>
+        <field name="Footprint">Capacitor_SMD:C_1206_3216Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C1848"/>
+      <property name="PN" value="CL31B105KBHNNNE"/>
+      <property name="Sheetname" value="T41-RF-board-V012.8-Second-Receiver"/>
+      <property name="Sheetfile" value="T41-RF-board-V012.8-Second-Receiver.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>efb7fcf8-8dd8-411a-a759-9534c411e1fc</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C16">
+      <value>0.1uF 50V</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <fields>
+        <field name="LCSC">C24497</field>
+        <field name="PN">C1206C104K5RACTU</field>
+        <field name="Footprint">Capacitor_SMD:C_1206_3216Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C24497"/>
+      <property name="PN" value="C1206C104K5RACTU"/>
+      <property name="Sheetname" value="T41-RF-board-V012.8-Second-Receiver"/>
+      <property name="Sheetfile" value="T41-RF-board-V012.8-Second-Receiver.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a3b6f591-80d9-4828-a428-536abbd9460b</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C17">
+      <value>10nF 50V</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <fields>
+        <field name="LCSC">C1846</field>
+        <field name="PN">C1206C103K5RAC7210</field>
+        <field name="Footprint">Capacitor_SMD:C_1206_3216Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C1846"/>
+      <property name="PN" value="C1206C103K5RAC7210"/>
+      <property name="Sheetname" value="T41-RF-board-V012.8-Second-Receiver"/>
+      <property name="Sheetfile" value="T41-RF-board-V012.8-Second-Receiver.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d87bf78f-d0b8-4a18-a61d-31f15b64cb4b</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C18">
+      <value>0.1uF 50V</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <fields>
+        <field name="LCSC">C24497</field>
+        <field name="PN">C1206C104K5RACTU</field>
+        <field name="Footprint">Capacitor_SMD:C_1206_3216Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C24497"/>
+      <property name="PN" value="C1206C104K5RACTU"/>
+      <property name="Sheetname" value="T41-RF-board-V012.8-Second-Receiver"/>
+      <property name="Sheetfile" value="T41-RF-board-V012.8-Second-Receiver.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>77794d6d-1e82-499b-b278-e8cd404be329</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C19">
+      <value>180pF 50V</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <fields>
+        <field name="LCSC">C527293</field>
+        <field name="PN">C1206C181J5GAC7800</field>
+        <field name="Footprint">Capacitor_SMD:C_1206_3216Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C527293"/>
+      <property name="PN" value="C1206C181J5GAC7800"/>
+      <property name="Sheetname" value="T41-RF-board-V012.8-Second-Receiver"/>
+      <property name="Sheetfile" value="T41-RF-board-V012.8-Second-Receiver.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fc56e61b-8ffc-4a76-87f1-79dbcde2a221</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C20">
+      <value>0.1uF 50V</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <fields>
+        <field name="LCSC">C24497</field>
+        <field name="PN">C1206C104K5RACTU</field>
+        <field name="Footprint">Capacitor_SMD:C_1206_3216Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C24497"/>
+      <property name="PN" value="C1206C104K5RACTU"/>
+      <property name="Sheetname" value="T41-RF-board-V012.8-Second-Receiver"/>
+      <property name="Sheetfile" value="T41-RF-board-V012.8-Second-Receiver.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1e5ab43d-1e9d-41d2-a920-5d2659d8eb34</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C21">
+      <value>105pF 50V</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <fields>
+        <field name="LCSC">C1884</field>
+        <field name="PN">CL31C101JGFNNNE</field>
+        <field name="Footprint">Capacitor_SMD:C_1206_3216Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C1884"/>
+      <property name="PN" value="CL31C101JGFNNNE"/>
+      <property name="Sheetname" value="T41-RF-board-V012.8-Second-Receiver"/>
+      <property name="Sheetfile" value="T41-RF-board-V012.8-Second-Receiver.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>93514470-78fc-41a7-8d07-057272db40dc</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C22">
+      <value>0.1uF 50V</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <fields>
+        <field name="LCSC">C24497</field>
+        <field name="PN">C1206C104K5RACTU</field>
+        <field name="Footprint">Capacitor_SMD:C_1206_3216Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C24497"/>
+      <property name="PN" value="C1206C104K5RACTU"/>
+      <property name="Sheetname" value="T41-RF-board-V012.8-Second-Receiver"/>
+      <property name="Sheetfile" value="T41-RF-board-V012.8-Second-Receiver.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c4a96ea6-41cd-468a-8e4c-741ea4f9b9be</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C23">
+      <value>0.1uF 50V</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <fields>
+        <field name="LCSC">C24497</field>
+        <field name="PN">C1206C104K5RACTU</field>
+        <field name="Footprint">Capacitor_SMD:C_1206_3216Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C24497"/>
+      <property name="PN" value="C1206C104K5RACTU"/>
+      <property name="Sheetname" value="T41-RF-board-V012.8-Second-Receiver"/>
+      <property name="Sheetfile" value="T41-RF-board-V012.8-Second-Receiver.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>338b06c8-9320-494b-a839-aeb61306a1a3</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C24">
+      <value>1uF 50V</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <fields>
+        <field name="LCSC">C1848</field>
+        <field name="PN">CL31B105KBHNNNE</field>
+        <field name="Footprint">Capacitor_SMD:C_1206_3216Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C1848"/>
+      <property name="PN" value="CL31B105KBHNNNE"/>
+      <property name="Sheetname" value="T41-RF-board-V012.8-Second-Receiver"/>
+      <property name="Sheetfile" value="T41-RF-board-V012.8-Second-Receiver.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>404217e1-602c-4c5f-926c-75e3e15d1c75</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C25">
+      <value>0.1uF 50V</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <fields>
+        <field name="LCSC">C24497</field>
+        <field name="PN">C1206C104K5RACTU</field>
+        <field name="Footprint">Capacitor_SMD:C_1206_3216Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C24497"/>
+      <property name="PN" value="C1206C104K5RACTU"/>
+      <property name="Sheetname" value="T41-RF-board-V012.8-Second-Receiver"/>
+      <property name="Sheetfile" value="T41-RF-board-V012.8-Second-Receiver.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e95e9a0a-5932-4561-9cdd-6fbf1887961a</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C26">
+      <value>0.1uF 50V</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <fields>
+        <field name="LCSC">C24497</field>
+        <field name="PN">C1206C104K5RACTU</field>
+        <field name="Footprint">Capacitor_SMD:C_1206_3216Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C24497"/>
+      <property name="PN" value="C1206C104K5RACTU"/>
+      <property name="Sheetname" value="T41-RF-board-V012.8-Second-Receiver"/>
+      <property name="Sheetfile" value="T41-RF-board-V012.8-Second-Receiver.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ae144e56-a8ad-4cab-9ab4-9934ac3264a4</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C27">
+      <value>0.1uF 50V</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <fields>
+        <field name="LCSC">C24497</field>
+        <field name="PN">C1206C104K5RACTU</field>
+        <field name="Footprint">Capacitor_SMD:C_1206_3216Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C24497"/>
+      <property name="PN" value="C1206C104K5RACTU"/>
+      <property name="Sheetname" value="T41-RF-board-V012.8-Second-Receiver"/>
+      <property name="Sheetfile" value="T41-RF-board-V012.8-Second-Receiver.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bbfa32a0-6069-46b1-a4fc-da5700d693fe</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C28">
+      <value>10nF 50V</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <fields>
+        <field name="LCSC">C1846</field>
+        <field name="PN">C1206C103K5RAC7210</field>
+        <field name="Footprint">Capacitor_SMD:C_1206_3216Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C1846"/>
+      <property name="PN" value="C1206C103K5RAC7210"/>
+      <property name="Sheetname" value="T41-RF-board-V012.8-Second-Receiver"/>
+      <property name="Sheetfile" value="T41-RF-board-V012.8-Second-Receiver.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0a382700-8107-47e2-b455-b22b25758a43</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C29">
+      <value>0.1uF 50V</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <fields>
+        <field name="LCSC">C24497</field>
+        <field name="PN">C1206C104K5RACTU</field>
+        <field name="Footprint">Capacitor_SMD:C_1206_3216Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C24497"/>
+      <property name="PN" value="C1206C104K5RACTU"/>
+      <property name="Sheetname" value="T41-RF-board-V012.8-Second-Receiver"/>
+      <property name="Sheetfile" value="T41-RF-board-V012.8-Second-Receiver.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c59db8d6-776b-4990-81d4-46264caf6960</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C32">
+      <value>10uF 50V</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <fields>
+        <field name="LCSC">C13585</field>
+        <field name="PN">C1206C106K4PACTU</field>
+        <field name="Footprint">Capacitor_SMD:C_1206_3216Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C13585"/>
+      <property name="PN" value="C1206C106K4PACTU"/>
+      <property name="Sheetname" value="T41-RF-board-V012.8-Second-Receiver"/>
+      <property name="Sheetfile" value="T41-RF-board-V012.8-Second-Receiver.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a8c0556f-9078-4853-b810-e4082c013efa</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C67">
+      <value>10uF 50V</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <fields>
+        <field name="LCSC">C13585</field>
+        <field name="PN">C1206C106K4PACTU</field>
+        <field name="Footprint">Capacitor_SMD:C_1206_3216Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C13585"/>
+      <property name="PN" value="C1206C106K4PACTU"/>
+      <property name="Sheetname" value="T41-RF-board-V012.8-Second-Receiver"/>
+      <property name="Sheetfile" value="T41-RF-board-V012.8-Second-Receiver.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>abbf3a1f-cc73-40d3-9eae-4da5531c2e00</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C68">
+      <value>0.1uF 50V</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <fields>
+        <field name="LCSC">C24497</field>
+        <field name="PN">C1206C104K5RACTU</field>
+        <field name="Footprint">Capacitor_SMD:C_1206_3216Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C24497"/>
+      <property name="PN" value="C1206C104K5RACTU"/>
+      <property name="Sheetname" value="T41-RF-board-V012.8-Second-Receiver"/>
+      <property name="Sheetfile" value="T41-RF-board-V012.8-Second-Receiver.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bc6ef2cb-a847-4253-b06d-215e6d6af04a</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C69">
+      <value>470uF 25V</value>
+      <footprint>Capacitor_THT:CP_Radial_D10.0mm_P5.00mm</footprint>
+      <fields>
+        <field name="LCSC"/>
+        <field name="PN"> ECA-1EM471</field>
+        <field name="Footprint">Capacitor_THT:CP_Radial_D10.0mm_P5.00mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="LCSC" value=""/>
+      <property name="PN" value=" ECA-1EM471"/>
+      <property name="Sheetname" value="T41-RF-board-V012.8-Second-Receiver"/>
+      <property name="Sheetfile" value="T41-RF-board-V012.8-Second-Receiver.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="CP_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>048b6365-a59b-49ee-83db-d30c96c3c008</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C70">
+      <value>0.1uF 50V</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <fields>
+        <field name="LCSC">C24497</field>
+        <field name="PN">C1206C104K5RACTU</field>
+        <field name="Footprint">Capacitor_SMD:C_1206_3216Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C24497"/>
+      <property name="PN" value="C1206C104K5RACTU"/>
+      <property name="Sheetname" value="T41-RF-board-V012.8-Second-Receiver"/>
+      <property name="Sheetfile" value="T41-RF-board-V012.8-Second-Receiver.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>14958baa-fb6b-4ad7-a139-c14d848671a6</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C71">
+      <value>10uF 50V</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <fields>
+        <field name="LCSC">C13585</field>
+        <field name="PN">C1206C106K4PACTU</field>
+        <field name="Footprint">Capacitor_SMD:C_1206_3216Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C13585"/>
+      <property name="PN" value="C1206C106K4PACTU"/>
+      <property name="Sheetname" value="T41-RF-board-V012.8-Second-Receiver"/>
+      <property name="Sheetfile" value="T41-RF-board-V012.8-Second-Receiver.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>318fc588-08c5-4ef9-be94-44a7f4e985c3</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C72">
+      <value>0.1uF 50V</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <fields>
+        <field name="LCSC">C24497</field>
+        <field name="PN">C1206C104K5RACTU</field>
+        <field name="Footprint">Capacitor_SMD:C_1206_3216Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C24497"/>
+      <property name="PN" value="C1206C104K5RACTU"/>
+      <property name="Sheetname" value="T41-RF-board-V012.8-Second-Receiver"/>
+      <property name="Sheetfile" value="T41-RF-board-V012.8-Second-Receiver.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0b805e27-5453-4732-a757-157994f1ce08</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C80">
+      <value>0.1uF 50V</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <fields>
+        <field name="LCSC">C24497</field>
+        <field name="PN">C1206C104K5RACTU</field>
+        <field name="Footprint">Capacitor_SMD:C_1206_3216Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C24497"/>
+      <property name="PN" value="C1206C104K5RACTU"/>
+      <property name="Sheetname" value="T41-RF-board-V012.8-Second-Receiver"/>
+      <property name="Sheetfile" value="T41-RF-board-V012.8-Second-Receiver.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>411c39fb-3c86-4401-a8d0-232a1bd79d7c</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="G1">
+      <value>TestPoint</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="LCSC"/>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="LCSC" value=""/>
+      <property name="Sheetname" value="T41-RF-board-V012.8-Second-Receiver"/>
+      <property name="Sheetfile" value="T41-RF-board-V012.8-Second-Receiver.kicad_sch"/>
+      <property name="dnp"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>825f1799-6cf2-46a3-99bb-df719361f44e</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="G2">
+      <value>TestPoint</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="LCSC"/>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="LCSC" value=""/>
+      <property name="Sheetname" value="T41-RF-board-V012.8-Second-Receiver"/>
+      <property name="Sheetfile" value="T41-RF-board-V012.8-Second-Receiver.kicad_sch"/>
+      <property name="dnp"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f0a0dbef-e94b-4cbc-979a-04e93ac10be5</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="G3">
+      <value>TestPoint</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="LCSC"/>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="LCSC" value=""/>
+      <property name="Sheetname" value="T41-RF-board-V012.8-Second-Receiver"/>
+      <property name="Sheetfile" value="T41-RF-board-V012.8-Second-Receiver.kicad_sch"/>
+      <property name="dnp"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7bc44fc1-feee-494b-8a0b-0806d2176844</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="G4">
+      <value>TestPoint</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="LCSC"/>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="LCSC" value=""/>
+      <property name="Sheetname" value="T41-RF-board-V012.8-Second-Receiver"/>
+      <property name="Sheetfile" value="T41-RF-board-V012.8-Second-Receiver.kicad_sch"/>
+      <property name="dnp"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ed5dee6c-9f5c-4874-8b38-e5aa9b1a5923</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="G5">
+      <value>TestPoint</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="LCSC"/>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="LCSC" value=""/>
+      <property name="Sheetname" value="T41-RF-board-V012.8-Second-Receiver"/>
+      <property name="Sheetfile" value="T41-RF-board-V012.8-Second-Receiver.kicad_sch"/>
+      <property name="dnp"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d842fef4-a027-430c-9f28-fee9793190e3</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="G6">
+      <value>TestPoint</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="LCSC"/>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="LCSC" value=""/>
+      <property name="Sheetname" value="T41-RF-board-V012.8-Second-Receiver"/>
+      <property name="Sheetfile" value="T41-RF-board-V012.8-Second-Receiver.kicad_sch"/>
+      <property name="dnp"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8296739c-d7e0-49ac-a4e9-7eca3db4e197</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J1">
+      <value>IQ_Out</value>
+      <footprint>T41_Library:Jack_3.5mm_STX-3081_Horizontal</footprint>
+      <fields>
+        <field name="LCSC"/>
+        <field name="PN">SJ1-3515N</field>
+        <field name="Footprint">T41_Library:Jack_3.5mm_STX-3081_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Connector_Audio" part="AudioJack3_SwitchTR" description="Audio Jack, 3 Poles (Stereo / TRS), Switched TR Poles (Normalling)"/>
+      <property name="LCSC" value=""/>
+      <property name="PN" value="SJ1-3515N"/>
+      <property name="Sheetname" value="T41-RF-board-V012.8-Second-Receiver"/>
+      <property name="Sheetfile" value="T41-RF-board-V012.8-Second-Receiver.kicad_sch"/>
+      <property name="ki_keywords" value="audio jack receptacle stereo headphones phones TRS connector"/>
+      <property name="ki_fp_filters" value="Jack*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>04582302-d9b5-4de1-979d-20ae5b2bc4ad</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="S"/>
+            <pin num="R"/>
+            <pin num="RN"/>
+            <pin num="T"/>
+            <pin num="TN"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J2">
+      <value>RF_IN</value>
+      <footprint>Connector_Coaxial:SMA_Amphenol_901-144_Vertical</footprint>
+      <fields>
+        <field name="LCSC"/>
+        <field name="PN">CONSMA001-G</field>
+        <field name="Footprint">Connector_Coaxial:SMA_Amphenol_901-144_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Connector" part="Conn_Coaxial" description="coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"/>
+      <property name="LCSC" value=""/>
+      <property name="PN" value="CONSMA001-G"/>
+      <property name="Sheetname" value="T41-RF-board-V012.8-Second-Receiver"/>
+      <property name="Sheetfile" value="T41-RF-board-V012.8-Second-Receiver.kicad_sch"/>
+      <property name="ki_keywords" value="BNC SMA SMB SMC LEMO coaxial connector CINCH RCA MCX MMCX U.FL UMRF"/>
+      <property name="ki_fp_filters" value="*BNC* *SMA* *SMB* *SMC* *Cinch* *LEMO* *UMRF* *MCX* *U.FL*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>31a99f55-9d07-42e7-92b3-b0bc88893cbc</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J3">
+      <value>RFControl</value>
+      <footprint>Connector_IDC:IDC-Header_2x05_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="LCSC"/>
+        <field name="Footprint">Connector_IDC:IDC-Header_2x05_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="T41_Library" part="IDC_2x5" description="Generic connector, double row, 02x05, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="LCSC" value=""/>
+      <property name="Sheetname" value="T41-RF-board-V012.8-Second-Receiver"/>
+      <property name="Sheetfile" value="T41-RF-board-V012.8-Second-Receiver.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_2x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1b978540-a6cb-4754-98fa-d1146e6b35ec</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="3"/>
+            <pin num="5"/>
+            <pin num="7"/>
+            <pin num="9"/>
+            <pin num="2"/>
+            <pin num="4"/>
+            <pin num="6"/>
+            <pin num="8"/>
+            <pin num="10"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J4">
+      <value>12-13.8V</value>
+      <footprint>TerminalBlock:TerminalBlock_bornier-2_P5.08mm</footprint>
+      <fields>
+        <field name="LCSC"/>
+        <field name="Footprint">TerminalBlock:TerminalBlock_bornier-2_P5.08mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="LCSC" value=""/>
+      <property name="Sheetname" value="T41-RF-board-V012.8-Second-Receiver"/>
+      <property name="Sheetfile" value="T41-RF-board-V012.8-Second-Receiver.kicad_sch"/>
+      <property name="ki_keywords" value="screw terminal"/>
+      <property name="ki_fp_filters" value="TerminalBlock*:*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2f68449d-6fb7-407d-9d37-edc228f7c982</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="JP4">
+      <value>CAL isolation</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="LCSC"/>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Jumper" part="Jumper_2_Open" description="Jumper, 2-pole, open"/>
+      <property name="LCSC" value=""/>
+      <property name="Sheetname" value="T41-RF-board-V012.8-Second-Receiver"/>
+      <property name="Sheetfile" value="T41-RF-board-V012.8-Second-Receiver.kicad_sch"/>
+      <property name="dnp"/>
+      <property name="ki_keywords" value="Jumper SPST"/>
+      <property name="ki_fp_filters" value="Jumper* TestPoint*2Pads* TestPoint*Bridge*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ad87b898-c7a2-4996-b490-a56a31596238</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="L1">
+      <value>FB</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <fields>
+        <field name="LCSC">C74486</field>
+        <field name="PN">HZ1206E601R-10</field>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="L" description="Inductor"/>
+      <property name="LCSC" value="C74486"/>
+      <property name="PN" value="HZ1206E601R-10"/>
+      <property name="Sheetname" value="T41-RF-board-V012.8-Second-Receiver"/>
+      <property name="Sheetfile" value="T41-RF-board-V012.8-Second-Receiver.kicad_sch"/>
+      <property name="ki_keywords" value="inductor choke coil reactor magnetic"/>
+      <property name="ki_fp_filters" value="Choke_* *Coil* Inductor_* L_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c9e9f4a8-3c7a-4e1c-a7cc-27a06d1d978d</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="L2">
+      <value>FB</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <fields>
+        <field name="LCSC">C74486</field>
+        <field name="PN">HZ1206E601R-10</field>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="L" description="Inductor"/>
+      <property name="LCSC" value="C74486"/>
+      <property name="PN" value="HZ1206E601R-10"/>
+      <property name="Sheetname" value="T41-RF-board-V012.8-Second-Receiver"/>
+      <property name="Sheetfile" value="T41-RF-board-V012.8-Second-Receiver.kicad_sch"/>
+      <property name="ki_keywords" value="inductor choke coil reactor magnetic"/>
+      <property name="ki_fp_filters" value="Choke_* *Coil* Inductor_* L_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cb01545b-d846-492d-8a1f-22db74359dbb</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="L3">
+      <value>FB</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <fields>
+        <field name="LCSC">C74486</field>
+        <field name="PN">HZ1206E601R-10</field>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="L" description="Inductor"/>
+      <property name="LCSC" value="C74486"/>
+      <property name="PN" value="HZ1206E601R-10"/>
+      <property name="Sheetname" value="T41-RF-board-V012.8-Second-Receiver"/>
+      <property name="Sheetfile" value="T41-RF-board-V012.8-Second-Receiver.kicad_sch"/>
+      <property name="ki_keywords" value="inductor choke coil reactor magnetic"/>
+      <property name="ki_fp_filters" value="Choke_* *Coil* Inductor_* L_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>35295b02-595e-4588-b32e-6d06242597b4</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="L4">
+      <value>1.5uH</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <fields>
+        <field name="LCSC">C395022</field>
+        <field name="PN">LQM31PN1R5M00L</field>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="L" description="Inductor"/>
+      <property name="LCSC" value="C395022"/>
+      <property name="PN" value="LQM31PN1R5M00L"/>
+      <property name="Sheetname" value="T41-RF-board-V012.8-Second-Receiver"/>
+      <property name="Sheetfile" value="T41-RF-board-V012.8-Second-Receiver.kicad_sch"/>
+      <property name="ki_keywords" value="inductor choke coil reactor magnetic"/>
+      <property name="ki_fp_filters" value="Choke_* *Coil* Inductor_* L_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fcc8166c-1f63-45e0-af28-0b4b752370ec</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="L7">
+      <value>FB</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <fields>
+        <field name="LCSC">C74486</field>
+        <field name="PN">HZ1206E601R-10</field>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="L" description="Inductor"/>
+      <property name="LCSC" value="C74486"/>
+      <property name="PN" value="HZ1206E601R-10"/>
+      <property name="Sheetname" value="T41-RF-board-V012.8-Second-Receiver"/>
+      <property name="Sheetfile" value="T41-RF-board-V012.8-Second-Receiver.kicad_sch"/>
+      <property name="ki_keywords" value="inductor choke coil reactor magnetic"/>
+      <property name="ki_fp_filters" value="Choke_* *Coil* Inductor_* L_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f8e67bcb-6681-4f1d-a2c8-4e014a73bc38</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="L11">
+      <value>10uH 20%</value>
+      <footprint>Inductor_SMD:L_Bourns-SRN6028</footprint>
+      <fields>
+        <field name="LCSC">C5753503</field>
+        <field name="PN">IFSC2020DEER100M01</field>
+        <field name="Footprint">Inductor_SMD:L_Bourns-SRN6028</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="L" description="Inductor"/>
+      <property name="LCSC" value="C5753503"/>
+      <property name="PN" value="IFSC2020DEER100M01"/>
+      <property name="Sheetname" value="T41-RF-board-V012.8-Second-Receiver"/>
+      <property name="Sheetfile" value="T41-RF-board-V012.8-Second-Receiver.kicad_sch"/>
+      <property name="ki_keywords" value="inductor choke coil reactor magnetic"/>
+      <property name="ki_fp_filters" value="Choke_* *Coil* Inductor_* L_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b2858ee3-b68b-4fcb-afd3-6bc6da45cd05</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="L12">
+      <value>10uH 20%</value>
+      <footprint>Inductor_SMD:L_Bourns-SRN6028</footprint>
+      <fields>
+        <field name="LCSC">C5753503</field>
+        <field name="PN">IFSC2020DEER100M01</field>
+        <field name="Footprint">Inductor_SMD:L_Bourns-SRN6028</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="L" description="Inductor"/>
+      <property name="LCSC" value="C5753503"/>
+      <property name="PN" value="IFSC2020DEER100M01"/>
+      <property name="Sheetname" value="T41-RF-board-V012.8-Second-Receiver"/>
+      <property name="Sheetfile" value="T41-RF-board-V012.8-Second-Receiver.kicad_sch"/>
+      <property name="ki_keywords" value="inductor choke coil reactor magnetic"/>
+      <property name="ki_fp_filters" value="Choke_* *Coil* Inductor_* L_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3ab8583d-be9c-4d25-aaad-051d3aff24ac</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="L13">
+      <value>10uH 20%</value>
+      <footprint>Inductor_SMD:L_Bourns-SRN6028</footprint>
+      <fields>
+        <field name="LCSC">C5753503</field>
+        <field name="PN">IFSC2020DEER100M01</field>
+        <field name="Footprint">Inductor_SMD:L_Bourns-SRN6028</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="L" description="Inductor"/>
+      <property name="LCSC" value="C5753503"/>
+      <property name="PN" value="IFSC2020DEER100M01"/>
+      <property name="Sheetname" value="T41-RF-board-V012.8-Second-Receiver"/>
+      <property name="Sheetfile" value="T41-RF-board-V012.8-Second-Receiver.kicad_sch"/>
+      <property name="ki_keywords" value="inductor choke coil reactor magnetic"/>
+      <property name="ki_fp_filters" value="Choke_* *Coil* Inductor_* L_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4f459a12-84fd-46dc-b453-6b18dc23e2b0</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R1">
+      <value>2k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <fields>
+        <field name="LCSC">C17944</field>
+        <field name="PN">ERA-8AEB202V</field>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C17944"/>
+      <property name="PN" value="ERA-8AEB202V"/>
+      <property name="Sheetname" value="T41-RF-board-V012.8-Second-Receiver"/>
+      <property name="Sheetfile" value="T41-RF-board-V012.8-Second-Receiver.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>772ae96c-7a41-4f9f-a8d6-037289b70d16</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R2">
+      <value>5k1</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <fields>
+        <field name="LCSC">C26033</field>
+        <field name="PN">ERJ-8ENF5101V</field>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C26033"/>
+      <property name="PN" value="ERJ-8ENF5101V"/>
+      <property name="Sheetname" value="T41-RF-board-V012.8-Second-Receiver"/>
+      <property name="Sheetfile" value="T41-RF-board-V012.8-Second-Receiver.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d220bc8e-e7da-444e-a985-66067e87adf4</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R3">
+      <value>5k1</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <fields>
+        <field name="LCSC">C26033</field>
+        <field name="PN">ERJ-8ENF5101V</field>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C26033"/>
+      <property name="PN" value="ERJ-8ENF5101V"/>
+      <property name="Sheetname" value="T41-RF-board-V012.8-Second-Receiver"/>
+      <property name="Sheetfile" value="T41-RF-board-V012.8-Second-Receiver.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>59048c2d-547a-45d7-977d-dc94e78b37f1</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R4">
+      <value>100R</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <fields>
+        <field name="LCSC">C17901</field>
+        <field name="PN">CR1206-FX-1000ELF</field>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C17901"/>
+      <property name="PN" value="CR1206-FX-1000ELF"/>
+      <property name="Sheetname" value="T41-RF-board-V012.8-Second-Receiver"/>
+      <property name="Sheetfile" value="T41-RF-board-V012.8-Second-Receiver.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bdf38931-802a-45c1-99e2-7ffdd8e8e288</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R5">
+      <value>5k1</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <fields>
+        <field name="LCSC">C26033</field>
+        <field name="PN">ERJ-8ENF5101V</field>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C26033"/>
+      <property name="PN" value="ERJ-8ENF5101V"/>
+      <property name="Sheetname" value="T41-RF-board-V012.8-Second-Receiver"/>
+      <property name="Sheetfile" value="T41-RF-board-V012.8-Second-Receiver.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cf56b80d-9932-45c6-80b0-65f58a86b6b1</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R6">
+      <value>5k1</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <fields>
+        <field name="LCSC">C26033</field>
+        <field name="PN">ERJ-8ENF5101V</field>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C26033"/>
+      <property name="PN" value="ERJ-8ENF5101V"/>
+      <property name="Sheetname" value="T41-RF-board-V012.8-Second-Receiver"/>
+      <property name="Sheetfile" value="T41-RF-board-V012.8-Second-Receiver.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e220e02e-32dc-4eb7-8b63-02caa2bfbede</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R7">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <fields>
+        <field name="LCSC">C17902</field>
+        <field name="PN">CR1206-FX-1002ELF</field>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C17902"/>
+      <property name="PN" value="CR1206-FX-1002ELF"/>
+      <property name="Sheetname" value="T41-RF-board-V012.8-Second-Receiver"/>
+      <property name="Sheetfile" value="T41-RF-board-V012.8-Second-Receiver.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9f42fe2a-7a66-40f0-86e9-005c6119aecf</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R8">
+      <value>100R</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <fields>
+        <field name="LCSC">C17901</field>
+        <field name="PN">CR1206-FX-1000ELF</field>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C17901"/>
+      <property name="PN" value="CR1206-FX-1000ELF"/>
+      <property name="Sheetname" value="T41-RF-board-V012.8-Second-Receiver"/>
+      <property name="Sheetfile" value="T41-RF-board-V012.8-Second-Receiver.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9b74d670-c550-491f-b87e-81fe89937a62</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R9">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <fields>
+        <field name="LCSC">C17902</field>
+        <field name="PN">CR1206-FX-1002ELF</field>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C17902"/>
+      <property name="PN" value="CR1206-FX-1002ELF"/>
+      <property name="Sheetname" value="T41-RF-board-V012.8-Second-Receiver"/>
+      <property name="Sheetfile" value="T41-RF-board-V012.8-Second-Receiver.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d6b605de-f379-4cab-a0ff-601a37f31c99</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R10">
+      <value>5k1</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <fields>
+        <field name="LCSC">C26033</field>
+        <field name="PN">ERJ-8ENF5101V</field>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C26033"/>
+      <property name="PN" value="ERJ-8ENF5101V"/>
+      <property name="Sheetname" value="T41-RF-board-V012.8-Second-Receiver"/>
+      <property name="Sheetfile" value="T41-RF-board-V012.8-Second-Receiver.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>76f0a876-e43e-45ef-b257-fe7c8bbd6166</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R11">
+      <value>5k1</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <fields>
+        <field name="LCSC">C26033</field>
+        <field name="PN">ERJ-8ENF5101V</field>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C26033"/>
+      <property name="PN" value="ERJ-8ENF5101V"/>
+      <property name="Sheetname" value="T41-RF-board-V012.8-Second-Receiver"/>
+      <property name="Sheetfile" value="T41-RF-board-V012.8-Second-Receiver.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>59381521-8881-48b2-b68c-d3e138369b32</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R12">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <fields>
+        <field name="LCSC">C17902</field>
+        <field name="PN">CR1206-FX-1002ELF</field>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C17902"/>
+      <property name="PN" value="CR1206-FX-1002ELF"/>
+      <property name="Sheetname" value="T41-RF-board-V012.8-Second-Receiver"/>
+      <property name="Sheetfile" value="T41-RF-board-V012.8-Second-Receiver.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>67100718-c1b4-4ccd-b94e-1b0441961186</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R13">
+      <value>2k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <fields>
+        <field name="LCSC">C17944</field>
+        <field name="PN">ERA-8AEB202V</field>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C17944"/>
+      <property name="PN" value="ERA-8AEB202V"/>
+      <property name="Sheetname" value="T41-RF-board-V012.8-Second-Receiver"/>
+      <property name="Sheetfile" value="T41-RF-board-V012.8-Second-Receiver.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>65db15b4-1c1c-4fe4-845c-0339dd7f0619</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R14">
+      <value>36R5</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <fields>
+        <field name="LCSC">C205349</field>
+        <field name="PN">CRCW120636R5FKEA</field>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C205349"/>
+      <property name="PN" value="CRCW120636R5FKEA"/>
+      <property name="Sheetname" value="T41-RF-board-V012.8-Second-Receiver"/>
+      <property name="Sheetfile" value="T41-RF-board-V012.8-Second-Receiver.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>047baf6d-8cca-46c0-8fc8-373fcd683105</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R15">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <fields>
+        <field name="LCSC">C17902</field>
+        <field name="PN">CR1206-FX-1002ELF</field>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C17902"/>
+      <property name="PN" value="CR1206-FX-1002ELF"/>
+      <property name="Sheetname" value="T41-RF-board-V012.8-Second-Receiver"/>
+      <property name="Sheetfile" value="T41-RF-board-V012.8-Second-Receiver.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>882fd84c-cd57-4b47-9e67-c4dced60dd46</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R16">
+      <value>100R</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <fields>
+        <field name="LCSC">C17901</field>
+        <field name="PN">CR1206-FX-1000ELF</field>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C17901"/>
+      <property name="PN" value="CR1206-FX-1000ELF"/>
+      <property name="Sheetname" value="T41-RF-board-V012.8-Second-Receiver"/>
+      <property name="Sheetfile" value="T41-RF-board-V012.8-Second-Receiver.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>84ab5530-6004-4188-ba08-5031614a63f1</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R17">
+      <value>5k1</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <fields>
+        <field name="LCSC">C26033</field>
+        <field name="PN">ERJ-8ENF5101V</field>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C26033"/>
+      <property name="PN" value="ERJ-8ENF5101V"/>
+      <property name="Sheetname" value="T41-RF-board-V012.8-Second-Receiver"/>
+      <property name="Sheetfile" value="T41-RF-board-V012.8-Second-Receiver.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d50d1298-e07d-4ce9-8890-aba3c44564b9</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R18">
+      <value>5k1</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <fields>
+        <field name="LCSC">C26033</field>
+        <field name="PN">ERJ-8ENF5101V</field>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C26033"/>
+      <property name="PN" value="ERJ-8ENF5101V"/>
+      <property name="Sheetname" value="T41-RF-board-V012.8-Second-Receiver"/>
+      <property name="Sheetfile" value="T41-RF-board-V012.8-Second-Receiver.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>27b2e266-298b-4934-bfac-99d443a9eadc</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R19">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <fields>
+        <field name="LCSC">C17902</field>
+        <field name="PN">CR1206-FX-1002ELF</field>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C17902"/>
+      <property name="PN" value="CR1206-FX-1002ELF"/>
+      <property name="Sheetname" value="T41-RF-board-V012.8-Second-Receiver"/>
+      <property name="Sheetfile" value="T41-RF-board-V012.8-Second-Receiver.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>85c61aea-7489-4c55-91e0-7fd6ba7adfd1</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R20">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <fields>
+        <field name="LCSC">C17902</field>
+        <field name="PN">CR1206-FX-1002ELF</field>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C17902"/>
+      <property name="PN" value="CR1206-FX-1002ELF"/>
+      <property name="Sheetname" value="T41-RF-board-V012.8-Second-Receiver"/>
+      <property name="Sheetfile" value="T41-RF-board-V012.8-Second-Receiver.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0290e991-8bb0-4f02-bce8-118aa626a0c8</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R21">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <fields>
+        <field name="LCSC">C17902</field>
+        <field name="PN">CR1206-FX-1002ELF</field>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C17902"/>
+      <property name="PN" value="CR1206-FX-1002ELF"/>
+      <property name="Sheetname" value="T41-RF-board-V012.8-Second-Receiver"/>
+      <property name="Sheetfile" value="T41-RF-board-V012.8-Second-Receiver.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2a5e64a2-ce75-4c19-8e94-5b9eac801ecf</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R22">
+      <value>100R</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <fields>
+        <field name="LCSC">C17901</field>
+        <field name="PN">CR1206-FX-1000ELF</field>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C17901"/>
+      <property name="PN" value="CR1206-FX-1000ELF"/>
+      <property name="Sheetname" value="T41-RF-board-V012.8-Second-Receiver"/>
+      <property name="Sheetfile" value="T41-RF-board-V012.8-Second-Receiver.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f0bb27c2-3ef0-49c1-bc1d-2dd84178b812</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R23">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <fields>
+        <field name="LCSC">C17902</field>
+        <field name="PN">CR1206-FX-1002ELF</field>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C17902"/>
+      <property name="PN" value="CR1206-FX-1002ELF"/>
+      <property name="Sheetname" value="T41-RF-board-V012.8-Second-Receiver"/>
+      <property name="Sheetfile" value="T41-RF-board-V012.8-Second-Receiver.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d6eaeb5f-9282-45a2-892e-49c8162a7da1</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R40">
+      <value>0</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <fields>
+        <field name="LCSC">C17888</field>
+        <field name="PN">1206S4J0000TDE</field>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C17888"/>
+      <property name="PN" value="1206S4J0000TDE"/>
+      <property name="Sheetname" value="T41-RF-board-V012.8-Second-Receiver"/>
+      <property name="Sheetfile" value="T41-RF-board-V012.8-Second-Receiver.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c331f122-088c-4cd0-959b-54b4b4cff0dd</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R42">
+      <value>0</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <fields>
+        <field name="LCSC">C17888</field>
+        <field name="PN">1206S4J0000TDE</field>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C17888"/>
+      <property name="PN" value="1206S4J0000TDE"/>
+      <property name="Sheetname" value="T41-RF-board-V012.8-Second-Receiver"/>
+      <property name="Sheetfile" value="T41-RF-board-V012.8-Second-Receiver.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>35a5b78b-3a99-4617-ba83-097c71e2fdaf</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R49">
+      <value>2k2</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <fields>
+        <field name="LCSC">C17948</field>
+        <field name="PN">RT1206FRE072K2L</field>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C17948"/>
+      <property name="PN" value="RT1206FRE072K2L"/>
+      <property name="Sheetname" value="T41-RF-board-V012.8-Second-Receiver"/>
+      <property name="Sheetfile" value="T41-RF-board-V012.8-Second-Receiver.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>778b42a1-94fc-440a-8f83-e581868a9b99</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R51">
+      <value>2k2</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <fields>
+        <field name="LCSC">C17948</field>
+        <field name="PN">RT1206FRE072K2L</field>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C17948"/>
+      <property name="PN" value="RT1206FRE072K2L"/>
+      <property name="Sheetname" value="T41-RF-board-V012.8-Second-Receiver"/>
+      <property name="Sheetfile" value="T41-RF-board-V012.8-Second-Receiver.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>59ac97ba-6e7f-4b6d-8e66-8fd0becbfdfa</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R60">
+      <value>2k2</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <fields>
+        <field name="LCSC">C17948</field>
+        <field name="PN">RT1206FRE072K2L</field>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C17948"/>
+      <property name="PN" value="RT1206FRE072K2L"/>
+      <property name="Sheetname" value="T41-RF-board-V012.8-Second-Receiver"/>
+      <property name="Sheetfile" value="T41-RF-board-V012.8-Second-Receiver.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ad544b08-0304-411a-b7c1-228755962e6e</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R61">
+      <value>2k2</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <fields>
+        <field name="LCSC">C17948</field>
+        <field name="PN">RT1206FRE072K2L</field>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C17948"/>
+      <property name="PN" value="RT1206FRE072K2L"/>
+      <property name="Sheetname" value="T41-RF-board-V012.8-Second-Receiver"/>
+      <property name="Sheetfile" value="T41-RF-board-V012.8-Second-Receiver.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9c2427d3-eff3-4403-9a44-d9ec67946f03</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R62">
+      <value>2k2</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <fields>
+        <field name="LCSC">C17948</field>
+        <field name="PN">RT1206FRE072K2L</field>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C17948"/>
+      <property name="PN" value="RT1206FRE072K2L"/>
+      <property name="Sheetname" value="T41-RF-board-V012.8-Second-Receiver"/>
+      <property name="Sheetfile" value="T41-RF-board-V012.8-Second-Receiver.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>63981f94-2b11-426c-b130-b0c294296eb6</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R63">
+      <value>2k2</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <fields>
+        <field name="LCSC">C17948</field>
+        <field name="PN">RT1206FRE072K2L</field>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C17948"/>
+      <property name="PN" value="RT1206FRE072K2L"/>
+      <property name="Sheetname" value="T41-RF-board-V012.8-Second-Receiver"/>
+      <property name="Sheetfile" value="T41-RF-board-V012.8-Second-Receiver.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7d254234-688e-4aba-bdce-9a2561933a33</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R64">
+      <value>0</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <fields>
+        <field name="LCSC">C17888</field>
+        <field name="PN">1206S4J0000TDE</field>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C17888"/>
+      <property name="PN" value="1206S4J0000TDE"/>
+      <property name="Sheetname" value="T41-RF-board-V012.8-Second-Receiver"/>
+      <property name="Sheetfile" value="T41-RF-board-V012.8-Second-Receiver.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>32089dfe-57dd-4cae-b1f9-0f2d9b1505f7</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R65">
+      <value>0</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <fields>
+        <field name="LCSC">C17888</field>
+        <field name="PN">1206S4J0000TDE</field>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C17888"/>
+      <property name="PN" value="1206S4J0000TDE"/>
+      <property name="Sheetname" value="T41-RF-board-V012.8-Second-Receiver"/>
+      <property name="Sheetfile" value="T41-RF-board-V012.8-Second-Receiver.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1c4008fe-fc32-44e1-8e53-626895126a4f</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="TP1">
+      <value>TestPoint</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="LCSC"/>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="LCSC" value=""/>
+      <property name="Sheetname" value="T41-RF-board-V012.8-Second-Receiver"/>
+      <property name="Sheetfile" value="T41-RF-board-V012.8-Second-Receiver.kicad_sch"/>
+      <property name="dnp"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6f6953b1-4795-44d1-b2cf-7ab5d2ce88e2</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="TP2">
+      <value>TestPoint</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="LCSC"/>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="LCSC" value=""/>
+      <property name="Sheetname" value="T41-RF-board-V012.8-Second-Receiver"/>
+      <property name="Sheetfile" value="T41-RF-board-V012.8-Second-Receiver.kicad_sch"/>
+      <property name="dnp"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>97527d4e-4333-4b55-84fe-8158fa000b4c</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="TP3">
+      <value>TestPoint</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="LCSC"/>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="LCSC" value=""/>
+      <property name="Sheetname" value="T41-RF-board-V012.8-Second-Receiver"/>
+      <property name="Sheetfile" value="T41-RF-board-V012.8-Second-Receiver.kicad_sch"/>
+      <property name="dnp"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6607c6ca-58d6-44a7-a82e-b44704a75838</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="TP4">
+      <value>TestPoint</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="LCSC"/>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="LCSC" value=""/>
+      <property name="Sheetname" value="T41-RF-board-V012.8-Second-Receiver"/>
+      <property name="Sheetfile" value="T41-RF-board-V012.8-Second-Receiver.kicad_sch"/>
+      <property name="dnp"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ccfd5155-b814-4b89-8f85-cde5af9ba7ac</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="TP5">
+      <value>TestPoint</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="LCSC"/>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="LCSC" value=""/>
+      <property name="Sheetname" value="T41-RF-board-V012.8-Second-Receiver"/>
+      <property name="Sheetfile" value="T41-RF-board-V012.8-Second-Receiver.kicad_sch"/>
+      <property name="dnp"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2c269965-af34-48bf-a484-1241d7d9c456</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="TP6">
+      <value>TestPoint</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="LCSC"/>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="LCSC" value=""/>
+      <property name="Sheetname" value="T41-RF-board-V012.8-Second-Receiver"/>
+      <property name="Sheetfile" value="T41-RF-board-V012.8-Second-Receiver.kicad_sch"/>
+      <property name="dnp"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>110a334b-dcf5-4016-b548-43542d9a19ff</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="TP17">
+      <value>TestPoint</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="LCSC"/>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="LCSC" value=""/>
+      <property name="Sheetname" value="T41-RF-board-V012.8-Second-Receiver"/>
+      <property name="Sheetfile" value="T41-RF-board-V012.8-Second-Receiver.kicad_sch"/>
+      <property name="dnp"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>68d16323-ac90-49ad-9e00-a36496cf6221</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="TP18">
+      <value>TestPoint</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="LCSC"/>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="LCSC" value=""/>
+      <property name="Sheetname" value="T41-RF-board-V012.8-Second-Receiver"/>
+      <property name="Sheetfile" value="T41-RF-board-V012.8-Second-Receiver.kicad_sch"/>
+      <property name="dnp"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>034a0cd2-4926-422e-8eb0-b56bd12745b5</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="TR1">
+      <value>ADT1-1</value>
+      <footprint>RF_Mini-Circuits:Mini-Circuits_CD542_H2.84mm</footprint>
+      <datasheet>https://www.minicircuits.com/pdfs/ADT1-1+.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C2683432</field>
+        <field name="PN">ADT1-1+</field>
+        <field name="Footprint">RF_Mini-Circuits:Mini-Circuits_CD542_H2.84mm</field>
+        <field name="Datasheet">https://www.minicircuits.com/pdfs/ADT1-1+.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Transformer" part="ADT1-1" description="0.15-400MHz 1:1 RF Transformer, Balanced to Balanced, CD542"/>
+      <property name="LCSC" value="C2683432"/>
+      <property name="PN" value="ADT1-1+"/>
+      <property name="Sheetname" value="T41-RF-board-V012.8-Second-Receiver"/>
+      <property name="Sheetfile" value="T41-RF-board-V012.8-Second-Receiver.kicad_sch"/>
+      <property name="ki_keywords" value="Mini-Circuits RF Transformer"/>
+      <property name="ki_fp_filters" value="Mini?Circuits*CD542*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fb0e5f9f-ce13-459f-b823-9fcfa432e308</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="3"/>
+            <pin num="1"/>
+            <pin num="4"/>
+            <pin num="6"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U1">
+      <value>74CBTLV3253DR</value>
+      <footprint>Package_SO:SOIC-16_3.9x9.9mm_P1.27mm</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/sn74cbtlv3253.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C543079</field>
+        <field name="PN">SN74CBTLV3253DR</field>
+        <field name="Footprint">Package_SO:SOIC-16_3.9x9.9mm_P1.27mm</field>
+        <field name="Datasheet">https://www.ti.com/lit/ds/symlink/sn74cbtlv3253.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="T41_Library" part="74CBTLV3253PWRE4" description="Low-Voltage Dual 1-of-4 FET Multiplexer/Demultiplexer"/>
+      <property name="LCSC" value="C543079"/>
+      <property name="PN" value="SN74CBTLV3253DR"/>
+      <property name="Sheetname" value="T41-RF-board-V012.8-Second-Receiver"/>
+      <property name="Sheetfile" value="T41-RF-board-V012.8-Second-Receiver.kicad_sch"/>
+      <property name="ki_fp_filters" value="DIP?24*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a14820aa-4878-44cf-bf0d-2b23291611ca</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="15"/>
+            <pin num="14"/>
+            <pin num="2"/>
+            <pin num="7"/>
+            <pin num="9"/>
+            <pin num="16"/>
+            <pin num="8"/>
+            <pin num="6"/>
+            <pin num="5"/>
+            <pin num="4"/>
+            <pin num="3"/>
+            <pin num="10"/>
+            <pin num="11"/>
+            <pin num="12"/>
+            <pin num="13"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U2">
+      <value>PSA-8A+</value>
+      <footprint>Package_TO_SOT_SMD:SOT-363_SC-70-6</footprint>
+      <datasheet>https://www.minicircuits.com/pdfs/PSA-8A+.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C3192212</field>
+        <field name="PN">PSA-8A+</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-363_SC-70-6</field>
+        <field name="Datasheet">https://www.minicircuits.com/pdfs/PSA-8A+.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="T41_Library" part="PSA-8A+" description="DC to 4 GHz, 31 dB gain, 3 dB NF monolithic amplifier"/>
+      <property name="LCSC" value="C3192212"/>
+      <property name="PN" value="PSA-8A+"/>
+      <property name="Sheetname" value="T41-RF-board-V012.8-Second-Receiver"/>
+      <property name="Sheetfile" value="T41-RF-board-V012.8-Second-Receiver.kicad_sch"/>
+      <property name="ki_fp_filters" value="SOIC*P1.27mm* DIP*W7.62mm*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bc7f1f12-c831-4e95-91ac-3e7b8da5081f</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="3"/>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U11">
+      <value>Attenuator Daughter Board (See Legend)</value>
+      <footprint>T41_Library:T41_Attenuator_Daughter</footprint>
+      <fields>
+        <field name="LCSC"/>
+        <field name="Footprint">T41_Library:T41_Attenuator_Daughter</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="T41_Library" part="T41_Attenuator_Daughter" description=""/>
+      <property name="LCSC" value=""/>
+      <property name="Sheetname" value="T41-RF-board-V012.8-Second-Receiver"/>
+      <property name="Sheetfile" value="T41-RF-board-V012.8-Second-Receiver.kicad_sch"/>
+      <property name="ki_fp_filters" value="MSOP*3x3mm*P0.65mm*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b697e643-c7f2-4ea5-8d1f-833c50bce0fc</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="12"/>
+            <pin num="11"/>
+            <pin num="10"/>
+            <pin num="9"/>
+            <pin num="8"/>
+            <pin num="7"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U12">
+      <value>Oscillator Daughter Board (See Legend)</value>
+      <footprint>T41_Library:T41_DualClock_Daughter</footprint>
+      <fields>
+        <field name="LCSC"/>
+        <field name="Footprint">T41_Library:T41_DualClock_Daughter</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="T41_Library" part="T41_DualClock_Daughter" description=""/>
+      <property name="LCSC" value=""/>
+      <property name="Sheetname" value="T41-RF-board-V012.8-Second-Receiver"/>
+      <property name="Sheetfile" value="T41-RF-board-V012.8-Second-Receiver.kicad_sch"/>
+      <property name="ki_fp_filters" value="MSOP*3x3mm*P0.65mm*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7a68b1a2-9d33-4520-8453-b79f115dc2ee</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="7"/>
+            <pin num="8"/>
+            <pin num="12"/>
+            <pin num="11"/>
+            <pin num="10"/>
+            <pin num="9"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U14">
+      <value>LM7805CT</value>
+      <footprint>Package_TO_SOT_THT:TO-220-3_Vertical</footprint>
+      <datasheet>https://www.onsemi.cn/PowerSolutions/document/MC7800-D.PDF</datasheet>
+      <fields>
+        <field name="LCSC">C725349</field>
+        <field name="PN">LM7805CT</field>
+        <field name="Footprint">Package_TO_SOT_THT:TO-220-3_Vertical</field>
+        <field name="Datasheet">https://www.onsemi.cn/PowerSolutions/document/MC7800-D.PDF</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Regulator_Linear" part="LM7805_TO220" description="Positive 1A 35V Linear Regulator, Fixed Output 5V, TO-220"/>
+      <property name="LCSC" value="C725349"/>
+      <property name="PN" value="LM7805CT"/>
+      <property name="Sheetname" value="T41-RF-board-V012.8-Second-Receiver"/>
+      <property name="Sheetfile" value="T41-RF-board-V012.8-Second-Receiver.kicad_sch"/>
+      <property name="ki_keywords" value="Voltage Regulator 1A Positive"/>
+      <property name="ki_fp_filters" value="TO?220*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c18341db-0b6a-426c-a143-af24ef423f00</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U15">
+      <value>LM1117T-3.3</value>
+      <footprint>Package_TO_SOT_THT:TO-220-3_Vertical</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/lm1117.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C201726</field>
+        <field name="PN">LM1117T-3.3/NOPB</field>
+        <field name="Footprint">Package_TO_SOT_THT:TO-220-3_Vertical</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/lm1117.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Regulator_Linear" part="LM1117T-3.3" description="800mA Low-Dropout Linear Regulator, 3.3V fixed output, TO-220"/>
+      <property name="LCSC" value="C201726"/>
+      <property name="PN" value="LM1117T-3.3/NOPB"/>
+      <property name="Sheetname" value="T41-RF-board-V012.8-Second-Receiver"/>
+      <property name="Sheetfile" value="T41-RF-board-V012.8-Second-Receiver.kicad_sch"/>
+      <property name="ki_keywords" value="linear regulator ldo fixed positive"/>
+      <property name="ki_fp_filters" value="TO?220*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1076a160-2fc8-48a7-87c5-54c02c210b9f</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="3"/>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U21">
+      <value>MCP23017_SO</value>
+      <footprint>Package_SO:SOIC-28W_7.5x17.9mm_P1.27mm</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/20001952C.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C47023</field>
+        <field name="PN">MCP23017-E/SO</field>
+        <field name="Footprint">Package_SO:SOIC-28W_7.5x17.9mm_P1.27mm</field>
+        <field name="Datasheet">http://ww1.microchip.com/downloads/en/DeviceDoc/20001952C.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Interface_Expansion" part="MCP23017_SO" description="16-bit I/O expander, I2C, interrupts, w pull-ups, SOIC-28"/>
+      <property name="LCSC" value="C47023"/>
+      <property name="PN" value="MCP23017-E/SO"/>
+      <property name="Sheetname" value="T41-RF-board-V012.8-Second-Receiver"/>
+      <property name="Sheetfile" value="T41-RF-board-V012.8-Second-Receiver.kicad_sch"/>
+      <property name="ki_keywords" value="I2C parallel port expander"/>
+      <property name="ki_fp_filters" value="SOIC*7.5x17.9mm*P1.27mm*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e8d4f36d-250e-4ece-b6eb-55f5f794fcef</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="13"/>
+            <pin num="12"/>
+            <pin num="19"/>
+            <pin num="20"/>
+            <pin num="18"/>
+            <pin num="17"/>
+            <pin num="16"/>
+            <pin num="15"/>
+            <pin num="11"/>
+            <pin num="14"/>
+            <pin num="9"/>
+            <pin num="10"/>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="7"/>
+            <pin num="8"/>
+            <pin num="21"/>
+            <pin num="22"/>
+            <pin num="23"/>
+            <pin num="24"/>
+            <pin num="25"/>
+            <pin num="26"/>
+            <pin num="27"/>
+            <pin num="28"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U106">
+      <value>AD8599</value>
+      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <datasheet>https://www.analog.com/media/en/technical-documentation/data-sheets/AD8597_8599.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C207971</field>
+        <field name="PN">AD8599ARZ-REEL</field>
+        <field name="Footprint">Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</field>
+        <field name="Datasheet">https://www.analog.com/media/en/technical-documentation/data-sheets/AD8597_8599.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Amplifier_Operational" part="MC33078" description="Low Noise, Dual Operational Amplifiers, DIP-8/SOIC-8/SSOP-8"/>
+      <property name="LCSC" value="C207971"/>
+      <property name="PN" value="AD8599ARZ-REEL"/>
+      <property name="Sheetname" value="T41-RF-board-V012.8-Second-Receiver"/>
+      <property name="Sheetfile" value="T41-RF-board-V012.8-Second-Receiver.kicad_sch"/>
+      <property name="ki_keywords" value="dual opamp"/>
+      <property name="ki_fp_filters" value="SOIC*3.9x4.9mm*P1.27mm* DIP*W7.62mm* TO*99* OnSemi*Micro8* TSSOP*3x3mm*P0.65mm* TSSOP*4.4x3mm*P0.65mm* MSOP*3x3mm*P0.65mm* SSOP*3.9x4.9mm*P0.635mm* LFCSP*2x2mm*P0.5mm* *SIP* SOIC*5.3x6.2mm*P1.27mm*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4f44adae-2efc-4536-86f6-340083ba28c9 49368002-1d57-4e6d-9665-55799eb56a27 1564b91c-b52f-4107-b971-1905bf199be4</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="3"/>
+            <pin num="2"/>
+            <pin num="1"/>
+          </pins>
+        </unit>
+        <unit name="B">
+          <pins>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="7"/>
+          </pins>
+        </unit>
+        <unit name="C">
+          <pins>
+            <pin num="8"/>
+            <pin num="4"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U107">
+      <value>OPA2209</value>
+      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/opa2209.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C2057330</field>
+        <field name="PN">OPA2209AIDR</field>
+        <field name="Footprint">Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</field>
+        <field name="Datasheet">https://www.ti.com/lit/ds/symlink/opa2209.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Amplifier_Operational" part="MC33078" description="Low Noise, Dual Operational Amplifiers, DIP-8/SOIC-8/SSOP-8"/>
+      <property name="LCSC" value="C2057330"/>
+      <property name="PN" value="OPA2209AIDR"/>
+      <property name="Sheetname" value="T41-RF-board-V012.8-Second-Receiver"/>
+      <property name="Sheetfile" value="T41-RF-board-V012.8-Second-Receiver.kicad_sch"/>
+      <property name="ki_keywords" value="dual opamp"/>
+      <property name="ki_fp_filters" value="SOIC*3.9x4.9mm*P1.27mm* DIP*W7.62mm* TO*99* OnSemi*Micro8* TSSOP*3x3mm*P0.65mm* TSSOP*4.4x3mm*P0.65mm* MSOP*3x3mm*P0.65mm* SSOP*3.9x4.9mm*P0.635mm* LFCSP*2x2mm*P0.5mm* *SIP* SOIC*5.3x6.2mm*P1.27mm*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f85b7038-4c50-4954-9ad7-81fcfda25615 4b9045d6-65c7-40f3-8399-d437dd5d9569 1db45799-e8c4-4486-b87f-b8d1ea5f60b5</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="3"/>
+            <pin num="2"/>
+            <pin num="1"/>
+          </pins>
+        </unit>
+        <unit name="B">
+          <pins>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="7"/>
+          </pins>
+        </unit>
+        <unit name="C">
+          <pins>
+            <pin num="8"/>
+            <pin num="4"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Amplifier_Operational" part="MC33078">
+      <description>Low Noise, Dual Operational Amplifiers, DIP-8/SOIC-8/SSOP-8</description>
+      <docs>https://www.onsemi.com/pub/Collateral/MC33078-D.PDF</docs>
+      <footprints>
+        <fp>SOIC*3.9x4.9mm*P1.27mm*</fp>
+        <fp>DIP*W7.62mm*</fp>
+        <fp>TO*99*</fp>
+        <fp>OnSemi*Micro8*</fp>
+        <fp>TSSOP*3x3mm*P0.65mm*</fp>
+        <fp>TSSOP*4.4x3mm*P0.65mm*</fp>
+        <fp>MSOP*3x3mm*P0.65mm*</fp>
+        <fp>SSOP*3.9x4.9mm*P0.635mm*</fp>
+        <fp>LFCSP*2x2mm*P0.5mm*</fp>
+        <fp>*SIP*</fp>
+        <fp>SOIC*5.3x6.2mm*P1.27mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MC33078</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">https://www.onsemi.com/pub/Collateral/MC33078-D.PDF</field>
+        <field name="Description">Low Noise, Dual Operational Amplifiers, DIP-8/SOIC-8/SSOP-8</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="output"/>
+        <pin num="2" name="-" type="input"/>
+        <pin num="3" name="+" type="input"/>
+        <pin num="4" name="V-" type="power_in"/>
+        <pin num="5" name="+" type="input"/>
+        <pin num="6" name="-" type="input"/>
+        <pin num="7" name="" type="output"/>
+        <pin num="8" name="V+" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_Coaxial">
+      <description>coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)</description>
+      <footprints>
+        <fp>*BNC*</fp>
+        <fp>*SMA*</fp>
+        <fp>*SMB*</fp>
+        <fp>*SMC*</fp>
+        <fp>*Cinch*</fp>
+        <fp>*LEMO*</fp>
+        <fp>*UMRF*</fp>
+        <fp>*MCX*</fp>
+        <fp>*U.FL*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_Coaxial</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)</field>
+      </fields>
+      <pins>
+        <pin num="1" name="In" type="passive"/>
+        <pin num="2" name="Ext" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Screw_Terminal_01x02">
+      <description>Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <footprints>
+        <fp>TerminalBlock*:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Screw_Terminal_01x02</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="TestPoint">
+      <description>test point</description>
+      <footprints>
+        <fp>Pin*</fp>
+        <fp>Test*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">TestPoint</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">test point</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Audio" part="AudioJack3_SwitchTR">
+      <description>Audio Jack, 3 Poles (Stereo / TRS), Switched TR Poles (Normalling)</description>
+      <footprints>
+        <fp>Jack*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">AudioJack3_SwitchTR</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Audio Jack, 3 Poles (Stereo / TRS), Switched TR Poles (Normalling)</field>
+      </fields>
+      <pins>
+        <pin num="R" name="" type="passive"/>
+        <pin num="RN" name="" type="passive"/>
+        <pin num="S" name="" type="passive"/>
+        <pin num="T" name="" type="passive"/>
+        <pin num="TN" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Polarized">
+      <description>Polarized capacitor</description>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Polarized</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Polarized capacitor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="L">
+      <description>Inductor</description>
+      <footprints>
+        <fp>Choke_*</fp>
+        <fp>*Coil*</fp>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Inductor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Interface_Expansion" part="MCP23017_SO">
+      <description>16-bit I/O expander, I2C, interrupts, w pull-ups, SOIC-28</description>
+      <docs>http://ww1.microchip.com/downloads/en/DeviceDoc/20001952C.pdf</docs>
+      <footprints>
+        <fp>SOIC*7.5x17.9mm*P1.27mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MCP23017_SO</field>
+        <field name="Footprint">Package_SO:SOIC-28W_7.5x17.9mm_P1.27mm</field>
+        <field name="Datasheet">http://ww1.microchip.com/downloads/en/DeviceDoc/20001952C.pdf</field>
+        <field name="Description">16-bit I/O expander, I2C, interrupts, w pull-ups, SOIC-28</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GPB0" type="bidirectional"/>
+        <pin num="2" name="GPB1" type="bidirectional"/>
+        <pin num="3" name="GPB2" type="bidirectional"/>
+        <pin num="4" name="GPB3" type="bidirectional"/>
+        <pin num="5" name="GPB4" type="bidirectional"/>
+        <pin num="6" name="GPB5" type="bidirectional"/>
+        <pin num="7" name="GPB6" type="bidirectional"/>
+        <pin num="8" name="GPB7" type="bidirectional"/>
+        <pin num="9" name="VDD" type="power_in"/>
+        <pin num="10" name="VSS" type="power_in"/>
+        <pin num="11" name="NC" type="no_connect"/>
+        <pin num="12" name="SCK" type="input"/>
+        <pin num="13" name="SDA" type="bidirectional"/>
+        <pin num="14" name="NC" type="no_connect"/>
+        <pin num="15" name="A0" type="input"/>
+        <pin num="16" name="A1" type="input"/>
+        <pin num="17" name="A2" type="input"/>
+        <pin num="18" name="~{RESET}" type="input"/>
+        <pin num="19" name="INTB" type="tri_state"/>
+        <pin num="20" name="INTA" type="tri_state"/>
+        <pin num="21" name="GPA0" type="bidirectional"/>
+        <pin num="22" name="GPA1" type="bidirectional"/>
+        <pin num="23" name="GPA2" type="bidirectional"/>
+        <pin num="24" name="GPA3" type="bidirectional"/>
+        <pin num="25" name="GPA4" type="bidirectional"/>
+        <pin num="26" name="GPA5" type="bidirectional"/>
+        <pin num="27" name="GPA6" type="bidirectional"/>
+        <pin num="28" name="GPA7" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="Jumper" part="Jumper_2_Open">
+      <description>Jumper, 2-pole, open</description>
+      <footprints>
+        <fp>Jumper*</fp>
+        <fp>TestPoint*2Pads*</fp>
+        <fp>TestPoint*Bridge*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">Jumper_2_Open</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Jumper, 2-pole, open</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Jumper" part="SolderJumper_2_Bridged">
+      <description>Solder Jumper, 2-pole, closed/bridged</description>
+      <footprints>
+        <fp>SolderJumper*Bridged*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">SolderJumper_2_Bridged</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Solder Jumper, 2-pole, closed/bridged</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Jumper" part="SolderJumper_2_Open">
+      <description>Solder Jumper, 2-pole, open</description>
+      <footprints>
+        <fp>SolderJumper*Open*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">SolderJumper_2_Open</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Solder Jumper, 2-pole, open</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole_Pad">
+      <description>Mounting Hole with connection</description>
+      <footprints>
+        <fp>MountingHole*Pad*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole_Pad</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Mounting Hole with connection</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Linear" part="LM1117T-3.3">
+      <description>800mA Low-Dropout Linear Regulator, 3.3V fixed output, TO-220</description>
+      <docs>http://www.ti.com/lit/ds/symlink/lm1117.pdf</docs>
+      <footprints>
+        <fp>TO?220*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LM1117T-3.3</field>
+        <field name="Footprint">Package_TO_SOT_THT:TO-220-3_Horizontal_TabDown</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/lm1117.pdf</field>
+        <field name="Description">800mA Low-Dropout Linear Regulator, 3.3V fixed output, TO-220</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="VO" type="power_out"/>
+        <pin num="3" name="VI" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Linear" part="LM7805_TO220">
+      <description>Positive 1A 35V Linear Regulator, Fixed Output 5V, TO-220</description>
+      <docs>https://www.onsemi.cn/PowerSolutions/document/MC7800-D.PDF</docs>
+      <footprints>
+        <fp>TO?220*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LM7805_TO220</field>
+        <field name="Footprint">Package_TO_SOT_THT:TO-220-3_Vertical</field>
+        <field name="Datasheet">https://www.onsemi.cn/PowerSolutions/document/MC7800-D.PDF</field>
+        <field name="Description">Positive 1A 35V Linear Regulator, Fixed Output 5V, TO-220</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VI" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="VO" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="T41_Library" part="74CBTLV3253PWRE4">
+      <description>Low-Voltage Dual 1-of-4 FET Multiplexer/Demultiplexer</description>
+      <docs>https://www.ti.com/lit/ds/symlink/sn74cbtlv3253.pdf</docs>
+      <footprints>
+        <fp>DIP?24*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">74CBTLV3253PWRE4</field>
+        <field name="Footprint">Package_SO:TSSOP-16-1EP_4.4x5mm_P0.65mm</field>
+        <field name="Datasheet">https://www.ti.com/lit/ds/symlink/sn74cbtlv3253.pdf</field>
+        <field name="Description">Low-Voltage Dual 1-of-4 FET Multiplexer/Demultiplexer</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1~{OE}" type="input"/>
+        <pin num="2" name="S1" type="passive"/>
+        <pin num="3" name="1B4" type="passive"/>
+        <pin num="4" name="1B3" type="passive"/>
+        <pin num="5" name="1B2" type="passive"/>
+        <pin num="6" name="1B1" type="passive"/>
+        <pin num="7" name="1A" type="passive"/>
+        <pin num="8" name="GND" type="power_in"/>
+        <pin num="9" name="2A" type="passive"/>
+        <pin num="10" name="2B1" type="passive"/>
+        <pin num="11" name="2B2" type="passive"/>
+        <pin num="12" name="2B3" type="passive"/>
+        <pin num="13" name="2B4" type="passive"/>
+        <pin num="14" name="S0" type="passive"/>
+        <pin num="15" name="2~{OE}" type="input"/>
+        <pin num="16" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="T41_Library" part="IDC_2x5">
+      <description>Generic connector, double row, 02x05, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">IDC_2x5</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Generic connector, double row, 02x05, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="T41_Library" part="PSA-8A+">
+      <description>DC to 4 GHz, 31 dB gain, 3 dB NF monolithic amplifier</description>
+      <docs>https://www.minicircuits.com/pdfs/PSA-8A+.pdf</docs>
+      <footprints>
+        <fp>SOIC*P1.27mm*</fp>
+        <fp>DIP*W7.62mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">PSA-8A+</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-363_SC-70-6</field>
+        <field name="Datasheet">https://www.minicircuits.com/pdfs/PSA-8A+.pdf</field>
+        <field name="Description">DC to 4 GHz, 31 dB gain, 3 dB NF monolithic amplifier</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="input"/>
+        <pin num="2" name="GND" type="input"/>
+        <pin num="3" name="IN" type="input"/>
+        <pin num="4" name="GND" type="input"/>
+        <pin num="5" name="GND" type="input"/>
+        <pin num="6" name="OUT" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="T41_Library" part="T41_Attenuator_Daughter">
+      <footprints>
+        <fp>MSOP*3x3mm*P0.65mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">T41_Attenuator_Daughter</field>
+        <field name="Footprint">T41_Library:T41_Attenuator_Daughter</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="0.5dB" type="input"/>
+        <pin num="2" name="RF1" type="input"/>
+        <pin num="3" name="GND" type="input"/>
+        <pin num="4" name="3V3" type="input"/>
+        <pin num="5" name="GND" type="input"/>
+        <pin num="6" name="16dB" type="input"/>
+        <pin num="7" name="GND" type="input"/>
+        <pin num="8" name="RF2" type="input"/>
+        <pin num="9" name="8dB" type="input"/>
+        <pin num="10" name="4dB" type="input"/>
+        <pin num="11" name="2dB" type="power_in"/>
+        <pin num="12" name="1dB" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="T41_Library" part="T41_DualClock_Daughter">
+      <footprints>
+        <fp>MSOP*3x3mm*P0.65mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">T41_DualClock_Daughter</field>
+        <field name="Footprint">T41_Library:T41_DualClock_Daughter</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="CLK4" type="input"/>
+        <pin num="2" name="CLK5" type="input"/>
+        <pin num="3" name="GND" type="input"/>
+        <pin num="4" name="CLK6" type="input"/>
+        <pin num="5" name="SCL" type="input"/>
+        <pin num="6" name="SDA" type="input"/>
+        <pin num="7" name="3V3" type="input"/>
+        <pin num="8" name="GND" type="input"/>
+        <pin num="9" name="N/C" type="input"/>
+        <pin num="10" name="GND" type="input"/>
+        <pin num="11" name="CLK1" type="power_in"/>
+        <pin num="12" name="CLK0" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transformer" part="ADT1-1">
+      <description>0.15-400MHz 1:1 RF Transformer, Balanced to Balanced, CD542</description>
+      <docs>https://www.minicircuits.com/pdfs/ADT1-1+.pdf</docs>
+      <footprints>
+        <fp>Mini?Circuits*CD542*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">TR</field>
+        <field name="Value">ADT1-1</field>
+        <field name="Footprint">RF_Mini-Circuits:Mini-Circuits_CD542_H2.84mm</field>
+        <field name="Datasheet">https://www.minicircuits.com/pdfs/ADT1-1+.pdf</field>
+        <field name="Description">0.15-400MHz 1:1 RF Transformer, Balanced to Balanced, CD542</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+        <pin num="4" name="" type="passive"/>
+        <pin num="6" name="" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Amplifier_Operational">
+      <uri>${KICAD10_SYMBOL_DIR}/Amplifier_Operational.kicad_sym</uri>
+    </library>
+    <library logical="Connector">
+      <uri>${KICAD10_SYMBOL_DIR}/Connector.kicad_sym</uri>
+    </library>
+    <library logical="Connector_Audio">
+      <uri>${KICAD10_SYMBOL_DIR}/Connector_Audio.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>${KICAD10_SYMBOL_DIR}/Device.kicad_sym</uri>
+    </library>
+    <library logical="Interface_Expansion">
+      <uri>${KICAD10_SYMBOL_DIR}/Interface_Expansion.kicad_sym</uri>
+    </library>
+    <library logical="Jumper">
+      <uri>${KICAD10_SYMBOL_DIR}/Jumper.kicad_sym</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>${KICAD10_SYMBOL_DIR}/Mechanical.kicad_sym</uri>
+    </library>
+    <library logical="Regulator_Linear">
+      <uri>${KICAD10_SYMBOL_DIR}/Regulator_Linear.kicad_sym</uri>
+    </library>
+    <library logical="Transformer">
+      <uri>${KICAD10_SYMBOL_DIR}/Transformer.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+3V3" class="Default">
+      <node ref="C80" pin="2" pintype="passive"/>
+      <node ref="L11" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R49" pin="2" pintype="passive"/>
+      <node ref="R51" pin="2" pintype="passive"/>
+      <node ref="R60" pin="2" pintype="passive"/>
+      <node ref="R61" pin="2" pintype="passive"/>
+      <node ref="R62" pin="2" pintype="passive"/>
+      <node ref="R63" pin="2" pintype="passive"/>
+      <node ref="TP18" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U11" pin="4" pinfunction="3V3_4" pintype="input"/>
+      <node ref="U12" pin="7" pinfunction="3V3_7" pintype="input"/>
+      <node ref="U21" pin="9" pinfunction="VDD_9" pintype="power_in"/>
+    </net>
+    <net code="2" name="+5V" class="Default">
+      <node ref="C18" pin="1" pintype="passive"/>
+      <node ref="L12" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="L2" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="L3" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="L7" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="TP17" pin="1" pinfunction="1_1" pintype="passive"/>
+    </net>
+    <net code="3" name="+12V" class="Thick 1mm">
+      <node ref="C69" pin="1" pintype="passive"/>
+      <node ref="C70" pin="1" pintype="passive"/>
+      <node ref="L13" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="U14" pin="1" pinfunction="VI_1" pintype="power_in"/>
+      <node ref="U15" pin="3" pinfunction="VI_3" pintype="power_in"/>
+    </net>
+    <net code="5" name="/CW on/off" class="Default">
+      <node ref="J3" pin="7" pinfunction="Pin_7_7" pintype="passive"/>
+    </net>
+    <net code="6" name="/Cal" class="Default">
+      <node ref="J3" pin="10" pinfunction="Pin_10_10" pintype="passive"/>
+    </net>
+    <net code="7" name="/I_out" class="Default">
+      <node ref="J1" pin="T" pintype="passive"/>
+      <node ref="R65" pin="2" pintype="passive"/>
+      <node ref="TP3" pin="1" pinfunction="1_1" pintype="passive"/>
+    </net>
+    <net code="8" name="/Q_out" class="Default">
+      <node ref="J1" pin="R" pintype="passive"/>
+      <node ref="R64" pin="2" pintype="passive"/>
+      <node ref="TP2" pin="1" pinfunction="1_1" pintype="passive"/>
+    </net>
+    <net code="9" name="/RC0.5" class="Default">
+      <node ref="U11" pin="1" pinfunction="0.5dB_1" pintype="input"/>
+      <node ref="U21" pin="21" pinfunction="GPA0_21" pintype="bidirectional"/>
+    </net>
+    <net code="10" name="/RC1" class="Default">
+      <node ref="U11" pin="12" pinfunction="1dB_12" pintype="input"/>
+      <node ref="U21" pin="22" pinfunction="GPA1_22" pintype="bidirectional"/>
+    </net>
+    <net code="11" name="/RC2" class="Default">
+      <node ref="U11" pin="11" pinfunction="2dB_11" pintype="power_in"/>
+      <node ref="U21" pin="23" pinfunction="GPA2_23" pintype="bidirectional"/>
+    </net>
+    <net code="12" name="/RC4" class="Default">
+      <node ref="U11" pin="10" pinfunction="4dB_10" pintype="input"/>
+      <node ref="U21" pin="24" pinfunction="GPA3_24" pintype="bidirectional"/>
+    </net>
+    <net code="13" name="/RC8" class="Default">
+      <node ref="U11" pin="9" pinfunction="8dB_9" pintype="input"/>
+      <node ref="U21" pin="25" pinfunction="GPA4_25" pintype="bidirectional"/>
+    </net>
+    <net code="14" name="/RC16" class="Default">
+      <node ref="U11" pin="6" pinfunction="16dB_6" pintype="input"/>
+      <node ref="U21" pin="26" pinfunction="GPA5_26" pintype="bidirectional"/>
+    </net>
+    <net code="15" name="/RX0" class="Default">
+      <node ref="R40" pin="1" pintype="passive"/>
+      <node ref="U12" pin="11" pinfunction="CLK1_11" pintype="power_in"/>
+    </net>
+    <net code="16" name="/RX90" class="Default">
+      <node ref="R42" pin="1" pintype="passive"/>
+      <node ref="U12" pin="12" pinfunction="CLK0_12" pintype="input"/>
+    </net>
+    <net code="17" name="/RXTX" class="Default">
+      <node ref="J3" pin="9" pinfunction="Pin_9_9" pintype="passive"/>
+    </net>
+    <net code="18" name="/SCL" class="Default">
+      <node ref="J3" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
+      <node ref="R49" pin="1" pintype="passive"/>
+      <node ref="U12" pin="5" pinfunction="SCL_5" pintype="input"/>
+      <node ref="U21" pin="12" pinfunction="SCK_12" pintype="input"/>
+    </net>
+    <net code="19" name="/SDA" class="Default">
+      <node ref="J3" pin="3" pinfunction="Pin_3_3" pintype="passive"/>
+      <node ref="R51" pin="1" pintype="passive"/>
+      <node ref="U12" pin="6" pinfunction="SDA_6" pintype="input"/>
+      <node ref="U21" pin="13" pinfunction="SDA_13" pintype="bidirectional"/>
+    </net>
+    <net code="20" name="/TC0.5" class="Default">
+      <node ref="U21" pin="1" pinfunction="GPB0_1" pintype="bidirectional"/>
+    </net>
+    <net code="21" name="/TC1" class="Default">
+      <node ref="U21" pin="2" pinfunction="GPB1_2" pintype="bidirectional"/>
+    </net>
+    <net code="22" name="/TC2" class="Default">
+      <node ref="U21" pin="3" pinfunction="GPB2_3" pintype="bidirectional"/>
+    </net>
+    <net code="23" name="/TC4" class="Default">
+      <node ref="U21" pin="4" pinfunction="GPB3_4" pintype="bidirectional"/>
+    </net>
+    <net code="24" name="/TC8" class="Default">
+      <node ref="U21" pin="5" pinfunction="GPB4_5" pintype="bidirectional"/>
+    </net>
+    <net code="25" name="/TC16" class="Default">
+      <node ref="U21" pin="6" pinfunction="GPB5_6" pintype="bidirectional"/>
+    </net>
+    <net code="28" name="/X Mode" class="Default">
+      <node ref="J3" pin="6" pinfunction="Pin_6_6" pintype="passive"/>
+    </net>
+    <net code="29" name="GND" class="Default">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C10" pin="1" pintype="passive"/>
+      <node ref="C11" pin="1" pintype="passive"/>
+      <node ref="C12" pin="1" pintype="passive"/>
+      <node ref="C13" pin="1" pintype="passive"/>
+      <node ref="C14" pin="1" pintype="passive"/>
+      <node ref="C17" pin="1" pintype="passive"/>
+      <node ref="C18" pin="2" pintype="passive"/>
+      <node ref="C19" pin="1" pintype="passive"/>
+      <node ref="C20" pin="1" pintype="passive"/>
+      <node ref="C23" pin="1" pintype="passive"/>
+      <node ref="C25" pin="2" pintype="passive"/>
+      <node ref="C26" pin="2" pintype="passive"/>
+      <node ref="C28" pin="1" pintype="passive"/>
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="C32" pin="1" pintype="passive"/>
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="C67" pin="2" pintype="passive"/>
+      <node ref="C68" pin="2" pintype="passive"/>
+      <node ref="C69" pin="2" pintype="passive"/>
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="C70" pin="2" pintype="passive"/>
+      <node ref="C71" pin="2" pintype="passive"/>
+      <node ref="C72" pin="2" pintype="passive"/>
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="C80" pin="1" pintype="passive"/>
+      <node ref="G1" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="G2" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="G3" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="G4" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="G5" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="G6" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="J1" pin="S" pintype="passive"/>
+      <node ref="J2" pin="2" pinfunction="Ext_2" pintype="passive"/>
+      <node ref="J3" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
+      <node ref="J3" pin="4" pinfunction="Pin_4_4" pintype="passive"/>
+      <node ref="J3" pin="5" pinfunction="Pin_5_5" pintype="passive"/>
+      <node ref="J4" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
+      <node ref="R12" pin="2" pintype="passive"/>
+      <node ref="R19" pin="2" pintype="passive"/>
+      <node ref="R23" pin="2" pintype="passive"/>
+      <node ref="R9" pin="2" pintype="passive"/>
+      <node ref="TR1" pin="1" pintype="passive"/>
+      <node ref="TR1" pin="6" pintype="passive"/>
+      <node ref="U1" pin="8" pinfunction="GND_8" pintype="power_in"/>
+      <node ref="U106" pin="4" pinfunction="V-_4" pintype="power_in"/>
+      <node ref="U107" pin="4" pinfunction="V-_4" pintype="power_in"/>
+      <node ref="U11" pin="3" pinfunction="GND_3" pintype="input"/>
+      <node ref="U11" pin="5" pinfunction="GND_5" pintype="input"/>
+      <node ref="U11" pin="7" pinfunction="GND_7" pintype="input"/>
+      <node ref="U12" pin="10" pinfunction="GND_10" pintype="input"/>
+      <node ref="U12" pin="3" pinfunction="GND_3" pintype="input"/>
+      <node ref="U12" pin="8" pinfunction="GND_8" pintype="input"/>
+      <node ref="U14" pin="2" pinfunction="GND_2" pintype="power_in"/>
+      <node ref="U15" pin="1" pinfunction="GND_1" pintype="power_in"/>
+      <node ref="U2" pin="1" pinfunction="GND_1" pintype="input"/>
+      <node ref="U2" pin="2" pinfunction="GND_2" pintype="input"/>
+      <node ref="U2" pin="4" pinfunction="GND_4" pintype="input"/>
+      <node ref="U2" pin="5" pinfunction="GND_5" pintype="input"/>
+      <node ref="U21" pin="10" pinfunction="VSS_10" pintype="power_in"/>
+    </net>
+    <net code="30" name="Net-(C1-Pad2)" class="Default">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+    </net>
+    <net code="31" name="Net-(C2-Pad1)" class="Default">
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="TP1" pin="1" pinfunction="1_1" pintype="passive"/>
+    </net>
+    <net code="32" name="Net-(C5-Pad1)" class="Default">
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="R64" pin="1" pintype="passive"/>
+      <node ref="U107" pin="1" pintype="output"/>
+    </net>
+    <net code="33" name="Net-(C5-Pad2)" class="Default">
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+    </net>
+    <net code="34" name="Net-(C10-Pad2)" class="Default">
+      <node ref="C10" pin="2" pintype="passive"/>
+      <node ref="C9" pin="1" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+    </net>
+    <net code="35" name="Net-(C11-Pad2)" class="Default">
+      <node ref="C11" pin="2" pintype="passive"/>
+      <node ref="R10" pin="1" pintype="passive"/>
+    </net>
+    <net code="36" name="Net-(C12-Pad2)" class="Default">
+      <node ref="C12" pin="2" pintype="passive"/>
+      <node ref="C13" pin="2" pintype="passive"/>
+      <node ref="L7" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R14" pin="1" pintype="passive"/>
+    </net>
+    <net code="37" name="Net-(C15-Pad1)" class="Default">
+      <node ref="C15" pin="1" pintype="passive"/>
+      <node ref="C17" pin="2" pintype="passive"/>
+      <node ref="R16" pin="1" pintype="passive"/>
+      <node ref="TP5" pin="1" pinfunction="1_1" pintype="passive"/>
+    </net>
+    <net code="38" name="Net-(C16-Pad2)" class="Default">
+      <node ref="C16" pin="2" pintype="passive"/>
+      <node ref="TR1" pin="3" pintype="passive"/>
+    </net>
+    <net code="39" name="Net-(C20-Pad2)" class="Default">
+      <node ref="C20" pin="2" pintype="passive"/>
+      <node ref="R15" pin="2" pintype="passive"/>
+      <node ref="R19" pin="1" pintype="passive"/>
+      <node ref="R20" pin="1" pintype="passive"/>
+    </net>
+    <net code="40" name="Net-(C21-Pad1)" class="Default">
+      <node ref="C21" pin="1" pintype="passive"/>
+      <node ref="R11" pin="2" pintype="passive"/>
+      <node ref="R65" pin="1" pintype="passive"/>
+      <node ref="U107" pin="7" pintype="output"/>
+    </net>
+    <net code="41" name="Net-(C21-Pad2)" class="Default">
+      <node ref="C21" pin="2" pintype="passive"/>
+      <node ref="R17" pin="2" pintype="passive"/>
+      <node ref="R18" pin="1" pintype="passive"/>
+    </net>
+    <net code="42" name="Net-(C22-Pad1)" class="Default">
+      <node ref="C22" pin="1" pintype="passive"/>
+      <node ref="TP4" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="TR1" pin="4" pintype="passive"/>
+    </net>
+    <net code="43" name="Net-(C24-Pad1)" class="Default">
+      <node ref="C24" pin="1" pintype="passive"/>
+      <node ref="C28" pin="2" pintype="passive"/>
+      <node ref="R22" pin="1" pintype="passive"/>
+    </net>
+    <net code="44" name="Net-(J2-In)" class="Default">
+      <node ref="C16" pin="1" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="In_1" pintype="passive"/>
+      <node ref="JP4" pin="2" pinfunction="B_2" pintype="passive"/>
+    </net>
+    <net code="45" name="Net-(J4-Pin_1)" class="Default">
+      <node ref="J4" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
+      <node ref="L13" pin="1" pinfunction="1_1" pintype="passive"/>
+    </net>
+    <net code="46" name="Net-(JP1-A)" class="Default">
+      <node ref="L1" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="R15" pin="1" pintype="passive"/>
+    </net>
+    <net code="47" name="Net-(JP15-B)" class="Default">
+      <node ref="R60" pin="1" pintype="passive"/>
+      <node ref="U21" pin="15" pinfunction="A0_15" pintype="input"/>
+    </net>
+    <net code="48" name="Net-(JP16-B)" class="Default">
+      <node ref="R61" pin="1" pintype="passive"/>
+      <node ref="U21" pin="16" pinfunction="A1_16" pintype="input"/>
+    </net>
+    <net code="49" name="Net-(JP17-B)" class="Default">
+      <node ref="R63" pin="1" pintype="passive"/>
+      <node ref="U21" pin="17" pinfunction="A2_17" pintype="input"/>
+    </net>
+    <net code="50" name="Net-(L4-Pad1)" class="Default">
+      <node ref="L4" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="R14" pin="2" pintype="passive"/>
+    </net>
+    <net code="51" name="Net-(R1-Pad2)" class="Default">
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="U106" pin="1" pintype="output"/>
+    </net>
+    <net code="52" name="Net-(R13-Pad2)" class="Default">
+      <node ref="R13" pin="2" pintype="passive"/>
+      <node ref="R17" pin="1" pintype="passive"/>
+      <node ref="U106" pin="7" pintype="output"/>
+    </net>
+    <net code="53" name="Net-(U1-1A)" class="Default">
+      <node ref="C27" pin="2" pintype="passive"/>
+      <node ref="R20" pin="2" pintype="passive"/>
+      <node ref="TP6" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U1" pin="7" pinfunction="1A_7" pintype="passive"/>
+      <node ref="U1" pin="9" pinfunction="2A_9" pintype="passive"/>
+    </net>
+    <net code="54" name="Net-(U1-1B1)" class="Default">
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="U1" pin="10" pinfunction="2B1_10" pintype="passive"/>
+      <node ref="U1" pin="6" pinfunction="1B1_6" pintype="passive"/>
+    </net>
+    <net code="55" name="Net-(U1-1B2)" class="Default">
+      <node ref="C15" pin="2" pintype="passive"/>
+      <node ref="U1" pin="11" pinfunction="2B2_11" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="1B2_5" pintype="passive"/>
+    </net>
+    <net code="56" name="Net-(U1-1B3)" class="Default">
+      <node ref="C24" pin="2" pintype="passive"/>
+      <node ref="U1" pin="12" pinfunction="2B3_12" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="1B3_4" pintype="passive"/>
+    </net>
+    <net code="57" name="Net-(U1-1B4)" class="Default">
+      <node ref="C9" pin="2" pintype="passive"/>
+      <node ref="U1" pin="13" pinfunction="2B4_13" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="1B4_3" pintype="passive"/>
+    </net>
+    <net code="58" name="Net-(U1-1~{OE})" class="Default">
+      <node ref="R12" pin="1" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="1~{OE}_1" pintype="input"/>
+      <node ref="U1" pin="15" pinfunction="2~{OE}_15" pintype="input"/>
+    </net>
+    <net code="59" name="Net-(U1-S0)" class="Default">
+      <node ref="R42" pin="2" pintype="passive"/>
+      <node ref="U1" pin="14" pinfunction="S0_14" pintype="passive"/>
+    </net>
+    <net code="60" name="Net-(U1-S1)" class="Default">
+      <node ref="R40" pin="2" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="S1_2" pintype="passive"/>
+    </net>
+    <net code="61" name="Net-(U1-VCC)" class="Default">
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="L1" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="U1" pin="16" pinfunction="VCC_16" pintype="power_in"/>
+    </net>
+    <net code="62" name="Net-(U2-IN)" class="Default">
+      <node ref="C29" pin="2" pintype="passive"/>
+      <node ref="U2" pin="3" pinfunction="IN_3" pintype="input"/>
+    </net>
+    <net code="63" name="Net-(U2-OUT)" class="Default">
+      <node ref="C27" pin="1" pintype="passive"/>
+      <node ref="L4" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="U2" pin="6" pinfunction="OUT_6" pintype="output"/>
+    </net>
+    <net code="64" name="Net-(U11-RF1)" class="Default">
+      <node ref="C22" pin="2" pintype="passive"/>
+      <node ref="U11" pin="2" pinfunction="RF1_2" pintype="input"/>
+    </net>
+    <net code="65" name="Net-(U11-RF2)" class="Default">
+      <node ref="C29" pin="1" pintype="passive"/>
+      <node ref="U11" pin="8" pinfunction="RF2_8" pintype="input"/>
+    </net>
+    <net code="66" name="Net-(U14-VO)" class="Default">
+      <node ref="C67" pin="1" pintype="passive"/>
+      <node ref="C68" pin="1" pintype="passive"/>
+      <node ref="L12" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U14" pin="3" pinfunction="VO_3" pintype="power_out"/>
+    </net>
+    <net code="67" name="Net-(U15-VO)" class="Default">
+      <node ref="C71" pin="1" pintype="passive"/>
+      <node ref="C72" pin="1" pintype="passive"/>
+      <node ref="L11" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U15" pin="2" pinfunction="VO_2" pintype="power_out"/>
+    </net>
+    <net code="68" name="Net-(U21-~{RESET})" class="Default">
+      <node ref="R62" pin="1" pintype="passive"/>
+      <node ref="U21" pin="18" pinfunction="~{RESET}_18" pintype="input"/>
+    </net>
+    <net code="69" name="Net-(U106A-+)" class="Default">
+      <node ref="R7" pin="2" pintype="passive"/>
+      <node ref="R8" pin="2" pintype="passive"/>
+      <node ref="R9" pin="1" pintype="passive"/>
+      <node ref="U106" pin="3" pinfunction="+_3" pintype="input"/>
+    </net>
+    <net code="70" name="Net-(U106A--)" class="Default">
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="U106" pin="2" pinfunction="-_2" pintype="input"/>
+    </net>
+    <net code="71" name="Net-(U106B-+)" class="Default">
+      <node ref="R21" pin="2" pintype="passive"/>
+      <node ref="R22" pin="2" pintype="passive"/>
+      <node ref="R23" pin="1" pintype="passive"/>
+      <node ref="U106" pin="5" pinfunction="+_5" pintype="input"/>
+    </net>
+    <net code="72" name="Net-(U106B--)" class="Default">
+      <node ref="R13" pin="1" pintype="passive"/>
+      <node ref="R16" pin="2" pintype="passive"/>
+      <node ref="U106" pin="6" pinfunction="-_6" pintype="input"/>
+    </net>
+    <net code="73" name="Net-(U106C-V+)" class="Default">
+      <node ref="C14" pin="2" pintype="passive"/>
+      <node ref="C23" pin="2" pintype="passive"/>
+      <node ref="C25" pin="1" pintype="passive"/>
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="L3" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="R21" pin="1" pintype="passive"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="U106" pin="8" pinfunction="V+_8" pintype="power_in"/>
+    </net>
+    <net code="74" name="Net-(U107A-+)" class="Default">
+      <node ref="C8" pin="2" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="U107" pin="3" pinfunction="+_3" pintype="input"/>
+    </net>
+    <net code="75" name="Net-(U107A--)" class="Default">
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="U107" pin="2" pinfunction="-_2" pintype="input"/>
+    </net>
+    <net code="76" name="Net-(U107B-+)" class="Default">
+      <node ref="C19" pin="2" pintype="passive"/>
+      <node ref="R18" pin="2" pintype="passive"/>
+      <node ref="U107" pin="5" pinfunction="+_5" pintype="input"/>
+    </net>
+    <net code="77" name="Net-(U107B--)" class="Default">
+      <node ref="R10" pin="2" pintype="passive"/>
+      <node ref="R11" pin="1" pintype="passive"/>
+      <node ref="U107" pin="6" pinfunction="-_6" pintype="input"/>
+    </net>
+    <net code="78" name="Net-(U107C-V+)" class="Default">
+      <node ref="C26" pin="1" pintype="passive"/>
+      <node ref="C32" pin="2" pintype="passive"/>
+      <node ref="L2" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U107" pin="8" pinfunction="V+_8" pintype="power_in"/>
+    </net>
+    <net code="79" name="unconnected-(J1-PadRN)" class="Default">
+      <node ref="J1" pin="RN" pintype="passive+no_connect"/>
+    </net>
+    <net code="80" name="unconnected-(J1-PadTN)" class="Default">
+      <node ref="J1" pin="TN" pintype="passive+no_connect"/>
+    </net>
+    <net code="81" name="unconnected-(J3-Pin_8-Pad8)" class="Default">
+      <node ref="J3" pin="8" pinfunction="Pin_8_8" pintype="passive+no_connect"/>
+    </net>
+    <net code="82" name="unconnected-(JP4-A-Pad1)" class="Default">
+      <node ref="JP4" pin="1" pinfunction="A_1" pintype="passive"/>
+    </net>
+    <net code="83" name="unconnected-(U12-CLK4-Pad1)" class="Default">
+      <node ref="U12" pin="1" pinfunction="CLK4_1" pintype="input"/>
+    </net>
+    <net code="84" name="unconnected-(U12-CLK5-Pad2)" class="Default">
+      <node ref="U12" pin="2" pinfunction="CLK5_2" pintype="input"/>
+    </net>
+    <net code="85" name="unconnected-(U12-CLK6-Pad4)" class="Default">
+      <node ref="U12" pin="4" pinfunction="CLK6_4" pintype="input"/>
+    </net>
+    <net code="86" name="unconnected-(U12-N/C-Pad9)" class="Default">
+      <node ref="U12" pin="9" pinfunction="N/C_9" pintype="input+no_connect"/>
+    </net>
+    <net code="87" name="unconnected-(U21-GPA6-Pad27)" class="Default">
+      <node ref="U21" pin="27" pinfunction="GPA6_27" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="88" name="unconnected-(U21-GPA7-Pad28)" class="Default">
+      <node ref="U21" pin="28" pinfunction="GPA7_28" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="89" name="unconnected-(U21-GPB6-Pad7)" class="Default">
+      <node ref="U21" pin="7" pinfunction="GPB6_7" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="90" name="unconnected-(U21-GPB7-Pad8)" class="Default">
+      <node ref="U21" pin="8" pinfunction="GPB7_8" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="91" name="unconnected-(U21-INTA-Pad20)" class="Default">
+      <node ref="U21" pin="20" pinfunction="INTA_20" pintype="tri_state+no_connect"/>
+    </net>
+    <net code="92" name="unconnected-(U21-INTB-Pad19)" class="Default">
+      <node ref="U21" pin="19" pinfunction="INTB_19" pintype="tri_state+no_connect"/>
+    </net>
+    <net code="93" name="unconnected-(U21-NC-Pad11)" class="Default">
+      <node ref="U21" pin="11" pinfunction="NC_11" pintype="no_connect"/>
+    </net>
+    <net code="94" name="unconnected-(U21-NC-Pad14)" class="Default">
+      <node ref="U21" pin="14" pinfunction="NC_14" pintype="no_connect"/>
+    </net>
+  </nets>
+</export>
